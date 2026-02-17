@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import type { Beer } from "@/lib/beers";
+import { useT } from "@/lib/i18n-context";
 import BeerLogo from "@/components/beer-logo";
 
 export default function HopfenBoard({
@@ -13,6 +14,7 @@ export default function HopfenBoard({
   countries: string[];
   categories: string[];
 }) {
+  const t = useT();
   const [search, setSearch] = useState("");
   const [selectedCountry, setSelectedCountry] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("");
@@ -41,10 +43,10 @@ export default function HopfenBoard({
       {/* Section header */}
       <div className="border-b-[3px] border-black bg-black px-4 py-6 text-white sm:px-8">
         <h2 className="text-3xl font-bold uppercase tracking-widest sm:text-5xl">
-          HOPFEN-BOARD
+          {t.board.title}
         </h2>
         <p className="mt-2 font-mono text-sm uppercase tracking-wider text-[#d4a017]">
-          {beers.length} Biere aus {countries.length} Laendern
+          {t.board.subtitle(beers.length, countries.length)}
         </p>
       </div>
 
@@ -53,7 +55,7 @@ export default function HopfenBoard({
         <div className="flex flex-col gap-4 sm:flex-row">
           <input
             type="text"
-            placeholder="SUCHE: BIER, BRAUEREI, LAND..."
+            placeholder={t.search.placeholder}
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             className="flex-1 border-[3px] border-black bg-white px-4 py-3 font-mono text-sm uppercase tracking-wider text-black placeholder:text-gray-500 focus:border-[#d4a017] focus:outline-none"
@@ -63,7 +65,7 @@ export default function HopfenBoard({
             onChange={(e) => setSelectedCountry(e.target.value)}
             className="border-[3px] border-black bg-white px-4 py-3 font-mono text-sm uppercase tracking-wider text-black focus:border-[#d4a017] focus:outline-none"
           >
-            <option value="">ALLE LAENDER</option>
+            <option value="">{t.filter.allCountries}</option>
             {countries.map((c) => (
               <option key={c} value={c}>
                 {c}
@@ -75,7 +77,7 @@ export default function HopfenBoard({
             onChange={(e) => setSelectedCategory(e.target.value)}
             className="border-[3px] border-black bg-white px-4 py-3 font-mono text-sm uppercase tracking-wider text-black focus:border-[#d4a017] focus:outline-none"
           >
-            <option value="">ALLE SORTEN</option>
+            <option value="">{t.filter.allCategories}</option>
             {categories.map((c) => (
               <option key={c} value={c}>
                 {c}
@@ -85,7 +87,7 @@ export default function HopfenBoard({
         </div>
 
         <div className="mt-3 font-mono text-xs uppercase tracking-wider text-gray-600">
-          {filtered.length} ERGEBNIS{filtered.length !== 1 ? "SE" : ""}
+          {t.results.count(filtered.length)}
         </div>
       </div>
 
@@ -98,9 +100,9 @@ export default function HopfenBoard({
 
       {filtered.length === 0 && (
         <div className="border-t-[3px] border-black bg-white p-12 text-center">
-          <p className="text-2xl font-bold uppercase">KEIN BIER GEFUNDEN</p>
+          <p className="text-2xl font-bold uppercase">{t.empty.title}</p>
           <p className="mt-2 font-mono text-sm uppercase text-gray-500">
-            Versuch es mit einem anderen Suchbegriff, Digga.
+            {t.empty.subtitle}
           </p>
         </div>
       )}
@@ -109,6 +111,8 @@ export default function HopfenBoard({
 }
 
 function BeerCard({ beer }: { beer: Beer }) {
+  const t = useT();
+
   return (
     <div className="group border-[3px] border-black bg-white p-4 transition-colors hover:bg-[#d4a017] hover:text-black">
       {/* Top row: Logo + Header info */}
@@ -136,17 +140,17 @@ function BeerCard({ beer }: { beer: Beer }) {
           </h3>
 
           <p className="mt-0.5 truncate font-mono text-[10px] uppercase tracking-wider text-gray-600 group-hover:text-black/70">
-            {beer.brewery !== "-" ? beer.brewery : "UNBEKANNT"}
+            {beer.brewery !== "-" ? beer.brewery : t.card.unknown}
           </p>
         </div>
       </div>
 
       {/* Info grid */}
       <div className="mt-3 grid grid-cols-4 gap-1 border-t-[2px] border-black pt-3">
-        <InfoCell label="LAND" value={beer.country || "?"} />
-        <InfoCell label="ALK" value={beer.abv !== "-" ? beer.abv : "?"} />
-        <InfoCell label="GROESSE" value={beer.size} />
-        <InfoCell label="PREIS" value={beer.price} />
+        <InfoCell label={t.card.label.country} value={beer.country || "?"} />
+        <InfoCell label={t.card.label.abv} value={beer.abv !== "-" ? beer.abv : "?"} />
+        <InfoCell label={t.card.label.size} value={beer.size} />
+        <InfoCell label={t.card.label.price} value={beer.price} />
       </div>
     </div>
   );
