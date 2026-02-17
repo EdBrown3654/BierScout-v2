@@ -1,0 +1,734 @@
+Nr.;Biermarke/Name;Brauerei;Land;Alkoholgehalt;Stammwürze;Zutaten;Größe;Preis;Kategorie
+
+=== ÄGYPTEN ===
+1;Sakara Gold;Al Ahram Beverages Company;Ägypten;4,0%;9,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,80 €;Pilsner
+2;Stella;Al Ahram Beverages Company;Ägypten;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,60 €;Pilsner
+
+=== ALBANIEN ===
+3;Korça;Birra Korça;Albanien;4,7%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,60 €;Pilsner
+4;Tirana;Birra Tirana;Albanien;4,8%;11,2 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,50 €;Pilsner
+
+=== ALGERIEN ===
+5;Tango;Société des Boissons du Nord;Algerien;0,0%;-;Wasser, Gerstenmalz, Hopfen;0,33L;2,80 €;Alkoholfrei
+
+=== ANGOLA ===
+6;Cuca;Empresa de Cervejas de Angola;Angola;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,20 €;Pilsner
+7;Nocal;Empresa de Cervejas de Angola;Angola;5,2%;12,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,30 €;Helles/Lager
+
+=== ARGENTINIEN ===
+8;Quilmes Clásica;Cervecería y Maltería Quilmes;Argentinien;4,9%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,34L;2,70 €;Pilsner
+9;Andes Origen;Cervecería y Maltería Quilmes;Argentinien;5,0%;11,2 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,80 €;Helles/Lager
+10;Isenbeck;CCU Argentina;Argentinien;4,9%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,70 €;Pilsner
+11;Schneider;CCU Argentina;Argentinien;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,34L;2,80 €;Pilsner
+12;Patagonia Bohemian Pilsener;Cervecería y Maltería Quilmes;Argentinien;4,8%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,50 €;Pilsner
+
+=== ÄTHIOPIEN ===
+13;St. George;Meta Abo Brewery;Äthiopien;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;3,50 €;Pilsner
+14;Bedele Special;Bedele Brewery;Äthiopien;5,0%;11,2 °P;Wasser, Gerstenmalz, Hopfen;0,5L;3,40 €;Pilsner
+
+=== AUSTRALIEN ===
+15;Victoria Bitter;Carlton & United Breweries;Australien;4,9%;11,3 °P;Wasser, Gerstenmalz, Hopfen;0,375L;3,40 €;Helles/Lager
+16;Coopers Pale Ale;Coopers Brewery;Australien;4,5%;11,0 °P;Wasser, Gerstenmalz, Hopfen, Hefe;0,375L;3,60 €;Pale Ale
+17;Tooheys New;Lion Nathan;Australien;4,6%;10,8 °P;Wasser, Gerstenmalz, Hopfen;0,375L;3,20 €;Helles/Lager
+18;XXXX Gold;Castlemaine Perkins;Australien;3,5%;8,5 °P;Wasser, Gerstenmalz, Hopfen;0,375L;3,00 €;Helles/Lager
+19;Foster's Lager;Carlton & United Breweries;Australien;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,375L;3,30 €;Helles/Lager
+20;Carlton Draught;Carlton & United Breweries;Australien;4,6%;10,8 °P;Wasser, Gerstenmalz, Hopfen;0,375L;3,20 €;Helles/Lager
+21;Coopers Sparkling Ale;Coopers Brewery;Australien;5,8%;13,5 °P;Wasser, Gerstenmalz, Hopfen, Hefe;0,375L;3,80 €;Pale Ale
+
+=== BAHAMAS ===
+22;Kalik;Commonwealth Brewery;Bahamas;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,80 €;Helles/Lager
+23;Sands;Commonwealth Brewery;Bahamas;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,60 €;Pilsner
+
+=== BANGLADESCH ===
+24;Hunter;Bangladesh Brewery;Bangladesch;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,20 €;Pilsner
+
+=== BARBADOS ===
+25;Banks Beer;Banks Barbados Breweries;Barbados;4,7%;10,8 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,50 €;Helles/Lager
+
+=== BELGIEN ===
+26;Duvel Belgisch Speciaalbier;Duvel;Belgien;8,5%;17,6 °P;Wasser, Gerstenmalz, Hopfen, Hefe;0,33L;2,90 €;Belgische Biere
+27;La Chouffe Blonde;Brasserie d'Achouffe;Belgien;8,0%;16,0 °P;Wasser, Gerstenmalz, Hopfen, Hefe, Koriander, Invertzucker;0,33L;3,90 €;Belgische Biere
+28;Rodenbach Classic;Rodenbach;Belgien;5,2%;12,0 °P;Wasser, Hopfen, Hefe, Sommergerste;0,25L;2,50 €;Belgische Biere
+29;Fruitage;Rodenbach;Belgien;-;-;-;0,25L;1,90 €;Belgische Biere
+30;Cornet Oaked - Strong Blond 8,5%;-;Belgien;8,5%;-;-;0,33L;3,50 €;Belgische Biere
+31;N'Ice Chouffe;-;Belgien;-;-;-;0,75L;8,90 €;Belgische Biere
+32;Stella Artois;Anheuser-Busch InBev;Belgien;5,0%;11,2 °P;Wasser, Gerstenmalz, Mais, Hopfen;0,33L;2,40 €;Pilsner
+33;Leffe Blonde;Abbaye de Leffe;Belgien;6,6%;15,5 °P;Wasser, Gerstenmalz, Hopfen, Hefe;0,33L;3,20 €;Belgische Biere
+34;Leffe Brune;Abbaye de Leffe;Belgien;6,5%;15,0 °P;Wasser, Gerstenmalz, Karamellmalz, Hopfen, Hefe;0,33L;3,20 €;Belgische Biere
+35;Hoegaarden;Brouwerij van Hoegaarden;Belgien;4,9%;11,5 °P;Wasser, Weizenmalz, Gerstenmalz, Koriander, Orangenschale, Hopfen, Hefe;0,33L;2,90 €;Weizenbier
+36;Chimay Rouge;Abbaye de Scourmont;Belgien;7,0%;16,5 °P;Wasser, Gerstenmalz, Hopfen, Hefe, Zucker;0,33L;4,50 €;Belgische Biere
+37;Chimay Bleue;Abbaye de Scourmont;Belgien;9,0%;20,5 °P;Wasser, Gerstenmalz, Hopfen, Hefe, Zucker;0,33L;5,20 €;Belgische Biere
+38;Westmalle Dubbel;Abdij der Trappisten;Belgien;7,0%;16,5 °P;Wasser, Gerstenmalz, Hopfen, Hefe, Zucker;0,33L;4,80 €;Belgische Biere
+39;Westmalle Tripel;Abdij der Trappisten;Belgien;9,5%;22,0 °P;Wasser, Gerstenmalz, Hopfen, Hefe, Zucker;0,33L;5,50 €;Belgische Biere
+40;Orval;Brasserie d'Orval;Belgien;6,2%;14,5 °P;Wasser, Gerstenmalz, Hopfen, Hefe;0,33L;4,90 €;Belgische Biere
+41;Rochefort 10;Abbaye Notre-Dame de Saint-Rémy;Belgien;11,3%;24,0 °P;Wasser, Gerstenmalz, Hopfen, Hefe, Zucker;0,33L;6,50 €;Belgische Biere
+42;Jupiler;Piedboeuf Brewery;Belgien;5,2%;11,8 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,30 €;Pilsner
+43;Kwak;Brouwerij Bosteels;Belgien;8,4%;18,5 °P;Wasser, Gerstenmalz, Hopfen, Hefe;0,33L;4,20 €;Belgische Biere
+44;Tripel Karmeliet;Brouwerij Bosteels;Belgien;8,4%;18,0 °P;Wasser, Gerstenmalz, Weizenmalz, Hafermalz, Hopfen;0,33L;4,50 €;Belgische Biere
+
+=== BOLIVIEN ===
+45;Paceña;Cervecería Boliviana Nacional;Bolivien;4,8%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,80 €;Pilsner
+46;Huari;Cervecería Boliviana Nacional;Bolivien;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,90 €;Helles/Lager
+
+=== BOSNIEN UND HERZEGOWINA ===
+47;Sarajevsko Pivo;Sarajevska Pivara;Bosnien und Herzegowina;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,60 €;Pilsner
+48;Preminger;Preminger Brewery;Bosnien und Herzegowina;5,2%;12,0 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,70 €;Pilsner
+
+=== BOTSWANA ===
+49;St. Louis Lager;Kgalagadi Breweries;Botswana;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,40 €;Helles/Lager
+
+=== BRASILIEN ===
+50;Brahma Chopp;Ambev;Brasilien;4,8%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,355L;2,60 €;Pilsner
+51;Skol;Ambev;Brasilien;4,7%;10,0 °P;Wasser, Gerstenmalz, Hopfen;0,355L;2,50 €;Pilsner
+52;Antarctica Original;Ambev;Brasilien;4,6%;10,2 °P;Wasser, Gerstenmalz, Hopfen;0,355L;2,60 €;Pilsner
+53;Bohemia;Ambev;Brasilien;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,355L;2,80 €;Pilsner
+54;Itaipava;Grupo Petrópolis;Brasilien;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,355L;2,40 €;Pilsner
+55;Original;Ambev;Brasilien;4,7%;10,8 °P;Wasser, Gerstenmalz, Hopfen;0,355L;2,60 €;Pilsner
+
+=== BULGARIEN ===
+56;Zagorka;Zagorka Brewery;Bulgarien;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,40 €;Pilsner
+57;Kamenitza;Kamenitza Brewery;Bulgarien;4,4%;10,2 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,30 €;Pilsner
+
+=== BURKINA FASO ===
+58;Brakina;Brasseries du Burkina;Burkina Faso;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,65L;3,60 €;Pilsner
+
+=== CHILE ===
+59;Cristal;Compañía Cervecerías Unidas;Chile;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,60 €;Pilsner
+60;Escudo;Compañía Cervecerías Unidas;Chile;4,6%;10,8 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,70 €;Pilsner
+61;Austral Calafate;Cervecería Austral;Chile;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen, Calafate-Beeren;0,33L;3,50 €;Craft Beer
+62;Kunstmann Lager;Cervecería Kunstmann;Chile;4,8%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,20 €;Helles/Lager
+63;Becker;Cervecería Becker;Chile;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,80 €;Pilsner
+
+=== CHINA ===
+64;Tsingtao;Tsingtao Brewery;China;4,7%;11,0 °P;Wasser, Gerstenmalz, Reis, Hopfen;0,33L;2,80 €;Helles/Lager
+65;Snow Beer;China Resources Snow Breweries;China;4,0%;9,5 °P;Wasser, Gerstenmalz, Reis, Hopfen;0,33L;2,50 €;Helles/Lager
+66;Harbin Lager;Anheuser-Busch InBev;China;4,8%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,70 €;Helles/Lager
+67;Yanjing Beer;Beijing Yanjing Brewery;China;4,5%;10,5 °P;Wasser, Gerstenmalz, Reis, Hopfen;0,33L;2,60 €;Helles/Lager
+68;Qingdao;Tsingtao Brewery;China;4,3%;10,0 °P;Wasser, Gerstenmalz, Reis, Hopfen;0,33L;2,60 €;Helles/Lager
+69;Pabst Blue Ribbon (China);Pabst Brewing;China;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,70 €;Helles/Lager
+
+=== COSTA RICA ===
+70;Imperial;Florida Ice & Farm;Costa Rica;4,6%;10,8 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,90 €;Pilsner
+71;Pilsen;Florida Ice & Farm;Costa Rica;5,1%;12,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,00 €;Pilsner
+
+=== DÄNEMARK ===
+72;Carlsberg Pilsner;Carlsberg;Dänemark;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,20 €;Pilsner
+73;Tuborg Green;Tuborg Brewery;Dänemark;4,6%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,10 €;Pilsner
+74;Mikkeller Beer Geek Breakfast;Mikkeller;Dänemark;7,5%;18,0 °P;Wasser, Gerstenmalz, Kaffee, Hopfen;0,33L;5,50 €;Schwarzbier/Porter/Stout
+75;Royal;Royal Unibrew;Dänemark;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,40 €;Pilsner
+76;Faxe Kondi;Royal Unibrew;Dänemark;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,50 €;Helles/Lager
+
+=== DEUTSCHLAND ===
+77;Weiherer Pils;Weiherer Bier;Deutschland;4,7%;11,3 °P;Brauwasser, Gerstenmalz, Hopfen;0,5L;1,90 €;Pilsner
+78;Weiherer Grünhopfen Pils;Weiherer Bier;Deutschland;-;-;-;0,5L;2,20 €;Pilsner
+79;Weiherer Kellerpils;Weiherer Bier;Deutschland;-;-;-;0,5L;1,90 €;Pilsner
+80;Ratsherrn Pilsener;Ratsherrn Brauerei;Deutschland;4,9%;11,3 °P;Wasser, Gerstenmalz, Hopfen;0,33L;1,90 €;Pilsner
+81;Ratsherrn Pils 0,0%;Ratsherrn Brauerei;Deutschland;0,0%;-;-;0,33L;1,90 €;Pilsner
+82;Herren Pils;Keesmann Bräu;Deutschland;4,6%;11,8 °P;Brauwasser, Gerstenmalz, Hopfen, Hefe;0,5L;1,90 €;Pilsner
+83;Brinkhoffs No.1;Brinkhoffs;Deutschland;-;-;-;0,33L;1,90 €;Pilsner
+84;Pils;Brauerei Hummel;Deutschland;-;-;-;0,5L;1,90 €;Pilsner
+85;Weiherer Pils - Partyfass;Weiherer Bier;Deutschland;-;-;-;5L;16,90 €;Pilsner
+86;Weizen;Weisse Taube;Deutschland;5,5%;12,0 °P;Wasser, Weizenmalz, Gerstenmalz, Hopfen, Hefe;0,5L;2,90 €;Weizenbier
+87;Weiherer Weizen Hell;Weiherer Bier;Deutschland;5,2%;12,4 °P;Wasser, Weizenmalz, Gerstenmalz, Hopfen, Hefe;0,5L;1,90 €;Weizenbier
+88;Weiherer Rauchweizen;Weiherer x Oldskool;Deutschland;-;-;-;0,5L;2,20 €;Weizenbier
+89;Weiherer Hopfenweizen;Weiherer Bier;Deutschland;-;-;-;0,5L;2,60 €;Weizenbier
+90;Weiherer Weizen alkoholfrei;Weiherer Bier;Deutschland;0,5%;-;-;0,5L;1,90 €;Weizenbier
+91;Weissbier;Eschenbacher;Deutschland;-;-;-;0,5L;1,90 €;Weizenbier
+92;Schorschweizen 15%;Schorschbräu;Deutschland;15%;-;-;0,33L;16,90 €;Weizenbier
+93;Papa´s Weißheit;-;Deutschland;-;-;-;0,5L;2,90 €;Weizenbier
+94;Geselligkeit;-;Deutschland;-;-;-;0,33L;3,20 €;Weizenbier
+95;Dolden Sud IPA;Riedenburger Brauhaus;Deutschland;6,5%;15,5 °P;Wasser, Gerstenmalz, Hopfen, Hefe;0,33L;2,90 €;IPA
+96;Weiherer India Pale Ale;Weiherer Bier;Deutschland;6,7%;16,3 °P;Wasser, Gerstenmalz, Hopfen, Hefe;0,5L;3,90 €;IPA
+97;Dolden Null;-;Deutschland;0,5%;-;-;0,33L;2,50 €;Alkoholfrei
+98;Ratsherrn Helles;Ratsherrn Brauerei;Deutschland;5,1%;11,8 °P;Wasser, Gerstenmalz, Hopfen;0,33L;1,90 €;Helles/Lager
+99;Schnelles Helles;Octobräu;Deutschland;5,1%;11,5 °P;Wasser, Gerstenmalz, Hopfen, Hefe;0,33L;2,50 €;Helles/Lager
+100;Weiherer Lager Hell;Weiherer Bier;Deutschland;4,7%;11,3 °P;Brauwasser, Gerstenmalz, Hopfen;0,5L;1,90 €;Helles/Lager
+101;Mutti's Sonnenschein;-;Deutschland;-;-;-;0,5L;2,90 €;Helles/Lager
+102;Heinzlein Helles;-;Deutschland;-;-;-;0,5L;1,90 €;Helles/Lager
+103;Franz Josef Bayerisch Helles;-;Deutschland;-;-;-;0,5L;1,90 €;Helles/Lager
+104;Augustiner Edelstoff Exportbier;Augustiner-Bräu-München;Deutschland;5,6%;-;Wasser, Gerstenmalz, Hopfen;0,5L;1,90 €;Export
+105;Tegernseer Dunkel Export;Tegernseer;Deutschland;5,0%;12,0 °P;Wasser, Gerstenmalz, Hopfen;0,5L;1,92 €;Export
+106;Blondschopf - Exportbier;Hopfenheld;Deutschland;-;-;-;0,5L;2,50 €;Export
+107;Blondschopf - Exportbier Dose;Hopfenheld;Deutschland;-;-;-;0,44L;2,50 €;Export
+108;Mönchsambacher Export;-;Deutschland;-;-;-;0,5L;2,50 €;Export
+109;Glaabsbräu Export;-;Deutschland;-;-;-;0,5L;1,75 €;Export
+110;12,5er - Export;Brauerei Kanone;Deutschland;-;-;-;0,5L;2,10 €;Export
+111;Ganter Export;-;Deutschland;-;-;-;0,5L;1,74 €;Export
+112;Flötzinger Spezial Hell;-;Deutschland;-;-;-;0,5L;1,70 €;Export
+113;Waldhaus Spezial Gold;-;Deutschland;-;-;-;0,5L;1,96 €;Export
+114;Gold-Export;Biermanufaktur Engel;Deutschland;-;-;-;0,5L;1,90 €;Export
+115;Moritz Fiege Gründer;-;Deutschland;-;-;-;0,5L;1,80 €;Export
+116;Weltenburger Kloster Spezial Festbier;Weltenburger Kloster;Deutschland;-;-;-;0,5L;1,79 €;Export
+117;Weiherer Schwärzla - Schwarzbier;Weiherer Bier;Deutschland;-;-;-;0,5L;2,60 €;Schwarzbier/Porter/Stout
+118;Weiherer Zapfenduster;Weiherer Bier;Deutschland;-;-;-;0,75L;24,90 €;Schwarzbier/Porter/Stout
+119;Erle;-;Deutschland;-;-;-;0,5L;2,00 €;Schwarzbier/Porter/Stout
+120;Dunkel;-;Deutschland;-;-;-;0,5L;1,90 €;Schwarzbier/Porter/Stout
+121;Weiherer Bock;Weiherer Bier;Deutschland;6,6%;16,3 °P;Wasser, Gerstenmalz, Hopfen;0,5L;1,90 €;Bockbier
+122;Weiherer Rauchbock;Weiherer Bier;Deutschland;7,0%;17,3 °P;Wasser, Gerstenmalz, Gerstenrauchmalz, Hopfen, Hefe;0,5L;2,60 €;Bockbier
+123;Schorschbock 13;Schorschbräu;Deutschland;13,0%;25,0 °P;Wasser, Gerstenmalz, Weizenmalz, Hopfen, Hefe;0,33L;6,90 €;Bockbier
+124;Oma's Betthupferl;-;Deutschland;-;-;-;0,5L;2,90 €;Bockbier
+125;Mai Bock;Engel Biermanufaktur;Deutschland;-;-;-;0,5L;2,50 €;Bockbier
+126;Kloster Andechs Doppelbock Dunkel;Klosterbrauerei Andechs;Deutschland;7,1%;18,5 °P;Wasser, Gerstenmalz, Hopfen, Hopfenextrakt;0,5L;2,90 €;Doppelbock
+127;Weltenburger Kloster Barock Dunkel;Weltenburger Kloster;Deutschland;4,7%;-;-;0,5L;2,10 €;Doppelbock
+128;Weiherer Keller;Weiherer Bier;Deutschland;4,9%;11,3 °P;Wasser, Gerstenmalz, Hopfen, Hefe;0,5L;1,90 €;Kellerbier
+129;Eschenbacher Kellerbier;-;Deutschland;-;-;-;0,5L;1,90 €;Kellerbier
+130;Opas Liebling Kellerbier;-;Deutschland;-;-;-;0,5L;2,90 €;Kellerbier
+131;Weiherer Keller-Märzen;Weiherer Bier;Deutschland;-;-;-;0,5L;1,90 €;Kellerbier
+132;Orca Brau Kellerbier;Orca Brau;Deutschland;-;-;-;0,33L;3,20 €;Kellerbier
+133;Ratsherrn Pale Ale;Ratsherrn Brauerei;Deutschland;5,6%;12,7 °P;Wasser, Gerstenmalz, Weizenmalz, Hopfen, Hefe;0,33L;1,00 €;Pale Ale
+134;Lahnwelle (Surfers Ale);Octobräu;Deutschland;4,0%;10,0 °P;Wasser, Gerstenmalz, Weizenmalz, Hopfen, Hefe;0,33L;2,50 €;Pale Ale
+135;Bio Hell;-;Deutschland;-;-;-;0,33L;2,50 €;Bio-Bier
+136;Bio Pale Ale;-;Deutschland;-;-;-;0,33L;2,90 €;Bio-Bier
+137;Dolden Hell;-;Deutschland;-;-;-;0,33L;2,90 €;Bio-Bier
+138;Riedenburger Hefe-Weizen Hell;Riedenburger;Deutschland;-;-;-;0,5L;1,74 €;Bio-Bier
+139;Störtebeker Baltik-Lager;Störtebeker;Deutschland;-;-;-;0,5L;1,79 €;Bio-Bier
+140;Hochland Bio Honigbier;-;Deutschland;-;-;-;0,33L;3,90 €;Bio-Bier
+141;Frischer Traum;-;Deutschland;-;-;-;0,33L;3,90 €;Bio-Bier
+142;Riedenburger Ur-Dinkel Alkoholfrei;Riedenburger;Deutschland;0,5%;-;-;0,33L;1,74 €;Bio-Bier
+143;Weiherer Festbier - 150 Jahre;Weiherer Bier;Deutschland;-;-;-;0,5L;1,90 €;Festbier
+144;Lindenbräu Festbier;Lindenbräu;Deutschland;-;-;-;0,5L;2,50 €;Festbier
+145;Winterbier;-;Deutschland;-;-;-;-;-;Festbier
+146;Berliner Weisse Peach;-;Deutschland;-;-;-;0,33L;2,90 €;Sonstiges
+147;Erdinger Weißbier;Erdinger Weißbräu;Deutschland;5,3%;11,8 °P;Wasser, Weizenmalz, Gerstenmalz, Hopfen, Hefe;0,5L;2,20 €;Weizenbier
+148;Erdinger Dunkel;Erdinger Weißbräu;Deutschland;5,6%;12,6 °P;Wasser, Weizenmalz, Gerstenmalz, Karamellmalz, Hopfen, Hefe;0,5L;2,20 €;Weizenbier
+149;Erdinger Alkoholfrei;Erdinger Weißbräu;Deutschland;0,5%;-;Wasser, Weizenmalz, Gerstenmalz, Hopfen, Hefe;0,5L;2,20 €;Alkoholfrei
+150;Franziskaner Weißbier;Spaten-Franziskaner-Bräu;Deutschland;5,0%;11,8 °P;Wasser, Weizenmalz, Gerstenmalz, Hopfen, Hefe;0,5L;2,10 €;Weizenbier
+151;Paulaner Hefe-Weißbier;Paulaner Brauerei;Deutschland;5,5%;12,5 °P;Wasser, Weizenmalz, Gerstenmalz, Hopfen, Hefe;0,5L;2,20 €;Weizenbier
+152;Paulaner Salvator;Paulaner Brauerei;Deutschland;7,9%;18,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,90 €;Doppelbock
+153;Hofbräu Original;Staatliches Hofbräuhaus München;Deutschland;5,1%;11,7 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,30 €;Helles/Lager
+154;Hofbräu Dunkel;Staatliches Hofbräuhaus München;Deutschland;5,5%;13,2 °P;Wasser, Gerstenmalz, Karamellmalz, Hopfen;0,5L;2,30 €;Schwarzbier/Porter/Stout
+155;Löwenbräu Original;Löwenbräu;Deutschland;5,2%;11,7 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,20 €;Helles/Lager
+156;Spaten München;Spaten-Franziskaner-Bräu;Deutschland;5,2%;11,8 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,10 €;Helles/Lager
+157;Bitburger Premium Pils;Bitburger Brauerei;Deutschland;4,8%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;1,90 €;Pilsner
+158;Warsteiner Premium Verum;Warsteiner Brauerei;Deutschland;4,8%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;1,90 €;Pilsner
+159;Krombacher Pils;Krombacher Brauerei;Deutschland;4,8%;11,3 °P;Wasser, Gerstenmalz, Hopfen;0,33L;1,90 €;Pilsner
+160;Veltins Pilsener;Brauerei C. & A. Veltins;Deutschland;4,8%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;1,90 €;Pilsner
+161;Beck's Pils;Brauerei Beck;Deutschland;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;1,80 €;Pilsner
+162;Jever Pilsener;Friesisches Brauhaus zu Jever;Deutschland;4,9%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;1,90 €;Pilsner
+163;Hasseröder Premium Pils;Hasseröder Brauerei;Deutschland;4,9%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;1,80 €;Pilsner
+164;Radeberger Pilsner;Radeberger Exportbierbrauerei;Deutschland;4,8%;11,3 °P;Wasser, Gerstenmalz, Hopfen;0,33L;1,90 €;Pilsner
+
+=== DOMINIKANISCHE REPUBLIK ===
+165;Presidente;Cervecería Nacional Dominicana;Dominikanische Republik;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,90 €;Pilsner
+166;Bohemia;Cervecería Nacional Dominicana;Dominikanische Republik;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,00 €;Pilsner
+
+=== ECUADOR ===
+167;Pilsener;Cervecería Nacional;Ecuador;4,2%;10,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,70 €;Pilsner
+168;Club Premium;Cervecería Nacional;Ecuador;4,7%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,80 €;Pilsner
+
+=== EL SALVADOR ===
+169;Pilsener;Industrias La Constancia;El Salvador;4,8%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,70 €;Pilsner
+170;Suprema;Industrias La Constancia;El Salvador;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,90 €;Pilsner
+
+=== ESTLAND ===
+171;Saku Originaal;Saku Brewery;Estland;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,60 €;Pilsner
+172;A. Le Coq Premium;A. Le Coq;Estland;5,2%;12,0 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,70 €;Pilsner
+
+=== FIDSCHI ===
+173;Fiji Bitter;Carlton Brewery Fiji;Fidschi;4,6%;10,8 °P;Wasser, Gerstenmalz, Hopfen;0,375L;4,20 €;Helles/Lager
+174;Vonu Pure Lager;Paradise Beverages;Fidschi;4,6%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,375L;4,30 €;Helles/Lager
+
+=== FINNLAND ===
+175;Lapin Kulta;Hartwall;Finnland;5,2%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,90 €;Pilsner
+176;Karhu;Hartwall;Finnland;4,6%;10,8 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,80 €;Helles/Lager
+177;Sandels;Olvi;Finnland;4,7%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,70 €;Helles/Lager
+178;Koff;Sinebrychoff;Finnland;4,6%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,80 €;Pilsner
+
+=== FRANKREICH ===
+179;Kronenbourg 1664;Brasseries Kronenbourg;Frankreich;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,50 €;Helles/Lager
+180;Meteor Pils;Brasserie Meteor;Frankreich;5,0%;11,3 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,60 €;Pilsner
+181;Bière de Garde;Brasserie Castelain;Frankreich;6,4%;15,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,80 €;Pale Ale
+182;1664 Blanc;Brasseries Kronenbourg;Frankreich;5,0%;11,5 °P;Wasser, Weizenmalz, Gerstenmalz, Orangenschale, Koriander, Hopfen;0,33L;2,70 €;Weizenbier
+183;Pelforth Brune;Brasserie Pelforth;Frankreich;6,5%;15,5 °P;Wasser, Gerstenmalz, Karamellmalz, Hopfen;0,33L;2,90 €;Doppelbock
+
+=== GHANA ===
+184;Star Beer;Accra Brewery;Ghana;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,65L;3,60 €;Pilsner
+185;Club Beer;Guinness Ghana Breweries;Ghana;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,65L;3,50 €;Helles/Lager
+
+=== GRIECHENLAND ===
+186;Mythos;Mythos Brewery;Griechenland;4,7%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,70 €;Pilsner
+187;Fix Hellas;Olympic Brewery;Griechenland;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,80 €;Pilsner
+188;Vergina Premium Lager;Macedonian Thrace Brewery;Griechenland;5,0%;11,2 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,90 €;Helles/Lager
+189;Alpha Beer;Athenian Brewery;Griechenland;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,80 €;Pilsner
+
+=== GUATEMALA ===
+190;Gallo;Cervecería Centroamericana;Guatemala;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,355L;2,80 €;Pilsner
+191;Cabro;Cervecería Centroamericana;Guatemala;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,355L;2,60 €;Pilsner
+
+=== HONDURAS ===
+192;Salva Vida;Cervecería Hondureña;Honduras;4,8%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,355L;2,80 €;Pilsner
+193;Port Royal;Cervecería Hondureña;Honduras;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,355L;2,90 €;Helles/Lager
+
+=== INDIEN ===
+194;Kingfisher Premium Lager;United Breweries;Indien;4,8%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,80 €;Helles/Lager
+195;Cobra Premium Lager;Cobra Beer;Indien/UK;4,5%;10,5 °P;Wasser, Gerstenmalz, Reis, Mais, Hopfen;0,33L;2,90 €;Helles/Lager
+196;Taj Mahal;United Breweries;Indien;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,90 €;Pilsner
+197;Haywards 5000;United Breweries;Indien;7,0%;16,5 °P;Wasser, Gerstenmalz, Hopfen;0,65L;3,80 €;Helles/Lager
+
+=== INDONESIEN ===
+198;Bintang;Multi Bintang Indonesia;Indonesien;4,7%;10,8 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,90 €;Pilsner
+199;Anker Bir Pilsener;Multi Bintang Indonesia;Indonesien;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,80 €;Pilsner
+200;Bali Hai;Multi Bintang Indonesia;Indonesien;4,8%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,90 €;Pilsner
+
+=== IRAK ===
+201;Farida;Al Sharq Brewery;Irak;0,0%;-;Wasser, Gerstenmalz, Hopfen;0,33L;3,50 €;Alkoholfrei
+
+=== IRLAND ===
+202;Guinness Draught;Guinness Brewery;Irland;4,2%;10,0 °P;Wasser, Gerstenmalz, Gerstenröstmalz, Hopfen, Hefe;0,44L;3,50 €;Schwarzbier/Porter/Stout
+203;Guinness Extra Stout;Guinness Brewery;Irland;5,6%;14,0 °P;Wasser, Gerstenmalz, Gerstenröstmalz, Hopfen, Hefe;0,33L;3,80 €;Schwarzbier/Porter/Stout
+204;Murphy's Irish Stout;Heineken;Irland;4,0%;9,5 °P;Wasser, Gerstenmalz, Gerstenröstmalz, Hopfen;0,44L;3,40 €;Schwarzbier/Porter/Stout
+205;Smithwick's Irish Ale;Diageo;Irland;3,8%;9,0 °P;Wasser, Gerstenmalz, Karamellmalz, Hopfen;0,33L;3,20 €;Pale Ale
+206;Kilkenny Irish Cream Ale;Diageo;Irland;4,3%;10,0 °P;Wasser, Gerstenmalz, Hopfen;0,44L;3,60 €;Pale Ale
+207;Beamish Stout;Heineken;Irland;4,1%;9,8 °P;Wasser, Gerstenmalz, Gerstenröstmalz, Hopfen;0,44L;3,50 €;Schwarzbier/Porter/Stout
+
+=== ISLAND ===
+208;Gull;Ölgerðin Egill Skallagrímsson;Island;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;4,50 €;Pilsner
+209;Viking;Ölgerðin Egill Skallagrímsson;Island;5,8%;13,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;4,80 €;Helles/Lager
+210;Bríó;Ölvisholt Brugghús;Island;5,2%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;5,20 €;Pilsner
+211;Þrumur;Ölvisholt Brugghús;Island;6,0%;14,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;5,80 €;IPA
+
+=== ISRAEL ===
+212;Goldstar;Tempo Beer Industries;Israel;4,9%;11,2 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,20 €;Helles/Lager
+213;Maccabee;Tempo Beer Industries;Israel;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,10 €;Pilsner
+214;Carlsberg;Tempo Beer Industries;Israel;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,20 €;Pilsner
+
+=== ITALIEN ===
+215;Peroni Nastro Azzurro;Birra Peroni;Italien;5,1%;11,5 °P;Wasser, Gerstenmalz, Mais, Hopfen;0,33L;2,60 €;Pilsner
+216;Moretti La Rossa;Birra Moretti;Italien;7,2%;17,5 °P;Wasser, Gerstenmalz, Karamellmalz, Hopfen;0,33L;3,20 €;Doppelbock
+217;Menabrea;Birra Menabrea;Italien;4,8%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,90 €;Pilsner
+218;Messina;Birra Messina;Italien;4,7%;10,8 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,70 €;Pilsner
+219;Ichnusa;Heineken Italia;Italien;4,7%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,80 €;Pilsner
+220;Dreher;Heineken Italia;Italien;4,7%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,70 €;Pilsner
+
+=== JAMAIKA ===
+221;Red Stripe;Desnoes & Geddes;Jamaika;4,7%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,20 €;Helles/Lager
+222;Dragon Stout;Desnoes & Geddes;Jamaika;7,5%;17,5 °P;Wasser, Gerstenmalz, Gerstenröstmalz, Hopfen;0,33L;4,20 €;Schwarzbier/Porter/Stout
+
+=== JAPAN ===
+223;Asahi Super Dry;Asahi Breweries;Japan;5,0%;11,0 °P;Wasser, Gerstenmalz, Reis, Mais, Hopfen;0,33L;3,20 €;Helles/Lager
+224;Kirin Ichiban;Kirin Brewery Company;Japan;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,20 €;Helles/Lager
+225;Sapporo Premium;Sapporo Breweries;Japan;4,7%;11,0 °P;Wasser, Gerstenmalz, Hopfen, Reis;0,33L;3,20 €;Helles/Lager
+226;Orion Draft;Orion Breweries;Japan;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,30 €;Helles/Lager
+227;Yebisu;Sapporo Breweries;Japan;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,50 €;Helles/Lager
+228;Asahi Black;Asahi Breweries;Japan;5,5%;13,0 °P;Wasser, Gerstenmalz, Karamellmalz, Hopfen;0,33L;3,40 €;Schwarzbier/Porter/Stout
+
+=== JORDANIEN ===
+229;Amstel;Amstel Jordan;Jordanien;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,60 €;Helles/Lager
+
+=== KAMBODSCHA ===
+230;Angkor Beer;Cambrew;Kambodscha;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,60 €;Pilsner
+231;Cambodia Beer;Cambodia Brewery;Kambodscha;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,70 €;Helles/Lager
+
+=== KAMERUN ===
+232;33 Export;Société Anonyme des Brasseries du Cameroun;Kamerun;5,2%;12,0 °P;Wasser, Gerstenmalz, Hopfen;0,65L;3,60 €;Export
+233;Castel Beer;SABC;Kamerun;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,65L;3,50 €;Pilsner
+
+=== KANADA ===
+234;Molson Canadian;Molson Coors;Kanada;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,355L;2,80 €;Helles/Lager
+235;Labatt Blue;Labatt Brewing Company;Kanada;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,355L;2,80 €;Pilsner
+236;Kokanee;Labatt Brewing Company;Kanada;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,355L;2,90 €;Helles/Lager
+237;Alexander Keith's India Pale Ale;Labatt Brewing Company;Kanada;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,355L;3,20 €;IPA
+
+=== KASACHSTAN ===
+238;Derbes;Derbes Brewery;Kasachstan;4,6%;10,8 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,50 €;Pilsner
+239;Almaty;Efes Kazakhstan;Kasachstan;4,8%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,60 €;Helles/Lager
+
+=== KENIA ===
+240;Tusker Lager;East African Breweries;Kenia;4,2%;10,0 °P;Wasser, Gerstenmalz, Hopfen;0,5L;3,40 €;Helles/Lager
+241;White Cap Lager;East African Breweries;Kenia;4,0%;9,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;3,20 €;Helles/Lager
+242;Pilsner Lager;East African Breweries;Kenia;4,2%;10,0 °P;Wasser, Gerstenmalz, Hopfen;0,5L;3,30 €;Pilsner
+
+=== KOLUMBIEN ===
+243;Club Colombia;Bavaria Brewery;Kolumbien;4,7%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,80 €;Pilsner
+244;Poker;Bavaria Brewery;Kolumbien;4,0%;9,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,60 €;Helles/Lager
+245;Aguila;Bavaria Brewery;Kolumbien;4,0%;9,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,60 €;Helles/Lager
+246;Costeña;Bavaria Brewery;Kolumbien;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,70 €;Pilsner
+
+=== KONGO (DR) ===
+247;Primus;Bralima;Kongo (DR);5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,72L;3,80 €;Pilsner
+248;Turbo King;Bralima;Kongo (DR);5,5%;12,5 °P;Wasser, Gerstenmalz, Hopfen;0,72L;4,00 €;Helles/Lager
+
+=== KROATIEN ===
+249;Ožujsko;Carlsberg Croatia;Kroatien;5,0%;11,2 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,60 €;Pilsner
+250;Karlovačko;Carlsberg Croatia;Kroatien;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,50 €;Pilsner
+251;Pan;Zagrebačka Pivovara;Kroatien;4,4%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,40 €;Pilsner
+
+=== KUBA ===
+252;Cristal;Cervecería Bucanero;Kuba;4,9%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,50 €;Pilsner
+253;Bucanero Fuerte;Cervecería Bucanero;Kuba;5,5%;12,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,80 €;Helles/Lager
+254;Mayabe;Bucanero;Kuba;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,60 €;Pilsner
+
+=== LAOS ===
+255;Beerlao;Lao Brewery Company;Laos;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,70 €;Helles/Lager
+256;Beerlao Dark;Lao Brewery Company;Laos;6,5%;15,5 °P;Wasser, Gerstenmalz, Karamellmalz, Hopfen;0,33L;3,20 €;Schwarzbier/Porter/Stout
+
+=== LETTLAND ===
+257;Aldaris;Carlsberg Latvia;Lettland;5,2%;12,0 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,60 €;Pilsner
+258;Užavas;Užavas Alus Darītava;Lettland;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,80 €;Pilsner
+
+=== LIBANON ===
+259;Almaza;Almaza S.A.L.;Libanon;4,2%;10,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,50 €;Pilsner
+260;961 Beer;961 Beer S.A.L.;Libanon;4,2%;10,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,80 €;Pale Ale
+
+=== LITAUEN ===
+261;Švyturys;Carlsberg Lithuania;Litauen;5,2%;12,0 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,60 €;Pilsner
+262;Kalnapilis;Carlsberg Lithuania;Litauen;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,50 €;Pilsner
+
+=== LUXEMBURG ===
+263;Bofferding Pils;Brasserie Nationale;Luxemburg;4,8%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,80 €;Pilsner
+264;Diekirch Premium;Brasserie Nationale;Luxemburg;4,8%;11,2 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,70 €;Pilsner
+
+=== MALAYSIA ===
+265;Tiger Beer Malaysia;Guinness Anchor Berhad;Malaysia;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,90 €;Helles/Lager
+266;Carlsberg Smooth Draught;Carlsberg Malaysia;Malaysia;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,80 €;Helles/Lager
+267;Anchor Smooth;Guinness Anchor Berhad;Malaysia;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,70 €;Helles/Lager
+
+=== MALTA ===
+268;Cisk Lager;Simonds Farsons Cisk;Malta;4,2%;10,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,90 €;Helles/Lager
+269;Hop Leaf;Simonds Farsons Cisk;Malta;3,7%;9,0 °P;Wasser, Gerstenmalz, Hopfen;0,25L;2,60 €;Pale Ale
+
+=== MAROKKO ===
+270;Casablanca;Société des Boissons du Maroc;Marokko;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,50 €;Pilsner
+271;Flag Spéciale;SBM;Marokko;5,2%;12,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,60 €;Helles/Lager
+
+=== MEXIKO ===
+272;Corona Extra;Grupo Modelo;Mexiko;4,5%;11,0 °P;Wasser, Gerstenmalz, Mais, Hopfen;0,33L;2,90 €;Helles/Lager
+273;Pacifico Clara;Cervecería del Pacífico;Mexiko;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,35L;2,90 €;Helles/Lager
+274;Dos Equis Lager;Cuauhtémoc Moctezuma;Mexiko;4,2%;10,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,70 €;Helles/Lager
+275;Negra Modelo;Grupo Modelo;Mexiko;5,4%;13,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,20 €;Schwarzbier/Porter/Stout
+276;Tecate Original;Cuauhtémoc Moctezuma;Mexiko;4,5%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,60 €;Helles/Lager
+277;Modelo Especial;Anheuser-Busch;Mexiko;4,6%;10,9 °P;Wasser, Gerstenmalz, Weizen, Hopfen;0,34L;3,30 €;Helles/Lager
+278;Sol;Cuauhtémoc Moctezuma;Mexiko;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,80 €;Helles/Lager
+279;Victoria;Grupo Modelo;Mexiko;4,0%;9,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,70 €;Pilsner
+280;Indio;Cuauhtémoc Moctezuma;Mexiko;4,5%;10,5 °P;Wasser, Gerstenmalz, Karamellmalz, Hopfen;0,33L;2,80 €;Schwarzbier/Porter/Stout
+
+=== MONGOLEI ===
+281;Chinggis Khan;APU Company;Mongolei;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;3,20 €;Pilsner
+282;Soyombo;Mongolian Beverage Company;Mongolei;4,8%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,5L;3,30 €;Helles/Lager
+
+=== MONTENEGRO ===
+283;Nikšićko Pivo;Trebjesa Brewery;Montenegro;4,9%;11,2 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,50 €;Pilsner
+284;Jelen Pivo Montenegro;Trebjesa Brewery;Montenegro;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,60 €;Pilsner
+
+=== MOSAMBIK ===
+285;2M;Cervejas de Moçambique;Mosambik;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,20 €;Pilsner
+286;Laurentina;Cervejas de Moçambique;Mosambik;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,10 €;Helles/Lager
+
+=== MYANMAR ===
+287;Myanmar Beer;Myanmar Brewery;Myanmar;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,80 €;Pilsner
+288;Dagon;Myanmar Brewery;Myanmar;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,70 €;Helles/Lager
+
+=== NAMIBIA ===
+289;Windhoek Lager;Namibia Breweries;Namibia;4,0%;9,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,40 €;Helles/Lager
+290;Tafel Lager;Namibia Breweries;Namibia;4,0%;9,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,20 €;Helles/Lager
+291;Windhoek Draught;Namibia Breweries;Namibia;4,0%;9,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,30 €;Helles/Lager
+
+=== NEPAL ===
+292;Gorkha Beer;Gorkha Brewery;Nepal;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,65L;3,50 €;Pilsner
+293;Everest Beer;Himalayan Breweries;Nepal;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,65L;3,40 €;Helles/Lager
+
+=== NEUSEELAND ===
+294;Steinlager Pure;Lion Nathan;Neuseeland;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,60 €;Pilsner
+295;Speight's Gold Medal Ale;Lion Nathan;Neuseeland;4,0%;9,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,40 €;Pale Ale
+296;Tui;DB Breweries;Neuseeland;4,0%;9,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,30 €;Helles/Lager
+297;Monteiths Original Ale;DB Breweries;Neuseeland;4,0%;9,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,50 €;Pale Ale
+298;Export Gold;DB Breweries;Neuseeland;4,0%;9,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,20 €;Helles/Lager
+
+=== NICARAGUA ===
+299;Toña;Compañía Cervecera de Nicaragua;Nicaragua;4,6%;10,8 °P;Wasser, Gerstenmalz, Hopfen;0,355L;2,70 €;Pilsner
+300;Victoria;Compañía Cervecera de Nicaragua;Nicaragua;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,355L;2,80 €;Pilsner
+
+=== NIEDERLANDE ===
+301;Witte;La Trappe Trappist;Niederlande;-;-;-;0,33L;2,50 €;Weizenbier
+302;BIRD OF PREY;Uiltje;Niederlande;5,8%;13,8 °P;Wasser, Gerstenmalz, Hopfen, Hefe;0,33L;3,20 €;IPA
+303;JUICY LUCY;Uiltje;Niederlande;5,5%;13,5 °P;Wasser, Gerste, Gerstenmalz, Weizenmalz, Hafer, Orangenschale, Hopfen, Hefe;0,33L;3,20 €;IPA
+304;BIRD OF PREY 0,2%;Uiltje;Niederlande;0,2%;7,0 °P;Wasser, Gerstenmalz, Hopfen, Hefe;0,33L;2,50 €;Alkoholfrei
+305;Juicy Lucy 0,2% - NEIPA;Uiltje;Niederlande;0,2%;5,5 °P;Wasser, Gerstenmalz, Weizenmalz, Hafermalz, Gerste, Hopfen, Orangenschale, Hopfenextrakt;0,33L;2,50 €;Alkoholfrei
+306;Playground - Alkoholfreies IPA;VandeStreek;Niederlande;0,5%;7,0 °P;Wasser, Gerstenmalz, Hopfen & Hefe;0,33L;3,40 €;Alkoholfrei
+307;Fun House (Alkoholfreies NEIPA);VandeStreek;Niederlande;0,5%;-;-;0,33L;3,40 €;Alkoholfrei
+308;Nillis 0,0%;La Trappe;Niederlande;0,0%;-;-;0,33L;2,90 €;Alkoholfrei
+309;WIT;Uiltje;Niederlande;-;-;-;0,33L;2,50 €;Craft Beer
+310;Heineken Lager;Heineken;Niederlande;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,20 €;Helles/Lager
+311;Grolsch Premium Lager;Koninklijke Grolsch;Niederlande;5,0%;11,7 °P;Wasser, Gerstenmalz, Hopfen;0,45L;2,60 €;Pilsner
+312;Amstel Lager;Heineken;Niederlande;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,20 €;Helles/Lager
+313;Bavaria Premium;Bavaria;Niederlande;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,10 €;Pilsner
+314;Brand Pilsener;Koninklijke Brand;Niederlande;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,40 €;Pilsner
+315;Hertog Jan;Arcen;Niederlande;5,1%;11,8 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,70 €;Pilsner
+
+=== NIGERIA ===
+316;Star Lager;Nigerian Breweries;Nigeria;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,6L;3,50 €;Helles/Lager
+317;Gulder Lager;Nigerian Breweries;Nigeria;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,6L;3,40 €;Helles/Lager
+318;Legend Extra Stout;Nigerian Breweries;Nigeria;7,5%;17,5 °P;Wasser, Gerstenmalz, Gerstenröstmalz, Hopfen;0,6L;4,20 €;Schwarzbier/Porter/Stout
+
+=== NORDMAZEDONIEN ===
+319;Skopsko;Skopska Pivara;Nordmazedonien;4,8%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,40 €;Pilsner
+320;Gorsko;Prilep Brewery;Nordmazedonien;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,30 €;Pilsner
+
+=== NORWEGEN ===
+321;Ringnes Pilsner;Ringnes;Norwegen;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;4,20 €;Pilsner
+322;Frydenlund;Ringnes;Norwegen;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;4,10 €;Pilsner
+323;Aass Pilsner;Aass Bryggeri;Norwegen;4,7%;10,8 °P;Wasser, Gerstenmalz, Hopfen;0,33L;4,40 €;Pilsner
+324;Mack Pilsner;Mack Brewery;Norwegen;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;4,30 €;Pilsner
+
+=== ÖSTERREICH ===
+325;Hofstettner Saphir;-;Österreich;-;-;-;0,33L;3,70 €;Bockbier
+326;Stiegl Goldbrä;Stieglbrauerei;Österreich;4,9%;11,3 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,60 €;Pilsner
+327;Gösser Märzen;Brauerei Göss;Österreich;5,2%;12,0 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,50 €;Helles/Lager
+328;Zipfer Urtyp;Brauerei Zipf;Österreich;5,4%;12,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,60 €;Helles/Lager
+329;Ottakringer Helles;Ottakringer Brauerei;Österreich;5,2%;11,8 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,50 €;Helles/Lager
+330;Puntigamer;Brau Union Österreich;Österreich;5,1%;11,7 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,40 €;Pilsner
+
+=== PAKISTAN ===
+331;Murree Millennium Brew;Murree Brewery;Pakistan;0,0%;-;Wasser, Gerstenmalz, Hopfen;0,33L;3,50 €;Alkoholfrei
+
+=== PANAMA ===
+332;Balboa;Cervecería Nacional;Panama;4,8%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,355L;2,80 €;Pilsner
+333;Atlas;Cervecería Nacional;Panama;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,355L;2,70 €;Helles/Lager
+
+=== PAPUA-NEUGUINEA ===
+334;South Pacific Lager;Heineken PNG;Papua-Neuguinea;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,375L;4,50 €;Helles/Lager
+
+=== PARAGUAY ===
+335;Brahma;Cervecería Paraguaya;Paraguay;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,355L;2,60 €;Pilsner
+336;Pilsen;Cervecería Asunción;Paraguay;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,355L;2,50 €;Pilsner
+
+=== PERU ===
+337;Pilsen Callao;Unión de Cervecerías Peruanas Backus y Johnston;Peru;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,70 €;Pilsner
+338;Cusqueña;Unión de Cervecerías Peruanas Backus y Johnston;Peru;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,90 €;Pilsner
+339;Cristal;Unión de Cervecerías Peruanas Backus y Johnston;Peru;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,70 €;Pilsner
+340;Arequipeña;Backus;Peru;5,2%;12,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,80 €;Pilsner
+
+=== PHILIPPINEN ===
+341;San Miguel Pale Pilsen;San Miguel Brewery;Philippinen/Spanien;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,60 €;Pilsner
+342;Red Horse Beer;San Miguel Brewery;Philippinen;6,9%;16,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,10 €;Helles/Lager
+343;San Mig Light;San Miguel Brewery;Philippinen;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,50 €;Pilsner
+
+=== POLEN ===
+344;Pierwsza Pomoc;-;Polen;-;-;-;0,5L;2,90 €;Pilsner
+345;Żywiec;Grupa Żywiec;Polen;5,6%;12,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,50 €;Pilsner
+346;Tyskie Gronie;Kompania Piwowarska;Polen;5,5%;12,2 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,40 €;Pilsner
+347;Lech Premium;Kompania Piwowarska;Polen;5,2%;11,8 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,50 €;Pilsner
+348;Okocim;Carlsberg Polska;Polen;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,40 €;Pilsner
+349;Perła;Carlsberg Polska;Polen;5,6%;12,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,60 €;Pilsner
+
+=== PORTUGAL ===
+350;Sagres;Sociedade Central de Cervejas;Portugal;5,0%;11,2 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,50 €;Pilsner
+351;Super Bock;Unicer;Portugal;5,2%;12,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,60 €;Helles/Lager
+352;Coral;Sociedade Central de Cervejas;Portugal;4,7%;10,8 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,40 €;Pilsner
+353;Cristal;Unicer;Portugal;5,2%;12,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,60 €;Pilsner
+
+=== PUERTO RICO ===
+354;Medalla Light;Compañía Cervecera de Puerto Rico;Puerto Rico;4,2%;10,0 °P;Wasser, Gerstenmalz, Hopfen;0,355L;2,80 €;Pilsner
+
+=== RUMÄNIEN ===
+355;Ursus Premium;Ursus Breweries;Rumänien;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,40 €;Pilsner
+356;Timișoreana;Ursus Breweries;Rumänien;5,0%;11,2 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,30 €;Pilsner
+357;Ciuc;Heineken Romania;Rumänien;4,6%;10,8 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,20 €;Pilsner
+
+=== RUSSLAND ===
+358;Baltika No. 3 Classic;Baltika Breweries;Russland;4,8%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,50 €;Helles/Lager
+359;Baltika No. 9 Strong;Baltika Breweries;Russland;8,0%;17,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;3,20 €;Export
+360;Zhiguli Barnoye;Ochakovo Brewery;Russland;4,0%;9,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,30 €;Helles/Lager
+361;Nevskoe;Heineken Russia;Russland;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,20 €;Pilsner
+
+=== RUANDA ===
+362;Primus;Bralirwa;Ruanda;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,72L;3,80 €;Pilsner
+
+=== SAMBIA ===
+363;Mosi Lager;Zambian Breweries;Sambia;4,2%;10,0 °P;Wasser, Gerstenmalz, Hopfen;0,375L;3,30 €;Helles/Lager
+
+=== SAMOA ===
+364;Vailima;Samoa Breweries;Samoa;4,9%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,375L;4,50 €;Pilsner
+
+=== SCHWEDEN ===
+365;Pripps Blå;Carlsberg Sverige;Schweden;5,3%;11,8 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,80 €;Pilsner
+366;Falcon Export;Carlsberg Sverige;Schweden;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,70 €;Export
+367;Norrlands Guld;Spendrups;Schweden;5,3%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,90 €;Pilsner
+368;Mariestads;Spendrups;Schweden;5,3%;11,8 °P;Wasser, Gerstenmalz, Hopfen;0,33L;4,00 €;Pilsner
+
+=== SCHWEIZ ===
+369;Feldschlösschen Original;Feldschlösschen;Schweiz;4,8%;11,2 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,20 €;Pilsner
+370;Calanda Bräu;Carlsberg Schweiz;Schweiz;4,8%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,10 €;Pilsner
+371;Cardinal Lager;Feldschlösschen;Schweiz;4,9%;11,3 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,20 €;Helles/Lager
+372;Eichhof Lager;Eichhof;Schweiz;4,8%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,10 €;Helles/Lager
+
+=== SERBIEN ===
+373;Jelen Pivo;Apatin Brewery;Serbien;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,40 €;Pilsner
+374;Lav Premium;Carlsberg Serbia;Serbien;5,2%;11,8 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,50 €;Pilsner
+375;Zaječarsko;Zaječarsko Brewery;Serbien;4,8%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,30 €;Pilsner
+
+=== SIMBABWE ===
+376;Castle Lager Zimbabwe;Delta Corporation;Simbabwe;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,375L;3,50 €;Helles/Lager
+377;Zambezi Lager;Delta Corporation;Simbabwe;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,375L;3,30 €;Helles/Lager
+
+=== SINGAPUR ===
+378;Tiger Beer;Asia Pacific Breweries;Singapur;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,90 €;Helles/Lager
+379;Anchor Smooth;Asia Pacific Breweries;Singapur;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,80 €;Helles/Lager
+380;Baron's Strong Brew;Asia Pacific Breweries;Singapur;8,8%;20,0 °P;Wasser, Gerstenmalz, Hopfen;0,5L;4,50 €;Export
+
+=== SLOWAKEI ===
+381;Zlatý Bažant;Heineken Slovensko;Slowakei;5,0%;11,8 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,40 €;Pilsner
+382;Corgoň;Heineken Slovensko;Slowakei;5,1%;12,0 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,50 €;Pilsner
+383;Kelt;Heineken Slovensko;Slowakei;4,8%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,30 €;Pilsner
+
+=== SLOWENIEN ===
+384;Laško Zlatorog;Pivovarna Laško;Slowenien;5,2%;11,8 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,60 €;Pilsner
+385;Union;Pivovarna Union;Slowenien;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,50 €;Pilsner
+386;Laško Club;Pivovarna Laško;Slowenien;4,9%;11,2 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,40 €;Pilsner
+
+=== SPANIEN ===
+387;Estrella Damm;S.A. Damm;Spanien;4,6%;11,2 °P;Wasser, Gerstenmalz, Reis, Hopfen;0,33L;2,40 €;Pilsner
+388;Mahou Cinco Estrellas;Mahou-San Miguel;Spanien;5,5%;12,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,50 €;Pilsner
+389;Cruzcampo;Heineken España;Spanien;4,8%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,30 €;Pilsner
+390;Alhambra Reserva 1925;Cervezas Alhambra;Spanien;6,4%;15,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,20 €;Helles/Lager
+391;San Miguel España;San Miguel Fábricas de Cerveza y Malta;Spanien;5,4%;12,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,60 €;Pilsner
+392;Estrella Galicia;Hijos de Rivera;Spanien;5,5%;12,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,70 €;Pilsner
+
+=== SRI LANKA ===
+393;Lion Lager;Lion Brewery;Sri Lanka;4,8%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,625L;3,50 €;Helles/Lager
+394;Carlsberg Sri Lanka;Carlsberg;Sri Lanka;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,625L;3,60 €;Pilsner
+
+=== SÜDAFRIKA ===
+395;Castle Lager;South African Breweries;Südafrika;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,20 €;Helles/Lager
+396;Black Label;South African Breweries;Südafrika;5,5%;12,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,30 €;Helles/Lager
+397;Hansa Pilsener;SABMiller;Südafrika;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,20 €;Pilsner
+398;Carling Black Label;SABMiller;Südafrika;5,5%;12,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,40 €;Helles/Lager
+
+=== SÜDKOREA ===
+399;Hite;Hite Brewery;Südkorea;4,5%;10,5 °P;Wasser, Gerstenmalz, Reis, Hopfen;0,33L;2,80 €;Helles/Lager
+400;Cass Fresh;OB Beer Company;Südkorea;4,5%;10,0 °P;Wasser, Gerstenmalz, Reis, Hopfen;0,33L;2,80 €;Helles/Lager
+401;OB Lager;OB Beer Company;Südkorea;4,8%;11,0 °P;Wasser, Gerstenmalz, Reis, Hopfen;0,33L;2,90 €;Helles/Lager
+402;Kloud;Lotte Chilsung Beverage;Südkorea;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;3,50 €;Pilsner
+
+=== TAIWAN ===
+403;Taiwan Beer;Taiwan Tobacco & Liquor;Taiwan;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,80 €;Helles/Lager
+404;Taiwan Gold Medal;Taiwan Tobacco & Liquor;Taiwan;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,70 €;Pilsner
+
+=== TANSANIA ===
+405;Safari Lager;Tanzania Breweries;Tansania;4,0%;9,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;3,40 €;Helles/Lager
+406;Kilimanjaro Premium Lager;Tanzania Breweries;Tansania;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;3,60 €;Pilsner
+
+=== THAILAND ===
+407;Singha;Boon Rawd Brewery;Thailand;5,0%;11,2 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,90 €;Helles/Lager
+408;Chang Beer;Thai Beverage;Thailand;5,0%;11,0 °P;Wasser, Gerstenmalz, Reis, Hopfen;0,32L;2,70 €;Helles/Lager
+409;Leo Beer;Boon Rawd Brewery;Thailand;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,80 €;Helles/Lager
+410;Archa Beer;Thaibev;Thailand;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,60 €;Helles/Lager
+
+=== TRINIDAD UND TOBAGO ===
+411;Carib Lager;Carib Brewery;Trinidad und Tobago;5,2%;12,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,40 €;Helles/Lager
+412;Stag;Carib Brewery;Trinidad und Tobago;4,8%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,20 €;Pilsner
+
+=== TSCHECHIEN ===
+413;Pilsner Urquell;Plzeňský Prazdroj;Tschechien;4,4%;12,0 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,50 €;Pilsner
+414;Staropramen Premium;Pivovary Staropramen;Tschechien;5,0%;12,0 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,20 €;Pilsner
+415;Budweiser Budvar;Budějovický Budvar;Tschechien;5,0%;12,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,40 €;Pilsner
+416;Kozel Premium;Plzeňský Prazdroj;Tschechien;4,6%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,30 €;Pilsner
+417;Bernard;Rodinný pivovar Bernard;Tschechien;5,0%;11,8 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,70 €;Pilsner
+418;Gambrinus;Plzeňský Prazdroj;Tschechien;4,3%;10,0 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,20 €;Pilsner
+419;Krušovice;Heineken Česká republika;Tschechien;5,0%;12,0 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,40 €;Pilsner
+
+=== TUNESIEN ===
+420;Celtia;Société Frigorifique et Brasserie de Tunis;Tunesien;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,50 €;Pilsner
+
+=== TÜRKEI ===
+421;Efes Pilsener;Anadolu Efes;Türkei;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,60 €;Pilsner
+422;Bomonti Filtresiz;Efes Brewery;Türkei;4,9%;11,2 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,80 €;Pilsner
+423;Marmara;Anadolu Efes;Türkei;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,50 €;Pilsner
+
+=== UK (VEREINIGTES KÖNIGREICH) ===
+424;Screwball;Vault City;UK;6,5%;20,7 °P;Wasser, Gerstenmalz, Hafer, Erdbeere, Himbeere, Laktose, Hopfen, Hefe;0,44L;4,50 €;Craft Beer
+425;Strawberry Fields;Vault City;UK;-;-;-;0,44L;4,50 €;Craft Beer
+426;Newcastle Brown Ale;Newcastle Breweries;UK;4,7%;11,0 °P;Wasser, Gerstenmalz, Karamellmalz, Hopfen, Hefe;0,33L;2,90 €;Pale Ale
+427;Fuller's London Pride;Fuller's Brewery;UK;4,7%;11,2 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,20 €;Pale Ale
+428;BrewDog Punk IPA;BrewDog;UK;5,6%;13,0 °P;Wasser, Gerstenmalz, Karamellmalz, Hopfen;0,33L;3,50 €;IPA
+429;BrewDog Elvis Juice;BrewDog;UK;6,5%;15,5 °P;Wasser, Gerstenmalz, Hopfen, Grapefruit, Orangenschale;0,33L;3,80 €;IPA
+430;Shepherd Neame Spitfire;Shepherd Neame;UK;4,5%;10,8 °P;Wasser, Gerstenmalz, Hopfen;0,5L;3,20 €;Pale Ale
+431;Bass Pale Ale;Marston's;UK;5,1%;12,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,90 €;Pale Ale
+432;Greene King IPA;Greene King;UK;3,6%;8,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;3,10 €;IPA
+433;John Smith's Extra Smooth;Heineken UK;UK;3,6%;8,0 °P;Wasser, Gerstenmalz, Hopfen;0,44L;3,00 €;Pale Ale
+434;Carling;Molson Coors UK;UK;4,0%;9,5 °P;Wasser, Gerstenmalz, Hopfen;0,44L;2,60 €;Helles/Lager
+435;Foster's;Heineken UK;UK;4,0%;9,5 °P;Wasser, Gerstenmalz, Hopfen;0,44L;2,70 €;Helles/Lager
+
+=== SCHOTTLAND ===
+436;Scottish Stout;-;Schottland;-;-;-;0,5L;4,90 €;Craft Beer
+437;Tennent's Lager;Tennent Caledonian;Schottland;4,0%;9,5 °P;Wasser, Gerstenmalz, Hopfen;0,44L;3,20 €;Helles/Lager
+438;Belhaven Best;Belhaven Brewery;Schottland;3,2%;7,5 °P;Wasser, Gerstenmalz, Hopfen;0,44L;3,40 €;Pale Ale
+439;Innis & Gunn Original;Innis & Gunn Brewing Company;Schottland;6,6%;15,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;4,50 €;Pale Ale
+
+=== UGANDA ===
+440;Nile Special;Nile Breweries;Uganda;5,6%;13,0 °P;Wasser, Gerstenmalz, Hopfen;0,5L;3,60 €;Helles/Lager
+441;Bell Lager;Uganda Breweries;Uganda;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;3,40 €;Pilsner
+
+=== UNGARN ===
+442;Dreher Classic;Asahi;Ungarn;5,2%;12,0 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,30 €;Pilsner
+443;Soproni;Heineken Hungária;Ungarn;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,20 €;Pilsner
+444;Arany Ászok;Heineken Hungária;Ungarn;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,20 €;Pilsner
+445;Borsodi;Borsodi Sörgyár;Ungarn;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,5L;2,40 €;Pilsner
+
+=== URUGUAY ===
+446;Patricia;FNC;Uruguay;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,80 €;Pilsner
+447;Pilsen;FNC;Uruguay;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,70 €;Pilsner
+448;Zillertal;FNC;Uruguay;5,2%;12,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,90 €;Helles/Lager
+
+=== USA ===
+449;Weiherer Imperial IPA;Fat Head's Brewery;USA;9,0%;21,5 °P;Wasser, Gerstenmalz, Hopfen, Hefe;0,5L;4,90 €;IPA
+450;Budweiser;Anheuser-Busch;USA;5,0%;10,6 °P;Wasser, Gerstenmalz, Reis, Hopfen;0,33L;2,40 €;Helles/Lager
+451;Coors Light;Molson Coors;USA;4,2%;8,5 °P;Wasser, Gerstenmalz, Mais, Hopfen;0,33L;2,20 €;Helles/Lager
+452;Miller Genuine Draft;Molson Coors;USA;4,7%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,30 €;Helles/Lager
+453;Samuel Adams Boston Lager;Boston Beer Company;USA;5,0%;12,0 °P;Wasser, Gerstenmalz, Hopfen;0,355L;3,50 €;Helles/Lager
+454;Sierra Nevada Pale Ale;Sierra Nevada Brewing Co.;USA;5,6%;13,5 °P;Wasser, Gerstenmalz, Hopfen, Hefe;0,355L;3,80 €;Pale Ale
+455;Brooklyn Lager;Brooklyn Brewery;USA;5,2%;12,0 °P;Wasser, Gerstenmalz, Karamellmalz, Hopfen;0,355L;3,60 €;Helles/Lager
+456;Blue Moon Belgian White;Molson Coors;USA;5,4%;12,5 °P;Wasser, Weizenmalz, Gerstenmalz, Hafer, Orangenschale, Koriander, Hopfen;0,355L;3,20 €;Weizenbier
+457;Stone IPA;Stone Brewing;USA;6,9%;16,5 °P;Wasser, Gerstenmalz, Hopfen, Hefe;0,355L;4,20 €;IPA
+458;Lagunitas IPA;Lagunitas Brewing Company;USA;6,2%;15,0 °P;Wasser, Gerstenmalz, Hopfen, Hefe;0,355L;3,90 €;IPA
+459;Goose Island IPA;Goose Island Beer Co.;USA;5,9%;14,5 °P;Wasser, Gerstenmalz, Hopfen;0,355L;3,70 €;IPA
+460;Pabst Blue Ribbon;Pabst Brewing Company;USA;4,7%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,355L;2,80 €;Helles/Lager
+461;Anchor Steam Beer;Anchor Brewing Company;USA;4,9%;11,2 °P;Wasser, Gerstenmalz, Hopfen;0,355L;3,90 €;Pale Ale
+462;Yuengling Traditional Lager;D.G. Yuengling & Son;USA;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,355L;3,20 €;Helles/Lager
+
+=== VENEZUELA ===
+463;Polar Ice;Cervecería Polar;Venezuela;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,90 €;Pilsner
+464;Regional;Cervecería Regional;Venezuela;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,70 €;Pilsner
+465;Solera;Cervecería Regional;Venezuela;5,0%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,80 €;Pilsner
+
+=== VIETNAM ===
+466;333 Premium Beer;Sabeco;Vietnam;5,0%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,80 €;Helles/Lager
+467;Saigon Export;Sabeco;Vietnam;4,9%;11,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,80 €;Helles/Lager
+468;Hanoi Beer;Habeco;Vietnam;4,6%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,70 €;Helles/Lager
+469;Huda Beer;Habeco;Vietnam;4,7%;11,0 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,70 €;Helles/Lager
+470;Bia Viet;Vietnam Brewery;Vietnam;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;2,60 €;Pilsner
+
+=== ZYPERN ===
+471;KEO;KEO Brewery;Zypern;4,5%;10,5 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,20 €;Pilsner
+472;Leon;Photos Photiades Breweries;Zypern;4,6%;10,8 °P;Wasser, Gerstenmalz, Hopfen;0,33L;3,30 €;Pilsner
+
+=== DIVERSE/UNBEKANNT ===
+473;Andersoni Hele - Pilsener;-;-;-;-;-;0,33L;3,90 €;Pilsner
+474;Simply The West - West Coast Pilsener;-;-;-;-;-;0,33L;3,90 €;Pilsner
+475;Zesty Bastard (NEIPA);-;-;-;-;-;0,33L;5,50 €;IPA
+476;Hannibal 2025;-;-;-;-;-;0,33L;5,50 €;Schwarzbier/Porter/Stout
+477;Hokey Religion - Four Roses BA;-;-;-;-;-;0,33L;11,90 €;Schwarzbier/Porter/Stout
+478;Mindless Philosopher - Imperial Porter;-;-;-;-;-;0,33L;9,50 €;Schwarzbier/Porter/Stout
+479;Interceptor - Imperial Porter;-;-;-;-;-;0,33L;8,90 €;Schwarzbier/Porter/Stout
+480;Porter;-;-;-;-;-;0,75L;18,90 €;Schwarzbier/Porter/Stout
+481;Tuju Want Me? BA;-;-;-;-;-;0,33L;9,90 €;Schwarzbier/Porter/Stout
+482;Executor - Willet Rye BA;-;-;-;-;-;0,33L;11,90 €;Schwarzbier/Porter/Stout
+483;Interceptor - Fiji Rum BA;-;-;-;-;-;0,33L;11,90 €;Schwarzbier/Porter/Stout
+484;Mindless Philosopher - Barbados Rum BA;-;-;-;-;-;0,33L;11,90 €;Schwarzbier/Porter/Stout
+485;Hansebock;-;-;-;-;-;0,33L;8,90 €;Bockbier
+486;Wee Buckie Sesh Starter;-;-;-;-;-;0,44L;4,50 €;Craft Beer
+487;Rhubarb Drizzleberry Cupcake;-;-;-;-;-;0,44L;4,50 €;Craft Beer
+488;Orange Creamsicle;-;-;-;-;-;0,44L;4,50 €;Craft Beer
+489;Applehoff 2025;-;-;-;-;-;0,33L;4,50 €;Craft Beer
+490;Bumper - non alcoholic Blond;-;-;-;-;-;0,33L;3,40 €;Craft Beer
+491;Epos 0,0% - Blond Alkoholfrei;-;-;0,0%;-;-;0,33L;2,60 €;Craft Beer
+492;Cider Classic Apple;-;-;-;-;-;0,33L;2,50 €;Bio-Bier
+493;Teleios - Griechischer Bergteebock;-;-;-;-;-;0,33L;4,20 €;Bio-Bier
+494;Single Maltz;-;-;-;-;-;0,33L;3,80 €;Festbier
+
+=== GESCHENKBOXEN ===
+495;Mixed Case + Teku Glass;Vault City;UK;Variabel;-;-;Mehrfach;49,90 €;Geschenkbox
+496;Bierstile Entdecker Box;Verschiedene;-;Variabel;-;-;Box;16,30 €;Geschenkbox
+497;Bierziehungskiste Geschenkpaket;Verschiedene;-;Variabel;-;-;Box;16,90 €;Geschenkbox
+498;Männerabend Geschenkpaket;Verschiedene;-;Variabel;-;-;Box;12,90 €;Geschenkbox
+499;Festbier Box;Verschiedene;Deutschland;Variabel;-;-;9er Box;16,18 €;Geschenkbox
