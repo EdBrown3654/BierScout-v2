@@ -8,13 +8,28 @@ const breweryMap: Record<string, string> = {
   // ─── ÄGYPTEN ───
   "al ahram beverages company": "alahrambeverages.com",
 
+  // ─── ALBANIEN ───
+  "birra korça": "birrakorca.al",
+  "birra tirana": "birratirana.com.al",
+
+  // ─── ANGOLA ───
+  "empresa de cervejas de angola": "cuca.co.ao",
+
   // ─── ARGENTINIEN ───
   "cervecería y maltería quilmes": "quilmes.com.ar",
+  "ccu argentina": "ccu.cl",
+
+  // ─── ÄTHIOPIEN ───
+  "meta abo brewery": "metaabo.com",
 
   // ─── AUSTRALIEN ───
   "carlton & united breweries": "cub.com.au",
   "coopers brewery": "coopers.com.au",
   "castlemaine perkins": "xxxx.com.au",
+  "lion nathan": "lionco.com",
+
+  // ─── BAHAMAS ───
+  "commonwealth brewery": "commonwealthbrewery.com",
 
   // ─── BELGIEN ───
   "duvel": "duvel.com",
@@ -28,10 +43,39 @@ const breweryMap: Record<string, string> = {
   "brasserie d'orval": "orval.be",
   "piedboeuf brewery": "jupiler.be",
   "brouwerij bosteels": "bestbelgianspecialbeers.be",
+  "abbaye notre-dame de saint-rémy": "trappistes-rochefort.com",
+
+  // ─── BOLIVIEN ───
+  "cervecería boliviana nacional": "cbn.bo",
+
+  // ─── BARBADOS ───
+  "banks barbados breweries": "banksbeer.com",
+
+  // ─── BOSNIEN UND HERZEGOWINA ───
+  "sarajevska pivara": "sarajevskopivo.ba",
 
   // ─── BRASILIEN ───
   "ambev": "ambev.com.br",
   "grupo petrópolis": "grupopetropolis.com.br",
+
+  // ─── BULGARIEN ───
+  "zagorka brewery": "zagorka.bg",
+  "kamenitza brewery": "kamenitza.bg",
+
+  // ─── CHILE ───
+  "compañía cervecerías unidas": "ccu.cl",
+  "cervecería austral": "cervezaaustral.cl",
+  "cervecería kunstmann": "cerveceriakunstmann.cl",
+  "cervecería becker": "ccu.cl",
+
+  // ─── CHINA ───
+  "tsingtao brewery": "tsingtao.com.cn",
+  "china resources snow breweries": "snowbeer.com.cn",
+  "beijing yanjing brewery": "yanjing.com.cn",
+  "pabst brewing": "pabstblueribbon.com",
+
+  // ─── COSTA RICA ───
+  "florida ice & farm": "fifco.com",
 
   // ─── DÄNEMARK ───
   "carlsberg": "carlsberg.com",
@@ -73,6 +117,24 @@ const breweryMap: Record<string, string> = {
   "hopfenheld": "hopfenheld.de",
   "octobräu": "octobraeu.de",
   "lindenbräu": "lindenbraeu.de",
+  "weisse taube": "weisse-taube.de",
+  "weiherer x oldskool": "weiherer-bier.de",
+  "eschenbacher": "eschenbacher.de",
+
+  // ─── DOMINIKANISCHE REPUBLIK ───
+  "cervecería nacional dominicana": "cnd.com.do",
+
+  // ─── EL SALVADOR ───
+  "industrias la constancia": "laconstancia.com",
+
+  // ─── ESTLAND ───
+  "saku brewery": "sfrgroup.ee",
+  "a. le coq": "alecoq.ee",
+
+  // ─── FINNLAND ───
+  "hartwall": "hartwall.fi",
+  "olvi": "olvi.fi",
+  "sinebrychoff": "sinebrychoff.fi",
 
   // ─── FRANKREICH ───
   "brasseries kronenbourg": "kronenbourg.com",
@@ -80,8 +142,21 @@ const breweryMap: Record<string, string> = {
   "brasserie castelain": "castelain.com",
   "brasserie pelforth": "pelforth.fr",
 
+  // ─── GHANA ───
+  "accra brewery": "accrabrewery.com",
+  "guinness ghana breweries": "guinness-ghana.com",
+
   // ─── GRIECHENLAND ───
   "mythos brewery": "mythosbrewery.gr",
+  "olympic brewery": "olympicbrewery.gr",
+  "athenian brewery": "athenianbrewery.gr",
+  "macedonian thrace brewery": "verginabeer.com",
+
+  // ─── GUATEMALA ───
+  "cervecería centroamericana": "cerveceriacentroamericana.com",
+
+  // ─── HONDURAS ───
+  "cervecería hondureña": "cerveceriahondurena.com",
 
   // ─── INDIEN ───
   "united breweries": "theubgroup.com",
@@ -97,11 +172,17 @@ const breweryMap: Record<string, string> = {
 
   // ─── ISLAND ───
   "ölgerðin egill skallagrímsson": "egils.is",
+  "ölvisholt brugghús": "olvisholt.is",
+
+  // ─── ISRAEL ───
+  "tempo beer industries": "tempobeer.co.il",
 
   // ─── ITALIEN ───
   "birra peroni": "peroni.com",
   "birra moretti": "birramoretti.com",
   "birra menabrea": "birra-menabrea.it",
+  "birra messina": "birramessina.it",
+  "heineken italia": "heinekenitalia.it",
 
   // ─── JAMAIKA ───
   "desnoes & geddes": "redstripebeer.com",
@@ -112,16 +193,84 @@ const breweryMap: Record<string, string> = {
   "sapporo breweries": "sapporobeer.com",
   "orion breweries": "orionbeer.co.jp",
 
+  // ─── KAMBODSCHA ───
+  "cambrew": "cambrew.com",
+  "cambodia brewery": "cambodiabrewery.com",
+
+  // ─── KAMERUN ───
+  "société anonyme des brasseries du cameroun": "sabc-sa.com",
+
   // ─── KANADA ───
   "molson coors": "molsoncoors.com",
   "labatt brewing company": "labatt.com",
 
+  // ─── KASACHSTAN ───
+  "efes kazakhstan": "efes.kz",
+
+  // ─── KONGO (DR) ───
+  "bralima": "bralimagroup.com",
+
+  // ─── KROATIEN ───
+  "carlsberg croatia": "carlsberg.hr",
+  "zagrebačka pivovara": "ozujsko.com",
+
+  // ─── KUBA ───
+  "cervecería bucanero": "bucanero.cu",
+  "bucanero": "bucanero.cu",
+
+  // ─── LETTLAND ───
+  "carlsberg latvia": "carlsberg.lv",
+  "užavas alus darītava": "uzavasalus.lv",
+
+  // ─── LIBANON ───
+  "almaza s.a.l.": "almaza.com.lb",
+  "961 beer s.a.l.": "961beer.com",
+
+  // ─── LITAUEN ───
+  "carlsberg lithuania": "carlsberg.lt",
+
+  // ─── LUXEMBURG ───
+  "brasserie nationale": "brasserie.lu",
+
+  // ─── MALAYSIA ───
+  "guinness anchor berhad": "gab.com.my",
+  "carlsberg malaysia": "carlsberg.com.my",
+
+  // ─── MALTA ───
+  "simonds farsons cisk": "farsons.com",
+
+  // ─── MAROKKO ───
+  "société des boissons du maroc": "groupesbm.com",
+  "sbm": "groupesbm.com",
+
   // ─── MEXIKO ───
-  "grupo modelo": "gfrupa-modelo.com",
+  "grupo modelo": "grupomodelo.com",
   "cuauhtémoc moctezuma": "heineken.com",
+
+  // ─── MONGOLEI ───
+  "apu company": "apu.mn",
+
+  // ─── MONTENEGRO ───
+  "trebjesa brewery": "trebjesa.co.me",
+
+  // ─── MOSAMBIK ───
+  "cervejas de moçambique": "cdm.co.mz",
+
+  // ─── MYANMAR ───
+  "myanmar brewery": "myanmarbrewery.com",
+
+  // ─── NEPAL ───
+  "gorkha brewery": "gorkhabrewery.com",
+
+  // ─── NEUSEELAND ───
+  "db breweries": "db.co.nz",
+
+  // ─── NICARAGUA ───
+  "compañía cervecera de nicaragua": "ccn.com.ni",
 
   // ─── NIEDERLANDE ───
   "koninklijke grolsch": "grolsch.com",
+  "koninklijke brand": "brand.nl",
   "uiltje": "uiltjecraftbeer.com",
   "vandestreek": "vandestreekbier.nl",
   "la trappe": "latrappetrappist.com",
@@ -129,15 +278,33 @@ const breweryMap: Record<string, string> = {
   "bavaria": "bavaria.com",
   "arcen": "hertogjan.nl",
 
+  // ─── NORDMAZEDONIEN ───
+  "skopska pivara": "skopskopivo.mk",
+
   // ─── NORWEGEN ───
   "ringnes": "ringnes.no",
   "aass bryggeri": "aass.no",
+  "mack brewery": "mack.no",
 
   // ─── ÖSTERREICH ───
   "stieglbrauerei": "stiegl.at",
   "brauerei göss": "goesser.at",
   "brauerei zipf": "zipfer.at",
   "ottakringer brauerei": "ottakringer.at",
+  "brau union österreich": "brauunion.at",
+
+  // ─── PAKISTAN ───
+  "murree brewery": "murreebrewery.com",
+
+  // ─── PAPUA-NEUGUINEA ───
+  "heineken png": "heineken.com",
+
+  // ─── PANAMA ───
+  "cervecería nacional": "cerveceríanacional.com",
+
+  // ─── PERU ───
+  "unión de cervecerías peruanas backus y johnston": "backus.pe",
+  "backus": "backus.pe",
 
   // ─── PHILIPPINEN ───
   "san miguel brewery": "sanmiguelbrewery.com",
@@ -151,11 +318,23 @@ const breweryMap: Record<string, string> = {
   "unicer": "superbock.pt",
   "sociedade central de cervejas": "centralcervejas.pt",
 
+  // ─── PUERTO RICO ───
+  "compañía cervecera de puerto rico": "medallalight.com",
+
   // ─── RUMÄNIEN ───
   "ursus breweries": "ursus.ro",
+  "heineken romania": "heineken.ro",
+
+  // ─── RUANDA ───
+  "bralirwa": "bralirwa.co.rw",
 
   // ─── RUSSLAND ───
   "baltika breweries": "baltika.ru",
+  "ochakovo brewery": "ochakovo.ru",
+  "heineken russia": "heineken.ru",
+
+  // ─── SAMBIA ───
+  "zambian breweries": "zambian-breweries.com",
 
   // ─── SCHWEDEN ───
   "carlsberg sverige": "carlsberg.se",
@@ -164,23 +343,36 @@ const breweryMap: Record<string, string> = {
   // ─── SCHWEIZ ───
   "feldschlösschen": "feldschloesschen.swiss",
   "eichhof": "eichhof.ch",
+  "carlsberg schweiz": "feldschloesschen.swiss",
 
   // ─── SERBIEN ───
   "apatin brewery": "apatinskapivara.rs",
+  "carlsberg serbia": "carlsberg.rs",
+  "zaječarsko brewery": "zajecarskopivo.rs",
+
+  // ─── SIMBABWE ───
+  "delta corporation": "delta.co.zw",
 
   // ─── SINGAPUR ───
   "asia pacific breweries": "apb.com.sg",
+
+  // ─── SLOWAKEI ───
+  "heineken slovensko": "heineken.sk",
 
   // ─── SLOWENIEN ───
   "pivovarna laško": "lasko.eu",
   "pivovarna union": "pivo-union.si",
 
   // ─── SPANIEN ───
+  "san miguel fábricas de cerveza y malta": "sanmiguel.com",
   "s.a. damm": "damm.com",
   "mahou-san miguel": "mahou.com",
   "hijos de rivera": "estrellagalicia.es",
   "cervezas alhambra": "cervezasalhambra.es",
   "heineken españa": "cruzcampo.es",
+
+  // ─── SRI LANKA ───
+  "lion brewery": "lionbeer.com",
 
   // ─── SÜDAFRIKA ───
   "south african breweries": "sab.co.za",
@@ -191,9 +383,16 @@ const breweryMap: Record<string, string> = {
   "ob beer company": "ob.co.kr",
   "lotte chilsung beverage": "lottechilsung.co.kr",
 
+  // ─── TAIWAN ───
+  "taiwan tobacco & liquor": "ttl.com.tw",
+
+  // ─── TANSANIA ───
+  "tanzania breweries": "tanzaniabreweries.co.tz",
+
   // ─── THAILAND ───
   "boon rawd brewery": "boonrawd.co.th",
   "thai beverage": "thaibev.com",
+  "thaibev": "thaibev.com",
 
   // ─── TSCHECHIEN ───
   "plzeňský prazdroj": "pilsnerurquell.com",
@@ -201,6 +400,9 @@ const breweryMap: Record<string, string> = {
   "budějovický budvar": "budvar.cz",
   "rodinný pivovar bernard": "bernard.cz",
   "heineken česká republika": "krusovice.cz",
+
+  // ─── TUNESIEN ───
+  "société frigorifique et brasserie de tunis": "sfbt.com.tn",
 
   // ─── TÜRKEI ───
   "anadolu efes": "anadoluefes.com",
@@ -222,6 +424,14 @@ const breweryMap: Record<string, string> = {
   "belhaven brewery": "belhaven.co.uk",
   "innis & gunn brewing company": "innisandgunn.com",
 
+  // ─── UGANDA ───
+  "nile breweries": "nilebreweries.co.ug",
+  "uganda breweries": "ugandabreweries.com",
+
+  // ─── UNGARN ───
+  "heineken hungária": "heineken.hu",
+  "borsodi sörgyár": "borsodi.hu",
+
   // ─── USA ───
   "anheuser-busch": "anheuser-busch.com",
   "boston beer company": "samueladams.com",
@@ -235,6 +445,13 @@ const breweryMap: Record<string, string> = {
   "d.g. yuengling & son": "yuengling.com",
   "fat head's brewery": "fatheads.com",
 
+  // ─── URUGUAY ───
+  "fnc": "fnc.com.uy",
+
+  // ─── VENEZUELA ───
+  "cervecería polar": "empresaspolar.com",
+  "cervecería regional": "cerveceríaregional.com",
+
   // ─── KENIA ───
   "east african breweries": "eabl.com",
 
@@ -247,6 +464,11 @@ const breweryMap: Record<string, string> = {
   // ─── VIETNAM ───
   "sabeco": "sabeco.com.vn",
   "habeco": "habeco.com.vn",
+  "vietnam brewery": "heineken.com.vn",
+
+  // ─── ZYPERN ───
+  "keo brewery": "keo.com.cy",
+  "photos photiades breweries": "carlsberg.com.cy",
 
   // ─── NIGERIA ───
   "nigerian breweries": "nbplc.com",
@@ -264,6 +486,7 @@ const brandMap: Record<string, string> = {
   "hoegaarden": "hoegaarden.com",
   "duvel belgisch speciaalbier": "duvel.com",
   "la chouffe blonde": "chouffe.com",
+  "n'ice chouffe": "chouffe.com",
   "chimay rouge": "chimay.com",
   "chimay bleue": "chimay.com",
   "westmalle dubbel": "trappistwestmalle.be",
@@ -272,6 +495,7 @@ const brandMap: Record<string, string> = {
   "jupiler": "jupiler.be",
   "kwak": "bestbelgianspecialbeers.be",
   "tripel karmeliet": "bestbelgianspecialbeers.be",
+  "rochefort 10": "trappistes-rochefort.com",
 
   // Denmark
   "carlsberg pilsner": "carlsberg.com",
@@ -307,8 +531,19 @@ const brandMap: Record<string, string> = {
   "kronenbourg 1664": "kronenbourg.com",
   "1664 blanc": "kronenbourg.com",
 
+  // China
+  "tsingtao": "tsingtao.com.cn",
+  "qingdao": "tsingtao.com.cn",
+  "snow beer": "snowbeer.com.cn",
+  "yanjing beer": "yanjing.com.cn",
+
+  // Croatia
+  "ožujsko": "ozujsko.com",
+  "karlovačko": "karlovacko.hr",
+
   // Greece
   "mythos": "mythosbrewery.gr",
+  "fix hellas": "fixbeer.gr",
 
   // India
   "kingfisher premium lager": "kingfisherworld.com",
@@ -317,16 +552,26 @@ const brandMap: Record<string, string> = {
   // Indonesia
   "bintang": "multibintang.co.id",
 
+  // Hungary
+  "dreher classic": "dreher.hu",
+  "soproni": "soproni.hu",
+
   // Ireland
   "guinness draught": "guinness.com",
   "guinness extra stout": "guinness.com",
   "murphy's irish stout": "murphys.com",
   "smithwick's irish ale": "smithwicks.com",
   "kilkenny irish cream ale": "kilkennyale.com",
+  "beamish stout": "heineken.com",
+
+  // Israel
+  "goldstar": "tempobeer.co.il",
+  "maccabee": "tempobeer.co.il",
 
   // Italy
   "peroni nastro azzurro": "peroni.com",
   "moretti la rossa": "birramoretti.com",
+  "ichnusa": "ichnusa.it",
 
   // Jamaica
   "red stripe": "redstripebeer.com",
@@ -336,6 +581,10 @@ const brandMap: Record<string, string> = {
   "asahi black": "asahibeer.com",
   "kirin ichiban": "kirin.co.jp",
   "sapporo premium": "sapporobeer.com",
+
+  // Luxembourg
+  "bofferding pils": "bofferding.lu",
+  "diekirch premium": "diekirch.lu",
 
   // Mexico
   "corona extra": "corona.com",
@@ -358,6 +607,7 @@ const brandMap: Record<string, string> = {
   "gösser märzen": "goesser.at",
   "zipfer urtyp": "zipfer.at",
   "ottakringer helles": "ottakringer.at",
+  "puntigamer": "puntigamer.at",
 
   // Philippines
   "san miguel pale pilsen": "sanmiguelbrewery.com",
@@ -365,6 +615,8 @@ const brandMap: Record<string, string> = {
   // Poland
   "żywiec": "grupazywiec.pl",
   "tyskie gronie": "tyskie.pl",
+  "lech premium": "lech.pl",
+  "okocim": "okocim.pl",
 
   // Portugal
   "sagres": "sagres.pt",
@@ -376,6 +628,11 @@ const brandMap: Record<string, string> = {
   "budweiser budvar": "budvar.cz",
   "kozel premium": "kozel.cz",
   "bernard": "bernard.cz",
+  "gambrinus": "gambrinus.cz",
+  "krušovice": "krusovice.cz",
+
+  // Slovakia
+  "zlatý bažant": "zlatybazant.sk",
 
   // Spain
   "estrella damm": "estrelladamm.com",
@@ -383,6 +640,7 @@ const brandMap: Record<string, string> = {
   "mahou cinco estrellas": "mahou.com",
   "alhambra reserva 1925": "cervezasalhambra.es",
   "san miguel españa": "sanmiguel.com",
+  "cruzcampo": "cruzcampo.es",
 
   // Thailand
   "singha": "singha.com",
@@ -401,6 +659,9 @@ const brandMap: Record<string, string> = {
   "foster's": "fosters.com",
   "innis & gunn original": "innisandgunn.com",
   "tennent's lager": "tennents.com",
+
+  // Taiwan
+  "taiwan beer": "ttl.com.tw",
 
   // USA
   "budweiser": "budweiser.com",
@@ -423,10 +684,15 @@ const brandMap: Record<string, string> = {
   "coopers sparkling ale": "coopers.com.au",
   "foster's lager": "fosters.com.au",
   "carlton draught": "cub.com.au",
+  "tooheys new": "tooheys.com.au",
+  "xxxx gold": "xxxx.com.au",
 
   // Canada
   "molson canadian": "molsoncanadian.ca",
   "labatt blue": "labatt.com",
+
+  // New Zealand
+  "steinlager pure": "steinlager.co.nz",
 
   // South Africa
   "castle lager": "castlelager.co.za",
@@ -454,6 +720,48 @@ const brandMap: Record<string, string> = {
   // Laos
   "beerlao": "beerlao.la",
   "beerlao dark": "beerlao.la",
+
+  // Albania
+  "korça": "birrakorca.al",
+
+  // Bolivia
+  "paceña": "cbn.bo",
+
+  // Bulgaria
+  "zagorka": "zagorka.bg",
+
+  // Cuba
+  "bucanero fuerte": "bucanero.cu",
+
+  // Dominican Republic
+  "presidente": "cnd.com.do",
+
+  // Estonia
+  "saku originaal": "sfrgroup.ee",
+  "a. le coq premium": "alecoq.ee",
+
+  // Finland
+  "lapin kulta": "hartwall.fi",
+  "karhu": "hartwall.fi",
+  "koff": "sinebrychoff.fi",
+
+  // Malta
+  "cisk lager": "farsons.com",
+
+  // Montenegro
+  "nikšićko pivo": "trebjesa.co.me",
+
+  // Romania
+  "ciuc": "heineken.ro",
+
+  // Slovenia
+  "laško zlatorog": "lasko.eu",
+
+  // Switzerland
+  "calanda bräu": "feldschloesschen.swiss",
+
+  // Venezuela
+  "polar ice": "empresaspolar.com",
 };
 
 /**

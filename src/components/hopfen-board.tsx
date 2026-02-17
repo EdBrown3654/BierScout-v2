@@ -127,7 +127,7 @@ function BeerCard({ beer }: { beer: Beer }) {
         {/* Name + Brewery + Nr */}
         <div className="min-w-0 flex-1">
           <div className="flex items-start justify-between gap-2">
-            <span className="inline-block shrink-0 border-[2px] border-black bg-black px-2 py-0.5 font-mono text-xs font-bold text-white group-hover:bg-white group-hover:text-black">
+            <span className="inline-block shrink-0 border-[2px] border-black bg-black px-1.5 py-0.5 font-mono text-[9px] font-bold text-white group-hover:bg-white group-hover:text-black">
               #{String(beer.nr).padStart(3, "0")}
             </span>
             <span className="truncate text-right font-mono text-[10px] uppercase tracking-wider text-gray-500 group-hover:text-black">
@@ -135,7 +135,7 @@ function BeerCard({ beer }: { beer: Beer }) {
             </span>
           </div>
 
-          <h3 className="mt-1 text-sm font-bold uppercase leading-tight tracking-wide">
+          <h3 className="mt-1 text-base font-bold uppercase leading-tight tracking-wide">
             {beer.name}
           </h3>
 
