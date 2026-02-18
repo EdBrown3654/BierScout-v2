@@ -57,12 +57,12 @@ export default function HomeContent({
         </div>
 
         {/* Banner image */}
-        <div className="relative w-full h-64 sm:h-80 lg:h-96 bg-black overflow-hidden">
+        <div className="relative w-full bg-black overflow-hidden">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/Header/bierscout_banner.jpg"
             alt="BIERSCOUT Banner"
-            className="w-full h-full object-cover"
+            className="w-full h-auto"
           />
         </div>
 
