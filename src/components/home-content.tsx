@@ -51,11 +51,6 @@ export default function HomeContent({
 
       {/* HERO SECTION */}
       <header className="relative border-b-[3px] border-black">
-        {/* Language toggle - top center */}
-        <div className="absolute left-1/2 top-4 z-10 -translate-x-1/2 sm:top-6">
-          <LanguageToggle />
-        </div>
-
         {/* Banner image */}
         <div className="relative w-full bg-black overflow-hidden">
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -66,8 +61,14 @@ export default function HomeContent({
           />
         </div>
 
-        <div className="px-4 py-12 sm:px-8 sm:py-16 lg:py-20">
+        {/* Language toggle - equal top/bottom spacing between banner and headline */}
+        <div className="flex justify-center py-6 sm:py-8">
+          <LanguageToggle />
+        </div>
+
+        <div className="px-4 pb-12 sm:px-8 sm:pb-16 lg:pb-20">
           <div className="mx-auto max-w-6xl text-center">
+
             <div className="border-t-[3px] border-black pt-6">
               <p className="text-2xl font-bold uppercase tracking-wide sm:text-3xl lg:text-4xl">
                 {t.hero.tagline}
