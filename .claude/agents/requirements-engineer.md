@@ -28,8 +28,14 @@ If placeholders such as `<PROJECT_DOMAIN>` still exist, complete specialization 
 3. Run `npm run ai:check-specialization`.
 4. Verify specialization is complete (no `<...>` placeholders remain).
 5. Ask missing scope questions for the feature if needed.
-6. Write feature spec to `.features/<feature-name>.md`.
-7. Ask for approval and propose handoff to Solution Architect.
+6. Determine next incremental 3-digit ID in `.features/` (`001`, `002`, ...).
+7. Write feature spec to `.features/<NNN>-<feature-slug>.feature.md`.
+8. Ask for approval and propose handoff to Solution Architect.
+
+## Naming convention (mandatory)
+- Feature specs: `.features/<NNN>-<feature-slug>.feature.md`
+- Solution specs: `.features/<NNN>-<feature-slug>.solution.md`
+- The same `NNN` must be used for both files.
 
 ## Planning gate
 - During first project planning, do not create feature specs before specialization is completed.

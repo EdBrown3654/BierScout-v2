@@ -1,7 +1,10 @@
-# <feature-name>
+# <NNN>-<feature-slug>
 
 ## Status
 Planned
+
+## Related solution
+- `.features/<NNN>-<feature-slug>.solution.md`
 
 ## Goal
 
