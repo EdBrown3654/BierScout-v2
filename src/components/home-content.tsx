@@ -50,30 +50,31 @@ export default function HomeContent({
       </div>
 
       {/* HERO SECTION */}
-      <header className="relative border-b-[3px] border-black px-4 py-12 sm:px-8 sm:py-20 lg:py-28">
+      <header className="relative border-b-[3px] border-black">
         {/* Language toggle - top right */}
-        <div className="absolute right-4 top-4 sm:right-8 sm:top-6">
+        <div className="absolute right-4 top-4 z-10 sm:right-8 sm:top-6">
           <LanguageToggle />
         </div>
 
-        <div className="mx-auto max-w-6xl">
-          <p className="font-mono text-sm font-bold uppercase tracking-[0.3em] text-gray-500">
-            {t.hero.subtitle}
-          </p>
+        {/* Banner image */}
+        <div className="relative w-full h-64 sm:h-80 lg:h-96 bg-black overflow-hidden">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/Header/bierscout_banner.jpg"
+            alt="BIERSCOUT Banner"
+            className="w-full h-full object-cover"
+          />
+        </div>
 
-          <h1 className="mt-4 text-6xl font-black uppercase leading-none tracking-tighter sm:text-8xl lg:text-[10rem]">
-            BIER
-            <br />
-            <span className="text-[#d4a017]">SCOUT</span>
-          </h1>
+        <div className="px-4 py-12 sm:px-8 sm:py-16 lg:py-20">
+          <div className="mx-auto max-w-6xl">
+            <div className="border-t-[3px] border-black pt-6">
+              <p className="text-2xl font-bold uppercase tracking-wide sm:text-3xl lg:text-4xl">
+                {t.hero.tagline}
+              </p>
+            </div>
 
-          <div className="mt-6 border-t-[3px] border-black pt-6">
-            <p className="text-2xl font-bold uppercase tracking-wide sm:text-3xl lg:text-4xl">
-              {t.hero.tagline}
-            </p>
-          </div>
-
-          <div className="mt-8 max-w-2xl border-[3px] border-black bg-black p-6 text-white">
+            <div className="mt-8 max-w-2xl border-[3px] border-black bg-black p-6 text-white">
             <p className="text-lg font-bold uppercase tracking-wider sm:text-xl">
               {(() => {
                 const lastQ = t.hero.cta_line1.lastIndexOf("?");
@@ -98,6 +99,7 @@ export default function HomeContent({
           >
             {t.hero.button} &darr;
           </a>
+          </div>
         </div>
       </header>
 
