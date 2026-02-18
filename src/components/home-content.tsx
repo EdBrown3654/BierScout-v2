@@ -37,8 +37,8 @@ export default function HomeContent({
     [t, statValues],
   );
 
-  // Get random prost words for marquee
-  const prostWords = useMemo(() => getRandomProstWords(12), []);
+  // Get all prost words for marquee (shuffled)
+  const prostWords = useMemo(() => getRandomProstWords(), []);
 
   return (
     <main className="min-h-screen">

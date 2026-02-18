@@ -61,10 +61,15 @@ export const prostWords = [
 ];
 
 /**
- * Get random prost words for the marquee
- * Returns a shuffled subset of prost words
+ * Get all prost words for the marquee
+ * Returns all prost words in a shuffled order
  */
-export function getRandomProstWords(count: number = 12): string[] {
+export function getRandomProstWords(count?: number): string[] {
+  // If no count specified, return all words shuffled
+  if (count === undefined) {
+    return [...prostWords].sort(() => Math.random() - 0.5);
+  }
+  // Otherwise return the requested count
   const shuffled = [...prostWords].sort(() => Math.random() - 0.5);
   return shuffled.slice(0, Math.min(count, prostWords.length));
 }
