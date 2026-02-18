@@ -55,11 +55,6 @@ export default function HomeContent({
 
       {/* HERO SECTION */}
       <header className="relative border-b-[3px] border-black">
-        {/* Language toggle - top right */}
-        <div className="absolute right-4 top-4 z-10 sm:right-8 sm:top-6">
-          <LanguageToggle />
-        </div>
-
         {/* Banner image */}
         <div className="relative w-full bg-black overflow-hidden">
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -70,15 +65,21 @@ export default function HomeContent({
           />
         </div>
 
-        <div className="px-4 py-12 sm:px-8 sm:py-16 lg:py-20">
-          <div className="mx-auto max-w-6xl">
+        {/* Language toggle - equal top/bottom spacing between banner and headline */}
+        <div className="flex justify-center py-6 sm:py-8">
+          <LanguageToggle />
+        </div>
+
+        <div className="px-4 pb-12 sm:px-8 sm:pb-16 lg:pb-20">
+          <div className="mx-auto max-w-6xl text-center">
+
             <div className="border-t-[3px] border-black pt-6">
               <p className="text-2xl font-bold uppercase tracking-wide sm:text-3xl lg:text-4xl">
                 {t.hero.tagline}
               </p>
             </div>
 
-            <div className="mt-8 max-w-2xl border-[3px] border-black bg-black p-6 text-white">
+            <div className="mx-auto mt-8 max-w-2xl border-[3px] border-black bg-black p-6 text-center text-white">
             <p className="text-lg font-bold uppercase tracking-wider sm:text-xl">
               {(() => {
                 const lastQ = t.hero.cta_line1.lastIndexOf("?");
