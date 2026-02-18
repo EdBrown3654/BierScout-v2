@@ -62,7 +62,7 @@ export default function BeerLogo({
   if (!domain || imgError) {
     return (
       <div
-        className="flex h-16 w-16 shrink-0 items-center justify-center border-[2px] border-black font-mono text-lg font-black uppercase"
+        className="flex h-24 w-24 shrink-0 items-center justify-center border-[2px] border-black font-mono text-3xl font-black uppercase"
         style={{
           backgroundColor: bgColor,
           color: isDark ? "#d4a017" : "#000000",
@@ -75,14 +75,14 @@ export default function BeerLogo({
   }
 
   return (
-    <div className="flex h-16 w-16 shrink-0 items-center justify-center border-[2px] border-black bg-white p-1">
+    <div className="flex h-24 w-24 shrink-0 items-center justify-center border-[2px] border-black bg-white p-1">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={getFaviconUrl(domain)}
         alt={`${beerName} Logo`}
-        width={48}
-        height={48}
-        className="h-12 w-12 object-contain"
+        width={80}
+        height={80}
+        className="h-20 w-20 object-contain"
         onError={() => setImgError(true)}
         loading="lazy"
       />
