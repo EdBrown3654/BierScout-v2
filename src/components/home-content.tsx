@@ -3,6 +3,7 @@
 import { useMemo } from "react";
 import { useT } from "@/lib/i18n-context";
 import type { Beer } from "@/lib/beers";
+import { getRandomProstWords } from "@/lib/prost-words";
 import HopfenBoard from "@/components/hopfen-board";
 import LanguageToggle from "@/components/language-toggle";
 
@@ -36,14 +37,17 @@ export default function HomeContent({
     [t, statValues],
   );
 
+  // Get random prost words for marquee
+  const prostWords = useMemo(() => getRandomProstWords(12), []);
+
   return (
     <main className="min-h-screen">
       {/* TOP MARQUEE BAR */}
       <div className="overflow-hidden border-b-[3px] border-black bg-[#d4a017] py-2">
         <div className="marquee-track flex w-max gap-8 whitespace-nowrap font-mono text-xs font-bold uppercase tracking-widest text-black">
-          {Array.from({ length: 12 }).map((_, i) => (
+          {prostWords.map((word, i) => (
             <span key={i}>
-              {t.marquee} {t.marquee}
+              {word} * {word}
             </span>
           ))}
         </div>
@@ -106,9 +110,9 @@ export default function HomeContent({
       {/* BOTTOM MARQUEE BAR */}
       <div className="overflow-hidden border-b-[3px] border-black bg-[#d4a017] py-2">
         <div className="marquee-track-right flex w-max gap-8 whitespace-nowrap font-mono text-xs font-bold uppercase tracking-widest text-black">
-          {Array.from({ length: 12 }).map((_, i) => (
+          {prostWords.map((word, i) => (
             <span key={`bottom-${i}`}>
-              {t.marquee} {t.marquee}
+              {word} * {word}
             </span>
           ))}
         </div>
