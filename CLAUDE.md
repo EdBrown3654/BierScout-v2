@@ -30,7 +30,7 @@
 
 ## Critical rules
 - Never run destructive git commands without user confirmation.
-- Never push directly to `main` without explicit approval.
+- Direct pushes to `main` and `master` are allowed.
 
 ## First-project specialization (hard gate)
 
