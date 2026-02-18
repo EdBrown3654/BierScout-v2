@@ -103,6 +103,17 @@ export default function HomeContent({
         </div>
       </header>
 
+      {/* BOTTOM MARQUEE BAR */}
+      <div className="overflow-hidden border-b-[3px] border-black bg-[#d4a017] py-2">
+        <div className="marquee-track-right flex w-max gap-8 whitespace-nowrap font-mono text-xs font-bold uppercase tracking-widest text-black">
+          {Array.from({ length: 12 }).map((_, i) => (
+            <span key={`bottom-${i}`}>
+              {t.marquee} {t.marquee}
+            </span>
+          ))}
+        </div>
+      </div>
+
       {/* STATS BAR */}
       <div className="grid grid-cols-2 border-b-[3px] border-black sm:grid-cols-4">
         {stats.map((stat) => (
@@ -142,3 +153,4 @@ export default function HomeContent({
     </main>
   );
 }
+
