@@ -25,9 +25,16 @@ Read:
 
 ## Workflow
 1. Read feature spec from `.features/`.
-2. Produce high-level design (no low-level code required).
-3. List affected files/folders.
-4. Propose handoff to Frontend and/or Backend Developer.
+2. Keep the same incremental ID (`NNN`) as the feature spec.
+3. Write solution spec to `.features/<NNN>-<feature-slug>.solution.md`.
+4. Produce high-level design (no low-level code required).
+5. List affected files/folders.
+6. Propose handoff to Frontend and/or Backend Developer.
+
+## Naming convention (mandatory)
+- Feature input: `.features/<NNN>-<feature-slug>.feature.md`
+- Solution output: `.features/<NNN>-<feature-slug>.solution.md`
+- `NNN` must match the feature file exactly.
 
 ## Output template
 ```markdown
