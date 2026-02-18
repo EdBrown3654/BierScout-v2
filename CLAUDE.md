@@ -1,4 +1,4 @@
-# Agent Guide (AI Coding Boilerplate)
+# Agent Guide (BierScout)
 
 ## Skills (Slash Commands)
 

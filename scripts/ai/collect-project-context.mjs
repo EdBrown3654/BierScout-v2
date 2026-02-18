@@ -7,6 +7,7 @@ import { stdin as input, stdout as output } from "node:process";
 const root = path.resolve(".");
 const specializationPath = path.join(root, ".docs/project/specialization.md");
 const brandPath = path.join(root, ".docs/project/brand.md");
+const templateProjectNames = ["BierScout v2", "BierScout"];
 
 if (!fs.existsSync(specializationPath)) {
   console.error("Missing file: .docs/project/specialization.md");
@@ -124,10 +125,13 @@ const run = async () => {
     const replaceInFile = (filePath) => {
       try {
         const content = fs.readFileSync(filePath, "utf8");
-        if (!content.includes("AI Coding Boilerplate")) return;
-        const updated = content
-          .split("AI Coding Boilerplate")
-          .join(answers.PROJECT_NAME);
+        if (!templateProjectNames.some((name) => content.includes(name))) return;
+
+        let updated = content;
+        for (const name of templateProjectNames) {
+          updated = updated.split(name).join(answers.PROJECT_NAME);
+        }
+
         fs.writeFileSync(filePath, updated, "utf8");
       } catch {
         // Ignore non-text or unreadable files.
