@@ -1,0 +1,73 @@
+Nr,Biermarke,Brauerei,Land,Kategorie,Status,Empfehlung
+5,Tango,Société des Boissons du Nord,Algerien,Alkoholfrei,UNMAPPED_BREWERY,"Add: ""société des boissons du nord"": ""sbdn.dz"""
+14,Bedele Special,Bedele Brewery,Äthiopien,Pilsner,UNMAPPED_BREWERY,"Add: ""bedele brewery"": ""bedelebrewery.com"""
+24,Hunter,Bangladesh Brewery,Bangladesch,Pilsner,UNMAPPED_BREWERY,"Add: ""bangladesh brewery"": ""bangladeshbrewery.com"""
+30,Cornet Oaked - Strong Blond 8.5%,-,Belgien,Belgische Biere,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+48,Preminger,Preminger Brewery,Bosnien und Herzegowina,Pilsner,UNMAPPED_BREWERY,"Add: ""preminger brewery"": ""preminger.ba"""
+49,St. Louis Lager,Kgalagadi Breweries,Botswana,Helles/Lager,UNMAPPED_BREWERY,"Add: ""kgalagadi breweries"": ""stlouislager.bw"""
+58,Brakina,Brasseries du Burkina,Burkina Faso,Pilsner,UNMAPPED_BREWERY,"Add: ""brasseries du burkina"": ""brakina.bf"""
+93,Papas Weißheit,-,Deutschland,Weizenbier,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+94,Geselligkeit,-,Deutschland,Weizenbier,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+97,Dolden Null,-,Deutschland,Alkoholfrei,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+101,Muttis Sonnenschein,-,Deutschland,Helles/Lager,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+102,Heinzlein Helles,-,Deutschland,Helles/Lager,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+103,Franz Josef Bayerisch Helles,-,Deutschland,Helles/Lager,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+108,Mönchsambacher Export,-,Deutschland,Export,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+109,Glaabsbräu Export,-,Deutschland,Export,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+111,Ganter Export,-,Deutschland,Export,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+112,Flötzinger Spezial Hell,-,Deutschland,Export,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+113,Waldhaus Spezial Gold,-,Deutschland,Export,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+115,Moritz Fiege Gründer,-,Deutschland,Export,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+119,Erle,-,Deutschland,Schwarzbier/Porter/Stout,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+120,Dunkel,-,Deutschland,Schwarzbier/Porter/Stout,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+124,Omas Betthupferl,-,Deutschland,Bockbier,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+129,Eschenbacher Kellerbier,-,Deutschland,Kellerbier,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+130,Opas Liebling Kellerbier,-,Deutschland,Kellerbier,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+135,Bio Hell,-,Deutschland,Bio-Bier,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+136,Bio Pale Ale,-,Deutschland,Bio-Bier,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+137,Dolden Hell,-,Deutschland,Bio-Bier,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+140,Hochland Bio Honigbier,-,Deutschland,Bio-Bier,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+141,Frischer Traum,-,Deutschland,Bio-Bier,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+145,Winterbier,-,Deutschland,Festbier,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+146,Berliner Weisse Peach,-,Deutschland,Sonstiges,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+173,Fiji Bitter,Carlton Brewery Fiji,Fidschi,Helles/Lager,UNMAPPED_BREWERY,"Add: ""carlton brewery fiji"": ""carltonbeersfiji.com"""
+174,Vonu Pure Lager,Paradise Beverages,Fidschi,Helles/Lager,UNMAPPED_BREWERY,"Add: ""paradise beverages"": ""paradisebeverages.fj"""
+201,Farida,Al Sharq Brewery,Irak,Alkoholfrei,UNMAPPED_BREWERY,"Add: ""al sharq brewery"": ""alshaqbrewery.iq"""
+229,Amstel,Amstel Jordan,Jordanien,Helles/Lager,UNMAPPED_BREWERY,"Add: ""amstel jordan"": ""amstel.jo"""
+233,Castel Beer,SABC,Kamerun,Pilsner,UNMAPPED_BREWERY,"Add: ""sabc"": ""castel-cameroon.com"""
+238,Derbes,Derbes Brewery,Kasachstan,Pilsner,UNMAPPED_BREWERY,"Add: ""derbes brewery"": ""derbesbrewery.kz"""
+282,Soyombo,Mongolian Beverage Company,Mongolei,Helles/Lager,UNMAPPED_BREWERY,"Add: ""mongolian beverage company"": ""soyombo.mn"""
+293,Everest Beer,Himalayan Breweries,Nepal,Helles/Lager,UNMAPPED_BREWERY,"Add: ""himalayan breweries"": ""everestbeer.com.np"""
+320,Gorsko,Prilep Brewery,Nordmazedonien,Pilsner,UNMAPPED_BREWERY,"Add: ""prilep brewery"": ""gorskopivo.mk"""
+325,Hofstettner Saphir,-,Österreich,Bockbier,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+335,Brahma,Cervecería Paraguaya,Paraguay,Pilsner,UNMAPPED_BREWERY,"Add: ""cervecería paraguaya"": ""brahma.com.py"""
+336,Pilsen,Cervecería Asunción,Paraguay,Pilsner,UNMAPPED_BREWERY,"Add: ""cervecería asunción"": ""pilsen.com.py"""
+344,Pierwsza Pomoc,-,Polen,Pilsner,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+364,Vailima,Samoa Breweries,Samoa,Pilsner,UNMAPPED_BREWERY,"Add: ""samoa breweries"": ""vailima.ws"""
+436,Scottish Stout,-,Schottland,Craft Beer,MISSING_BREWERY_INFO,Requires data cleanup - add brewery name
+473,Andersoni Hele - Pilsener,-,Diverse/Unbekannt,Pilsner,CRAFT_BEER_NO_DOMAIN,Baseline - craft beer without formal web presence
+474,Simply The West - West Coast Pilsener,-,Diverse/Unbekannt,Pilsner,CRAFT_BEER_NO_DOMAIN,Baseline - craft beer without formal web presence
+475,Zesty Bastard (NEIPA),-,Diverse/Unbekannt,IPA,CRAFT_BEER_NO_DOMAIN,Baseline - craft beer without formal web presence
+476,Hannibal 2025,-,Diverse/Unbekannt,Schwarzbier/Porter/Stout,CRAFT_BEER_NO_DOMAIN,Baseline - craft beer without formal web presence
+477,Hokey Religion - Four Roses BA,-,Diverse/Unbekannt,Schwarzbier/Porter/Stout,CRAFT_BEER_NO_DOMAIN,Baseline - craft beer without formal web presence
+478,Mindless Philosopher - Imperial Porter,-,Diverse/Unbekannt,Schwarzbier/Porter/Stout,CRAFT_BEER_NO_DOMAIN,Baseline - craft beer without formal web presence
+479,Interceptor - Imperial Porter,-,Diverse/Unbekannt,Schwarzbier/Porter/Stout,CRAFT_BEER_NO_DOMAIN,Baseline - craft beer without formal web presence
+480,Porter,-,Diverse/Unbekannt,Schwarzbier/Porter/Stout,CRAFT_BEER_NO_DOMAIN,Baseline - craft beer without formal web presence
+481,Tuju Want Me? BA,-,Diverse/Unbekannt,Schwarzbier/Porter/Stout,CRAFT_BEER_NO_DOMAIN,Baseline - craft beer without formal web presence
+482,Executor - Willet Rye BA,-,Diverse/Unbekannt,Schwarzbier/Porter/Stout,CRAFT_BEER_NO_DOMAIN,Baseline - craft beer without formal web presence
+483,Interceptor - Fiji Rum BA,-,Diverse/Unbekannt,Schwarzbier/Porter/Stout,CRAFT_BEER_NO_DOMAIN,Baseline - craft beer without formal web presence
+484,Mindless Philosopher - Barbados Rum BA,-,Diverse/Unbekannt,Schwarzbier/Porter/Stout,CRAFT_BEER_NO_DOMAIN,Baseline - craft beer without formal web presence
+485,Hansebock,-,Diverse/Unbekannt,Bockbier,CRAFT_BEER_NO_DOMAIN,Baseline - craft beer without formal web presence
+486,Wee Buckie Sesh Starter,-,Diverse/Unbekannt,Craft Beer,CRAFT_BEER_NO_DOMAIN,Baseline - craft beer without formal web presence
+487,Rhubarb Drizzleberry Cupcake,-,Diverse/Unbekannt,Craft Beer,CRAFT_BEER_NO_DOMAIN,Baseline - craft beer without formal web presence
+488,Orange Creamsicle,-,Diverse/Unbekannt,Craft Beer,CRAFT_BEER_NO_DOMAIN,Baseline - craft beer without formal web presence
+489,Applehoff 2025,-,Diverse/Unbekannt,Craft Beer,CRAFT_BEER_NO_DOMAIN,Baseline - craft beer without formal web presence
+490,Bumper - non alcoholic Blond,-,Diverse/Unbekannt,Craft Beer,CRAFT_BEER_NO_DOMAIN,Baseline - craft beer without formal web presence
+491,Epos 0.0% - Blond Alkoholfrei,-,Diverse/Unbekannt,Craft Beer,CRAFT_BEER_NO_DOMAIN,Baseline - craft beer without formal web presence
+492,Cider Classic Apple,-,Diverse/Unbekannt,Bio-Bier,CRAFT_BEER_NO_DOMAIN,Baseline - craft beer without formal web presence
+493,Teleios - Griechischer Bergteebock,-,Diverse/Unbekannt,Bio-Bier,CRAFT_BEER_NO_DOMAIN,Baseline - craft beer without formal web presence
+494,Single Maltz,-,Diverse/Unbekannt,Festbier,CRAFT_BEER_NO_DOMAIN,Baseline - craft beer without formal web presence
+496,Bierstile Entdecker Box,Verschiedene,Geschenkboxen,Geschenkbox,NOT_APPLICABLE,Gift box - use collection icon instead
+497,Bierziehungskiste Geschenkpaket,Verschiedene,Geschenkboxen,Geschenkbox,NOT_APPLICABLE,Gift box - use collection icon instead
+498,Männerabend Geschenkpaket,Verschiedene,Geschenkboxen,Geschenkbox,NOT_APPLICABLE,Gift box - use collection icon instead
+499,Festbier Box,Verschiedene,Geschenkboxen,Geschenkbox,NOT_APPLICABLE,Gift box - use collection icon instead

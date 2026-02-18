@@ -1,0 +1,560 @@
+{
+  "timestamp": "2026-02-18T19:04:35.807Z",
+  "totalBeers": 499,
+  "totalMissing": 72,
+  "percentageMissing": "14.4",
+  "byCountry": {
+    "ALGERIEN": [
+      {
+        "nr": "5",
+        "name": "Tango",
+        "brewery": "Société des Boissons du Nord",
+        "country": "ALGERIEN",
+        "category": "Alkoholfrei"
+      }
+    ],
+    "ÄTHIOPIEN": [
+      {
+        "nr": "14",
+        "name": "Bedele Special",
+        "brewery": "Bedele Brewery",
+        "country": "ÄTHIOPIEN",
+        "category": "Pilsner"
+      }
+    ],
+    "BANGLADESCH": [
+      {
+        "nr": "24",
+        "name": "Hunter",
+        "brewery": "Bangladesh Brewery",
+        "country": "BANGLADESCH",
+        "category": "Pilsner"
+      }
+    ],
+    "BELGIEN": [
+      {
+        "nr": "30",
+        "name": "Cornet Oaked - Strong Blond 8,5%",
+        "brewery": "-",
+        "country": "BELGIEN",
+        "category": "Belgische Biere"
+      }
+    ],
+    "BOSNIEN UND HERZEGOWINA": [
+      {
+        "nr": "48",
+        "name": "Preminger",
+        "brewery": "Preminger Brewery",
+        "country": "BOSNIEN UND HERZEGOWINA",
+        "category": "Pilsner"
+      }
+    ],
+    "BOTSWANA": [
+      {
+        "nr": "49",
+        "name": "St. Louis Lager",
+        "brewery": "Kgalagadi Breweries",
+        "country": "BOTSWANA",
+        "category": "Helles/Lager"
+      }
+    ],
+    "BURKINA FASO": [
+      {
+        "nr": "58",
+        "name": "Brakina",
+        "brewery": "Brasseries du Burkina",
+        "country": "BURKINA FASO",
+        "category": "Pilsner"
+      }
+    ],
+    "DEUTSCHLAND": [
+      {
+        "nr": "93",
+        "name": "Papa´s Weißheit",
+        "brewery": "-",
+        "country": "DEUTSCHLAND",
+        "category": "Weizenbier"
+      },
+      {
+        "nr": "94",
+        "name": "Geselligkeit",
+        "brewery": "-",
+        "country": "DEUTSCHLAND",
+        "category": "Weizenbier"
+      },
+      {
+        "nr": "97",
+        "name": "Dolden Null",
+        "brewery": "-",
+        "country": "DEUTSCHLAND",
+        "category": "Alkoholfrei"
+      },
+      {
+        "nr": "101",
+        "name": "Mutti's Sonnenschein",
+        "brewery": "-",
+        "country": "DEUTSCHLAND",
+        "category": "Helles/Lager"
+      },
+      {
+        "nr": "102",
+        "name": "Heinzlein Helles",
+        "brewery": "-",
+        "country": "DEUTSCHLAND",
+        "category": "Helles/Lager"
+      },
+      {
+        "nr": "103",
+        "name": "Franz Josef Bayerisch Helles",
+        "brewery": "-",
+        "country": "DEUTSCHLAND",
+        "category": "Helles/Lager"
+      },
+      {
+        "nr": "108",
+        "name": "Mönchsambacher Export",
+        "brewery": "-",
+        "country": "DEUTSCHLAND",
+        "category": "Export"
+      },
+      {
+        "nr": "109",
+        "name": "Glaabsbräu Export",
+        "brewery": "-",
+        "country": "DEUTSCHLAND",
+        "category": "Export"
+      },
+      {
+        "nr": "111",
+        "name": "Ganter Export",
+        "brewery": "-",
+        "country": "DEUTSCHLAND",
+        "category": "Export"
+      },
+      {
+        "nr": "112",
+        "name": "Flötzinger Spezial Hell",
+        "brewery": "-",
+        "country": "DEUTSCHLAND",
+        "category": "Export"
+      },
+      {
+        "nr": "113",
+        "name": "Waldhaus Spezial Gold",
+        "brewery": "-",
+        "country": "DEUTSCHLAND",
+        "category": "Export"
+      },
+      {
+        "nr": "115",
+        "name": "Moritz Fiege Gründer",
+        "brewery": "-",
+        "country": "DEUTSCHLAND",
+        "category": "Export"
+      },
+      {
+        "nr": "119",
+        "name": "Erle",
+        "brewery": "-",
+        "country": "DEUTSCHLAND",
+        "category": "Schwarzbier/Porter/Stout"
+      },
+      {
+        "nr": "120",
+        "name": "Dunkel",
+        "brewery": "-",
+        "country": "DEUTSCHLAND",
+        "category": "Schwarzbier/Porter/Stout"
+      },
+      {
+        "nr": "124",
+        "name": "Oma's Betthupferl",
+        "brewery": "-",
+        "country": "DEUTSCHLAND",
+        "category": "Bockbier"
+      },
+      {
+        "nr": "129",
+        "name": "Eschenbacher Kellerbier",
+        "brewery": "-",
+        "country": "DEUTSCHLAND",
+        "category": "Kellerbier"
+      },
+      {
+        "nr": "130",
+        "name": "Opas Liebling Kellerbier",
+        "brewery": "-",
+        "country": "DEUTSCHLAND",
+        "category": "Kellerbier"
+      },
+      {
+        "nr": "135",
+        "name": "Bio Hell",
+        "brewery": "-",
+        "country": "DEUTSCHLAND",
+        "category": "Bio-Bier"
+      },
+      {
+        "nr": "136",
+        "name": "Bio Pale Ale",
+        "brewery": "-",
+        "country": "DEUTSCHLAND",
+        "category": "Bio-Bier"
+      },
+      {
+        "nr": "137",
+        "name": "Dolden Hell",
+        "brewery": "-",
+        "country": "DEUTSCHLAND",
+        "category": "Bio-Bier"
+      },
+      {
+        "nr": "140",
+        "name": "Hochland Bio Honigbier",
+        "brewery": "-",
+        "country": "DEUTSCHLAND",
+        "category": "Bio-Bier"
+      },
+      {
+        "nr": "141",
+        "name": "Frischer Traum",
+        "brewery": "-",
+        "country": "DEUTSCHLAND",
+        "category": "Bio-Bier"
+      },
+      {
+        "nr": "145",
+        "name": "Winterbier",
+        "brewery": "-",
+        "country": "DEUTSCHLAND",
+        "category": "Festbier"
+      },
+      {
+        "nr": "146",
+        "name": "Berliner Weisse Peach",
+        "brewery": "-",
+        "country": "DEUTSCHLAND",
+        "category": "Sonstiges"
+      }
+    ],
+    "FIDSCHI": [
+      {
+        "nr": "173",
+        "name": "Fiji Bitter",
+        "brewery": "Carlton Brewery Fiji",
+        "country": "FIDSCHI",
+        "category": "Helles/Lager"
+      },
+      {
+        "nr": "174",
+        "name": "Vonu Pure Lager",
+        "brewery": "Paradise Beverages",
+        "country": "FIDSCHI",
+        "category": "Helles/Lager"
+      }
+    ],
+    "IRAK": [
+      {
+        "nr": "201",
+        "name": "Farida",
+        "brewery": "Al Sharq Brewery",
+        "country": "IRAK",
+        "category": "Alkoholfrei"
+      }
+    ],
+    "JORDANIEN": [
+      {
+        "nr": "229",
+        "name": "Amstel",
+        "brewery": "Amstel Jordan",
+        "country": "JORDANIEN",
+        "category": "Helles/Lager"
+      }
+    ],
+    "KAMERUN": [
+      {
+        "nr": "233",
+        "name": "Castel Beer",
+        "brewery": "SABC",
+        "country": "KAMERUN",
+        "category": "Pilsner"
+      }
+    ],
+    "KASACHSTAN": [
+      {
+        "nr": "238",
+        "name": "Derbes",
+        "brewery": "Derbes Brewery",
+        "country": "KASACHSTAN",
+        "category": "Pilsner"
+      }
+    ],
+    "MONGOLEI": [
+      {
+        "nr": "282",
+        "name": "Soyombo",
+        "brewery": "Mongolian Beverage Company",
+        "country": "MONGOLEI",
+        "category": "Helles/Lager"
+      }
+    ],
+    "NEPAL": [
+      {
+        "nr": "293",
+        "name": "Everest Beer",
+        "brewery": "Himalayan Breweries",
+        "country": "NEPAL",
+        "category": "Helles/Lager"
+      }
+    ],
+    "NORDMAZEDONIEN": [
+      {
+        "nr": "320",
+        "name": "Gorsko",
+        "brewery": "Prilep Brewery",
+        "country": "NORDMAZEDONIEN",
+        "category": "Pilsner"
+      }
+    ],
+    "ÖSTERREICH": [
+      {
+        "nr": "325",
+        "name": "Hofstettner Saphir",
+        "brewery": "-",
+        "country": "ÖSTERREICH",
+        "category": "Bockbier"
+      }
+    ],
+    "PARAGUAY": [
+      {
+        "nr": "335",
+        "name": "Brahma",
+        "brewery": "Cervecería Paraguaya",
+        "country": "PARAGUAY",
+        "category": "Pilsner"
+      },
+      {
+        "nr": "336",
+        "name": "Pilsen",
+        "brewery": "Cervecería Asunción",
+        "country": "PARAGUAY",
+        "category": "Pilsner"
+      }
+    ],
+    "POLEN": [
+      {
+        "nr": "344",
+        "name": "Pierwsza Pomoc",
+        "brewery": "-",
+        "country": "POLEN",
+        "category": "Pilsner"
+      }
+    ],
+    "SAMOA": [
+      {
+        "nr": "364",
+        "name": "Vailima",
+        "brewery": "Samoa Breweries",
+        "country": "SAMOA",
+        "category": "Pilsner"
+      }
+    ],
+    "SCHOTTLAND": [
+      {
+        "nr": "436",
+        "name": "Scottish Stout",
+        "brewery": "-",
+        "country": "SCHOTTLAND",
+        "category": "Craft Beer"
+      }
+    ],
+    "DIVERSE/UNBEKANNT": [
+      {
+        "nr": "473",
+        "name": "Andersoni Hele - Pilsener",
+        "brewery": "-",
+        "country": "DIVERSE/UNBEKANNT",
+        "category": "Pilsner"
+      },
+      {
+        "nr": "474",
+        "name": "Simply The West - West Coast Pilsener",
+        "brewery": "-",
+        "country": "DIVERSE/UNBEKANNT",
+        "category": "Pilsner"
+      },
+      {
+        "nr": "475",
+        "name": "Zesty Bastard (NEIPA)",
+        "brewery": "-",
+        "country": "DIVERSE/UNBEKANNT",
+        "category": "IPA"
+      },
+      {
+        "nr": "476",
+        "name": "Hannibal 2025",
+        "brewery": "-",
+        "country": "DIVERSE/UNBEKANNT",
+        "category": "Schwarzbier/Porter/Stout"
+      },
+      {
+        "nr": "477",
+        "name": "Hokey Religion - Four Roses BA",
+        "brewery": "-",
+        "country": "DIVERSE/UNBEKANNT",
+        "category": "Schwarzbier/Porter/Stout"
+      },
+      {
+        "nr": "478",
+        "name": "Mindless Philosopher - Imperial Porter",
+        "brewery": "-",
+        "country": "DIVERSE/UNBEKANNT",
+        "category": "Schwarzbier/Porter/Stout"
+      },
+      {
+        "nr": "479",
+        "name": "Interceptor - Imperial Porter",
+        "brewery": "-",
+        "country": "DIVERSE/UNBEKANNT",
+        "category": "Schwarzbier/Porter/Stout"
+      },
+      {
+        "nr": "480",
+        "name": "Porter",
+        "brewery": "-",
+        "country": "DIVERSE/UNBEKANNT",
+        "category": "Schwarzbier/Porter/Stout"
+      },
+      {
+        "nr": "481",
+        "name": "Tuju Want Me? BA",
+        "brewery": "-",
+        "country": "DIVERSE/UNBEKANNT",
+        "category": "Schwarzbier/Porter/Stout"
+      },
+      {
+        "nr": "482",
+        "name": "Executor - Willet Rye BA",
+        "brewery": "-",
+        "country": "DIVERSE/UNBEKANNT",
+        "category": "Schwarzbier/Porter/Stout"
+      },
+      {
+        "nr": "483",
+        "name": "Interceptor - Fiji Rum BA",
+        "brewery": "-",
+        "country": "DIVERSE/UNBEKANNT",
+        "category": "Schwarzbier/Porter/Stout"
+      },
+      {
+        "nr": "484",
+        "name": "Mindless Philosopher - Barbados Rum BA",
+        "brewery": "-",
+        "country": "DIVERSE/UNBEKANNT",
+        "category": "Schwarzbier/Porter/Stout"
+      },
+      {
+        "nr": "485",
+        "name": "Hansebock",
+        "brewery": "-",
+        "country": "DIVERSE/UNBEKANNT",
+        "category": "Bockbier"
+      },
+      {
+        "nr": "486",
+        "name": "Wee Buckie Sesh Starter",
+        "brewery": "-",
+        "country": "DIVERSE/UNBEKANNT",
+        "category": "Craft Beer"
+      },
+      {
+        "nr": "487",
+        "name": "Rhubarb Drizzleberry Cupcake",
+        "brewery": "-",
+        "country": "DIVERSE/UNBEKANNT",
+        "category": "Craft Beer"
+      },
+      {
+        "nr": "488",
+        "name": "Orange Creamsicle",
+        "brewery": "-",
+        "country": "DIVERSE/UNBEKANNT",
+        "category": "Craft Beer"
+      },
+      {
+        "nr": "489",
+        "name": "Applehoff 2025",
+        "brewery": "-",
+        "country": "DIVERSE/UNBEKANNT",
+        "category": "Craft Beer"
+      },
+      {
+        "nr": "490",
+        "name": "Bumper - non alcoholic Blond",
+        "brewery": "-",
+        "country": "DIVERSE/UNBEKANNT",
+        "category": "Craft Beer"
+      },
+      {
+        "nr": "491",
+        "name": "Epos 0,0% - Blond Alkoholfrei",
+        "brewery": "-",
+        "country": "DIVERSE/UNBEKANNT",
+        "category": "Craft Beer"
+      },
+      {
+        "nr": "492",
+        "name": "Cider Classic Apple",
+        "brewery": "-",
+        "country": "DIVERSE/UNBEKANNT",
+        "category": "Bio-Bier"
+      },
+      {
+        "nr": "493",
+        "name": "Teleios - Griechischer Bergteebock",
+        "brewery": "-",
+        "country": "DIVERSE/UNBEKANNT",
+        "category": "Bio-Bier"
+      },
+      {
+        "nr": "494",
+        "name": "Single Maltz",
+        "brewery": "-",
+        "country": "DIVERSE/UNBEKANNT",
+        "category": "Festbier"
+      }
+    ],
+    "GESCHENKBOXEN": [
+      {
+        "nr": "496",
+        "name": "Bierstile Entdecker Box",
+        "brewery": "Verschiedene",
+        "country": "GESCHENKBOXEN",
+        "category": "Geschenkbox"
+      },
+      {
+        "nr": "497",
+        "name": "Bierziehungskiste Geschenkpaket",
+        "brewery": "Verschiedene",
+        "country": "GESCHENKBOXEN",
+        "category": "Geschenkbox"
+      },
+      {
+        "nr": "498",
+        "name": "Männerabend Geschenkpaket",
+        "brewery": "Verschiedene",
+        "country": "GESCHENKBOXEN",
+        "category": "Geschenkbox"
+      },
+      {
+        "nr": "499",
+        "name": "Festbier Box",
+        "brewery": "Verschiedene",
+        "country": "GESCHENKBOXEN",
+        "category": "Geschenkbox"
+      }
+    ]
+  },
+  "breweryMapSize": 263,
+  "brandMapSize": 176
+}
