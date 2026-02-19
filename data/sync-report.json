@@ -1,0 +1,23 @@
+{
+  "runId": "sync-1771510339645",
+  "startedAt": "2026-02-19T14:12:19.645Z",
+  "finishedAt": "2026-02-19T14:12:19.646Z",
+  "durationMs": 1,
+  "inputCount": 499,
+  "outputCount": 499,
+  "matched": {
+    "openBreweryDb": 0
+  },
+  "unmatched": 499,
+  "conflicts": 0,
+  "overridesApplied": 1,
+  "missingFields": {
+    "breweryWebsite": 498,
+    "breweryCity": 498,
+    "stammwuerze": 94,
+    "abv": 74,
+    "ingredients": 89
+  },
+  "errors": [],
+  "warnings": []
+}

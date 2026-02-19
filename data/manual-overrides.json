@@ -1,0 +1,11 @@
+{
+  "overrides": [
+    {
+      "nr": 1,
+      "fields": {
+        "breweryWebsite": "https://example.com",
+        "breweryCity": "City Name"
+      }
+    }
+  ]
+}

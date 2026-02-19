@@ -13,7 +13,10 @@
     "ai:start": "node scripts/ai/auto-start.mjs",
     "design:asset": "node scripts/design/generate-asset.mjs",
     "design:logo": "node scripts/design/generate-asset.mjs --type logo",
-    "design:image": "node scripts/design/generate-asset.mjs --type image"
+    "design:image": "node scripts/design/generate-asset.mjs --type image",
+    "data:sync": "node scripts/data/sync-beers.mjs",
+    "data:sync:dry": "node scripts/data/sync-beers.mjs --dry-run",
+    "data:test": "node scripts/data/__tests__/load-csv.test.mjs && node scripts/data/__tests__/merge-enrichment.test.mjs && node scripts/data/__tests__/integration.test.mjs"
   },
   "dependencies": {
     "next": "16.1.6",

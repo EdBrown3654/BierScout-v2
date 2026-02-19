@@ -148,7 +148,7 @@ function BeerCard({ beer }: { beer: Beer }) {
       {/* Info grid */}
       <div className="mt-3 grid grid-cols-4 gap-1 border-t-[2px] border-black pt-3">
         <InfoCell label={t.card.label.country} value={beer.country || "?"} />
-        <InfoCell label={t.card.label.abv} value={beer.abv !== "-" ? beer.abv : "?"} />
+        <InfoCell label={t.card.label.abv} value={beer.abv && beer.abv !== "-" ? beer.abv : "?"} />
         <InfoCell label={t.card.label.size} value={beer.size} />
         <InfoCell label={t.card.label.price} value={beer.price} />
       </div>
