@@ -45,6 +45,69 @@ const DEFAULT_DELAY_MS = 500; // milliseconds between requests
 const TIMEOUT_MS = 10000; // 10 seconds per request
 const MAX_RETRIES = 1; // retry failed requests once
 
+const COUNTRY_NAME_ALIASES = {
+  agypten: "egypt",
+  albanien: "albania",
+  argentinien: "argentina",
+  australien: "australia",
+  belgien: "belgium",
+  brasilien: "brazil",
+  bulgarien: "bulgaria",
+  chile: "chile",
+  china: "china",
+  danemark: "denmark",
+  deutschland: "germany",
+  finnland: "finland",
+  frankreich: "france",
+  griechenland: "greece",
+  indien: "india",
+  indonesien: "indonesia",
+  irland: "ireland",
+  island: "iceland",
+  israel: "israel",
+  italien: "italy",
+  japan: "japan",
+  kanada: "canada",
+  kuba: "cuba",
+  luxemburg: "luxembourg",
+  mexiko: "mexico",
+  niederlande: "netherlands",
+  norwegen: "norway",
+  osterreich: "austria",
+  paraguay: "paraguay",
+  peru: "peru",
+  polen: "poland",
+  portugal: "portugal",
+  rumanien: "romania",
+  russland: "russia",
+  schweden: "sweden",
+  schweiz: "switzerland",
+  singapur: "singapore",
+  slowakei: "slovakia",
+  slowenien: "slovenia",
+  spanien: "spain",
+  sudafrika: "south africa",
+  tschechien: "czech republic",
+  turkei: "turkey",
+  uk: "united kingdom",
+  ungarn: "hungary",
+  usa: "united states",
+  "vereinigte staaten": "united states",
+};
+
+const BREWERY_QUERY_ALIASES = {
+  "heineken slovensko": "heineken",
+  "heineken italia": "heineken",
+  "heineken uk": "heineken",
+  "heineken romania": "heineken",
+  "heineken russia": "heineken",
+  "heineken espana": "heineken",
+  "heineken ceska republika": "heineken",
+  "heineken hungaria": "heineken",
+  "heineken png": "heineken",
+  "guinness brewery": "guinness",
+};
+
 /**
  * Normalize string for matching: lowercase, remove accents, trim
  */
@@ -57,6 +120,72 @@ function normalizeForMatching(str) {
     .trim();
 }
 
+function normalizeCountryForMatching(country) {
+  const normalized = normalizeForMatching(country);
+  return COUNTRY_NAME_ALIASES[normalized] || normalized;
+}
+
+function simplifyBreweryNameForQuery(name) {
+  if (!name) return "";
+
+  const simplified = name
+    .replace(/\([^)]*\)/g, " ")
+    .replace(/&/g, " and ")
+    .replace(
+      /\b(brauerei|brewery|breweries|brewing|company|co\.?|group|industries|industry|s\.?a\.?l?\.?|ltd\.?|inc\.?)\b/gi,
+      " "
+    )
+    .replace(/\b(italia|uk|russia|romania|hungaria|españa|espana|slovensko|png|ceska|republika)\b/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  return simplified;
+}
+
+function buildQueryCandidates(breweryName) {
+  const candidates = [];
+  const pushCandidate = (value) => {
+    const trimmed = (value || "").trim();
+    if (!trimmed) return;
+    if (!candidates.includes(trimmed)) {
+      candidates.push(trimmed);
+    }
+  };
+
+  pushCandidate(breweryName);
+
+  const normalizedName = normalizeForMatching(breweryName);
+  const aliasCandidate = BREWERY_QUERY_ALIASES[normalizedName];
+  if (aliasCandidate) {
+    pushCandidate(aliasCandidate);
+  }
+
+  const simplifiedCandidate = simplifyBreweryNameForQuery(breweryName);
+  if (
+    simplifiedCandidate &&
+    normalizeForMatching(simplifiedCandidate) !== normalizedName
+  ) {
+    pushCandidate(simplifiedCandidate);
+  }
+
+  return candidates;
+}
+
+function dedupeBreweries(breweries) {
+  const unique = new Map();
+
+  for (const brewery of breweries) {
+    const key =
+      brewery.id ||
+      `${normalizeForMatching(brewery.name)}|${normalizeCountryForMatching(brewery.country)}`;
+    if (!unique.has(key)) {
+      unique.set(key, brewery);
+    }
+  }
+
+  return Array.from(unique.values());
+}
+
 /**
  * Calculate simple matching score between brewery names
  * Higher score = better match
@@ -64,8 +193,8 @@ function normalizeForMatching(str) {
 function calculateMatchScore(csvName, breweryName, csvCountry, breweryCountry) {
   const normCsvName = normalizeForMatching(csvName);
   const normBrewName = normalizeForMatching(breweryName);
-  const normCsvCountry = normalizeForMatching(csvCountry);
-  const normBrewCountry = normalizeForMatching(breweryCountry || "");
+  const normCsvCountry = normalizeCountryForMatching(csvCountry);
+  const normBrewCountry = normalizeCountryForMatching(breweryCountry || "");
 
   let score = 0;
 
@@ -156,6 +285,50 @@ async function httpGetWithTimeout(urlStr, options = {}) {
   }
 }
 
+async function queryByName(query) {
+  const byNameUrl = `${API_BASE}/breweries?by_name=${encodeURIComponent(
+    query
+  )}&per_page=50`;
+  const result = await httpGetWithTimeout(byNameUrl, {
+    timeout: TIMEOUT_MS,
+    retries: 1,
+  });
+  return Array.isArray(result) ? result : [];
+}
+
+async function queryBySearch(query) {
+  const searchUrl = `${API_BASE}/breweries/search?query=${encodeURIComponent(
+    query
+  )}&per_page=50`;
+  const result = await httpGetWithTimeout(searchUrl, {
+    timeout: TIMEOUT_MS,
+    retries: 1,
+  });
+  return Array.isArray(result) ? result : [];
+}
+
+async function fetchBreweryCandidates(queryCandidates) {
+  const collected = [];
+
+  for (const queryCandidate of queryCandidates) {
+    const byNameResults = await queryByName(queryCandidate);
+    if (byNameResults.length > 0) {
+      collected.push(...byNameResults);
+    }
+  }
+
+  if (collected.length === 0) {
+    for (const queryCandidate of queryCandidates) {
+      const searchResults = await queryBySearch(queryCandidate);
+      if (searchResults.length > 0) {
+        collected.push(...searchResults);
+      }
+    }
+  }
+
+  return dedupeBreweries(collected);
+}
+
 /**
  * Search brewery by name and country
  *
@@ -176,12 +349,8 @@ export async function searchBrewery(breweryName, country, options = {}) {
     // Wait for rate limit
     await sleep(delayMs);
 
-    // Build search query: brewery name
-    const url = `${API_BASE}/breweries?by_name=${encodeURIComponent(
-      breweryName
-    )}&per_page=50`;
-
-    const results = await httpGetWithTimeout(url, { timeout: TIMEOUT_MS, retries: 1 });
+    const queryCandidates = buildQueryCandidates(breweryName);
+    const results = await fetchBreweryCandidates(queryCandidates);
 
     if (!Array.isArray(results) || results.length === 0) {
       return null;
@@ -247,16 +416,24 @@ export async function searchBrewery(breweryName, country, options = {}) {
 export async function enrichBeers(baselineBeers, options = {}) {
   const { delayMs = DEFAULT_DELAY_MS } = options;
   const enrichment = new Map();
+  const lookupCache = new Map();
   let matched = 0;
   let attempted = 0;
 
   for (const beer of baselineBeers) {
     attempted++;
-    const payload = await searchBrewery(
-      beer.brewery,
-      beer.country,
-      { delayMs }
-    );
+    const cacheKey = [
+      normalizeForMatching(beer.brewery),
+      normalizeCountryForMatching(beer.country),
+    ].join("|");
+
+    let payload;
+    if (lookupCache.has(cacheKey)) {
+      payload = lookupCache.get(cacheKey);
+    } else {
+      payload = await searchBrewery(beer.brewery, beer.country, { delayMs });
+      lookupCache.set(cacheKey, payload);
+    }
 
     if (payload) {
       enrichment.set(beer.nr, payload);

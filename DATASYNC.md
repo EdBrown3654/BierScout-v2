@@ -155,6 +155,7 @@ Wichtig:
 Automatisch ueber:
 - `vercel.json` (Cron Schedule)
 - Endpoint: `GET /api/cron/data-sync`
+- Aktueller Rhythmus: einmal pro Woche (montags `02:00 UTC`)
 
 Der Endpoint:
 - prueft `CRON_SECRET`
