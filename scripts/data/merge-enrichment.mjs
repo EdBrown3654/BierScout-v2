@@ -1,6 +1,6 @@
 /**
  * Merge Engine: Apply deterministic precedence and track data sources
- * Priority: manual overrides > CSV baseline > API enrichment > scrape enrichment
+ * Priority: manual overrides > API enrichment > CSV baseline
  *
  * Implements AC-5: Explicit merge precedence
  * Implements AC-6: Source trace metadata
@@ -197,31 +197,25 @@ export function mergeBeers(
       });
     }
 
-    // Apply Open Food Facts enrichment (fill gaps only; CSV keeps precedence)
+    // Apply Open Food Facts enrichment (API has precedence over CSV)
     const offEnrichment = openFoodFactsMap.get(baseline.nr);
     if (offEnrichment) {
-      if (!enriched.abv && offEnrichment.abv) {
+      if (offEnrichment.price) {
+        enriched.price = offEnrichment.price;
+      }
+      if (offEnrichment.abv) {
         enriched.abv = offEnrichment.abv;
       }
-      if (!enriched.ingredients && offEnrichment.ingredients) {
+      if (offEnrichment.ingredients) {
         enriched.ingredients = offEnrichment.ingredients;
       }
-      if (
-        (!enriched.size || enriched.size === "-") &&
-        offEnrichment.size
-      ) {
+      if (offEnrichment.size) {
         enriched.size = offEnrichment.size;
       }
-      if (
-        (!enriched.country || enriched.country === "-") &&
-        offEnrichment.country
-      ) {
+      if (offEnrichment.country) {
         enriched.country = offEnrichment.country;
       }
-      if (
-        (!enriched.category || enriched.category === "-") &&
-        offEnrichment.category
-      ) {
+      if (offEnrichment.category) {
         enriched.category = offEnrichment.category;
       }
       if (offEnrichment.offCode) {

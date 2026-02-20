@@ -17,6 +17,12 @@ const DEFAULT_DISCOVERY_LIMIT = 300;
 const REQUEST_TIMEOUT_MS = 15000;
 
 const DIACRITIC_PATTERN = /[\u0300-\u036f]/g;
+const CURRENCY_SYMBOL_BY_CODE = {
+  EUR: "€",
+  USD: "$",
+  GBP: "£",
+  CHF: "CHF",
+};
 
 function normalizeForMatching(value) {
   if (!value) return "";
@@ -76,6 +82,69 @@ function normalizeAbv(value) {
   return `${numeric.toFixed(1).replace(".", ",")}%`;
 }
 
+function parseNumber(value) {
+  if (value === null || value === undefined || value === "") {
+    return undefined;
+  }
+
+  const normalized = String(value)
+    .trim()
+    .replace(/[^0-9,.-]/g, "")
+    .replace(",", ".");
+  const parsed = Number.parseFloat(normalized);
+  if (!Number.isFinite(parsed) || parsed <= 0) {
+    return undefined;
+  }
+  return parsed;
+}
+
+function formatPrice(value, currencyHint) {
+  const numeric = parseNumber(value);
+  if (!numeric) {
+    return undefined;
+  }
+
+  const normalizedCurrency = cleanValue(currencyHint)?.toUpperCase();
+  const symbol =
+    (normalizedCurrency && CURRENCY_SYMBOL_BY_CODE[normalizedCurrency]) ||
+    normalizedCurrency ||
+    "€";
+
+  return `${numeric.toFixed(2).replace(".", ",")} ${symbol}`;
+}
+
+function extractPrice(product) {
+  const directPrice =
+    formatPrice(
+      product.price_value ?? product.price,
+      product.price_currency ?? product.currency,
+    ) || undefined;
+
+  if (directPrice) {
+    return {
+      price: directPrice,
+      observedAt: cleanValue(product.price_date),
+    };
+  }
+
+  if (Array.isArray(product.prices)) {
+    for (const candidate of product.prices) {
+      const formatted = formatPrice(
+        candidate?.price ?? candidate?.price_value ?? candidate?.amount,
+        candidate?.currency ?? product.price_currency ?? product.currency,
+      );
+      if (formatted) {
+        return {
+          price: formatted,
+          observedAt: cleanValue(candidate?.date) || cleanValue(product.price_date),
+        };
+      }
+    }
+  }
+
+  return { price: undefined, observedAt: undefined };
+}
+
 function extractAbv(product) {
   return (
     normalizeAbv(product.abv) ||
@@ -104,7 +173,7 @@ async function fetchBeerProductsPage(page, pageSize) {
     tag_contains_0: "contains",
     tag_0: "beers",
     fields:
-      "code,product_name,brands,countries,quantity,ingredients_text,abv,alcohol_by_volume,nutriments",
+      "code,product_name,brands,countries,quantity,ingredients_text,abv,alcohol_by_volume,nutriments,price,price_value,price_currency,currency,price_date,prices",
   });
 
   const response = await fetch(`${API_BASE}?${params.toString()}`, {
@@ -176,10 +245,14 @@ function calculateMatchScore(beer, product) {
 
 function mapOpenFoodFactsEnrichment(product, matchScore) {
   const offCode = cleanValue(product.code);
+  const { price, observedAt } = extractPrice(product);
   return {
     abv: extractAbv(product),
     ingredients: cleanValue(product.ingredients_text),
     size: cleanValue(product.quantity),
+    country: extractCountry(product.countries),
+    price,
+    offPriceObservedAt: observedAt,
     offCode,
     offUrl: buildProductUrl(offCode),
     matchScore,
@@ -196,6 +269,7 @@ function mapDiscoveredBeer(product, nr, syncedAt) {
   const country = extractCountry(product.countries) || "Unknown";
   const offCode = cleanValue(product.code);
   const offUrl = buildProductUrl(offCode);
+  const { price } = extractPrice(product);
 
   return {
     nr,
@@ -204,7 +278,7 @@ function mapDiscoveredBeer(product, nr, syncedAt) {
     country,
     category: "Beer",
     size: cleanValue(product.quantity) || "-",
-    price: "-",
+    price: price || "-",
     abv: extractAbv(product),
     ingredients: cleanValue(product.ingredients_text),
     dataSources: [

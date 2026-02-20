@@ -131,7 +131,7 @@ describe("Merge Engine", () => {
     assert(beer.syncedAt);
   });
 
-  test("fills missing core fields from Open Food Facts without overriding CSV", () => {
+  test("applies API precedence from Open Food Facts over CSV for overlapping fields", () => {
     const baseline = [
       {
         nr: 1,
@@ -153,7 +153,9 @@ describe("Merge Engine", () => {
         {
           abv: "5,0%",
           ingredients: "Water, Malt, Hops",
+          country: "Belgium",
           size: "0,5L",
+          price: "1,80 €",
           offCode: "1234567890",
           offUrl: "https://world.openfoodfacts.org/product/1234567890",
         },
@@ -165,12 +167,12 @@ describe("Merge Engine", () => {
     });
     const beer = enriched[0];
 
-    // Fill gaps from OFF
+    // API precedence over CSV
     assert.strictEqual(beer.abv, "5,0%");
     assert.strictEqual(beer.ingredients, "Water, Malt, Hops");
-
-    // CSV precedence: existing size is kept
-    assert.strictEqual(beer.size, "0,33L");
+    assert.strictEqual(beer.country, "Belgium");
+    assert.strictEqual(beer.price, "1,80 €");
+    assert.strictEqual(beer.size, "0,5L");
 
     // Source metadata should include OFF
     assert.strictEqual(beer.openFoodFactsCode, "1234567890");

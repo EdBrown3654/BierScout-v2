@@ -38,8 +38,8 @@ Enrich from Open Brewery DB (sources/open-brewery-db.mjs)
 Enrich + Discover from Open Food Facts (sources/open-food-facts.mjs)
     ↓
 Merge with explicit precedence (merge-enrichment.mjs)
-  Priority: manual overrides > CSV > API
-  (API fills gaps, CSV values keep precedence)
+  Priority: manual overrides > API > CSV
+  (for overlapping fields, API values win)
     ↓
 Validate & Track quality (report-quality.mjs)
     ↓
@@ -212,7 +212,8 @@ Matching algorithm:
 - **Endpoint**: `https://world.openfoodfacts.org/cgi/search.pl`
 - **Query**: beer category search pages (`tag_0=beers`)
 - **No API key required** for read access
-- **Data used**: ABV, ingredients, quantity, product code, product URL
+- **Data used**: ABV, ingredients, quantity, country hints, price, product code, product URL
+- **Precedence rule**: OFF values override CSV values for overlapping fields
 - **Discovery**: unmatched OFF products can be added as new beer records
 
 Matching strategy:

@@ -71,8 +71,9 @@ Stand: 20. Februar 2026
 5. Daten mergen
    - Prioritaet:
      - manual override
+     - API
      - CSV
-     - API (Open Brewery DB, Open Food Facts fuer fehlende Felder)
+   - Das heisst: API-Felder haben generell Vorrang vor CSV-Feldern.
 
 6. Report bauen
    - Ausgabe: `data/sync-report.json`
@@ -115,9 +116,11 @@ Stand: 20. Februar 2026
 
 ### Aus Open Food Facts (zusaetzlich)
 
-- `abv` / `alcohol_by_volume` / `nutriments.alcohol` -> `abv` (nur wenn in CSV leer)
-- `ingredients_text` -> `ingredients` (nur wenn in CSV leer)
-- `quantity` -> `size` (nur wenn in CSV leer)
+- `abv` / `alcohol_by_volume` / `nutriments.alcohol` -> `abv` (API hat Vorrang)
+- `ingredients_text` -> `ingredients` (API hat Vorrang)
+- `quantity` -> `size` (API hat Vorrang)
+- `countries` -> `country` (API hat Vorrang)
+- `price` / `price_value` -> `price` (ueberschreibt CSV-Preis, wenn API-Preis valide ist)
 - `code` -> `openFoodFactsCode`
 - Produkt-URL -> `openFoodFactsUrl`
 - Produkte ausserhalb der CSV koennen als neue Datensaetze aufgenommen werden

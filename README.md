@@ -75,6 +75,7 @@ Danach: `http://localhost:3000`
 - Ablauf: `npm run data:sync` (Open Brewery DB + Open Food Facts, inkl. Discovery) -> Commit geaenderter Daten -> Push in den Default-Branch
 - Vercel bekommt die neuen Daten per normalem Git-Deploy
 - Frontend zeigt keine eigene Source-Metadaten-Sektion; Source-Infos bleiben im Datensatz fuer Sync-Qualitaet.
+- Merge-Regel: `manual override > API > CSV` (API hat bei ueberlappenden Feldern Vorrang).
 
 Wichtig:
 - Wenn GitHub Actions der einzige Scheduler ist, sollte `vercel.json` keinen aktiven Cron enthalten.
