@@ -127,21 +127,21 @@ function BeerCard({ beer }: { beer: Beer }) {
         {/* Name + Brewery + Nr */}
         <div className="min-w-0 flex-1">
           <div className="flex items-start justify-between gap-2">
-            <span className="inline-block shrink-0 border-[2px] border-black bg-black px-1.5 py-0.5 font-mono text-[9px] font-bold text-white group-hover:bg-white group-hover:text-black">
-              #{String(beer.nr).padStart(3, "0")}
-            </span>
-            <span className="truncate text-right font-mono text-[10px] uppercase tracking-wider text-gray-500 group-hover:text-black">
+            <h3 className="min-w-0 flex-1 text-base font-bold uppercase leading-tight tracking-wide">
+              <span className="block truncate">{beer.name}</span>
+            </h3>
+            <span className="shrink-0 text-right font-mono text-[10px] uppercase tracking-wider text-gray-500 group-hover:text-black">
               {beer.category}
             </span>
           </div>
 
-          <h3 className="mt-1 text-base font-bold uppercase leading-tight tracking-wide">
-            {beer.name}
-          </h3>
-
           <p className="mt-0.5 truncate font-mono text-[10px] uppercase tracking-wider text-gray-600 group-hover:text-black/70">
             {beer.brewery !== "-" ? beer.brewery : t.card.unknown}
           </p>
+
+          <div className="mt-1 font-mono text-[9px] uppercase tracking-wider text-gray-500 group-hover:text-black/60">
+            #{String(beer.nr).padStart(3, "0")}
+          </div>
         </div>
       </div>
 
