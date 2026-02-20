@@ -7,6 +7,11 @@ Ziel:
 - Du verstehst, wie Updates automatisch laufen.
 - Du weisst, welche Datei am Ende auf der Website landet.
 
+Produktziel der Website:
+- BierScout soll langfristig moeglichst alle Biere der Welt abdecken.
+- Alle relevanten Bierinfos sollen dynamisch und regelmaessig aktualisiert werden.
+- Die CSV ist aktuell Startbasis/Fallback und wird schrittweise ersetzt.
+
 Stand: 20. Februar 2026
 
 ## Kurzfassung in 20 Sekunden
@@ -17,6 +22,12 @@ Stand: 20. Februar 2026
 4. Eine GitHub Action startet das automatisch 1x pro Woche.
 5. Wenn sich Daten aendern, commitet die Action automatisch ins Repo.
 6. Vercel deployed danach automatisch den neuen Stand.
+
+## Aktueller Stand vs. Ziel
+
+- Aktuell: nur ein Teil der Felder kommt dynamisch (hauptsaechlich Brauerei-Metadaten).
+- Ziel: auch Kernfelder wie ABV, Zutaten, Groesse und Preis sollen schrittweise dynamisch aus mehreren Quellen kommen.
+- Wichtig: Preise sind orts- und zeitabhaengig und brauchen deshalb Quelle + Zeitpunkt statt eines statischen Einzelwerts.
 
 ## Die wichtigsten Dateien
 

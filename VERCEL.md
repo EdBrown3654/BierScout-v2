@@ -5,6 +5,12 @@ dass Bierdaten automatisch 1x pro Woche aktualisiert werden.
 
 Stand: 20. Februar 2026
 
+## Produktziel-Kontext
+
+- Ziel von BierScout ist ein moeglichst globaler, dynamischer Bierkatalog.
+- Die Daten sollen langfristig nicht mehr manuell gepflegt werden muessen.
+- Vercel ist in diesem Modell die Auslieferungsschicht, nicht der Scheduler.
+
 ## Wichtig vorab
 
 Der Scheduler laeuft in diesem Setup **nicht** in Vercel, sondern in **GitHub Actions**.

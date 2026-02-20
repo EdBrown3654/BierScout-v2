@@ -4,6 +4,14 @@ BierScout ist eine brutalistische Next.js Landing Page fuer Bier-Discovery.
 Die App laedt eine kuratierte Bierliste aus `biermarket_bierliste.csv` und bietet
 Suche + Filter ueber Herkunftsland und Kategorie.
 
+## Produktziel
+
+- BierScout soll langfristig ein globaler, dynamischer Bierkatalog werden.
+- Ziel ist: moeglichst alle Biere der Welt, nicht nur ein statischer Auszug.
+- Alle relevanten Bierfelder sollen schrittweise aus aktualisierbaren Quellen kommen.
+- Jede angezeigte Information soll nachvollziehbar sein (Quelle + Aktualisierungszeit).
+- Die CSV ist aktuell Seed/Fallback, aber nicht das langfristige Endmodell.
+
 Aktueller Datenstand aus der CSV:
 - 499 Biere
 - 119 Laender
@@ -55,6 +63,7 @@ Danach: `http://localhost:3000`
 - CSV-Datei: `biermarket_bierliste.csv`
 - Runtime-Loader: `src/lib/beers.ts`
 - Reihenfolge zur Laufzeit: `data/beers.enriched.json` -> optional Vercel Blob (`beers/latest.json`) -> CSV-Fallback
+- Strategisches Ziel: CSV-Abhaengigkeit reduzieren und Daten schrittweise source-basiert dynamisch aufbauen.
 - Country-Section-Header (`=== LAND ===`) werden als Fallback fuer fehlende Country-Felder genutzt
 - Kategorien und Laender werden zur Laufzeit aus den Datensaetzen dedupliziert
 

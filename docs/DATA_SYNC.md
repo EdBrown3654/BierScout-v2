@@ -2,6 +2,15 @@
 
 This document describes the Beer Data Sync & Enrichment Pipeline for BierScout.
 
+## Product Goal
+
+The long-term product goal is a global, continuously updated beer catalog:
+
+- Cover as many beers worldwide as possible.
+- Move from static CSV-only data toward multi-source dynamic enrichment.
+- Keep each field traceable with source and freshness metadata.
+- Treat the CSV as seed/fallback, not as the final operating model.
+
 ## Overview
 
 The pipeline automatically enriches the beer database with metadata from free API sources:
