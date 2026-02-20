@@ -13,16 +13,16 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       },
       {
         "source": "manual-override",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
     "breweryWebsite": "https://example.com",
     "breweryCity": "City Name",
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 2,
@@ -38,10 +38,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 3,
@@ -57,10 +57,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 4,
@@ -76,10 +76,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 5,
@@ -94,10 +94,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 6,
@@ -113,10 +113,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 7,
@@ -132,10 +132,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 8,
@@ -151,10 +151,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 9,
@@ -170,10 +170,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 10,
@@ -189,10 +189,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 11,
@@ -208,10 +208,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 12,
@@ -227,10 +227,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 13,
@@ -246,10 +246,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 14,
@@ -265,10 +265,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 15,
@@ -284,10 +284,26 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
+      },
+      {
+        "source": "open-brewery-db",
+        "sourceId": "a36146d0-57f4-4ce1-ad54-e6bc200c02a3",
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "breweryId": "a36146d0-57f4-4ce1-ad54-e6bc200c02a3",
+    "breweryCity": "Abbotsford",
+    "breweryState": "VIC",
+    "breweryStateProvince": "VIC",
+    "breweryCountryCode": "Australia",
+    "breweryType": "large",
+    "breweryPostalCode": "3067",
+    "breweryStreet": "1 Southampton Crescent",
+    "breweryAddress1": "1 Southampton Crescent",
+    "breweryLatitude": -37.8085828,
+    "breweryLongitude": 145.0046161,
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 16,
@@ -303,10 +319,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 17,
@@ -322,10 +338,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 18,
@@ -341,10 +357,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 19,
@@ -360,10 +376,26 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
+      },
+      {
+        "source": "open-brewery-db",
+        "sourceId": "a36146d0-57f4-4ce1-ad54-e6bc200c02a3",
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "breweryId": "a36146d0-57f4-4ce1-ad54-e6bc200c02a3",
+    "breweryCity": "Abbotsford",
+    "breweryState": "VIC",
+    "breweryStateProvince": "VIC",
+    "breweryCountryCode": "Australia",
+    "breweryType": "large",
+    "breweryPostalCode": "3067",
+    "breweryStreet": "1 Southampton Crescent",
+    "breweryAddress1": "1 Southampton Crescent",
+    "breweryLatitude": -37.8085828,
+    "breweryLongitude": 145.0046161,
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 20,
@@ -379,10 +411,26 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
+      },
+      {
+        "source": "open-brewery-db",
+        "sourceId": "a36146d0-57f4-4ce1-ad54-e6bc200c02a3",
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "breweryId": "a36146d0-57f4-4ce1-ad54-e6bc200c02a3",
+    "breweryCity": "Abbotsford",
+    "breweryState": "VIC",
+    "breweryStateProvince": "VIC",
+    "breweryCountryCode": "Australia",
+    "breweryType": "large",
+    "breweryPostalCode": "3067",
+    "breweryStreet": "1 Southampton Crescent",
+    "breweryAddress1": "1 Southampton Crescent",
+    "breweryLatitude": -37.8085828,
+    "breweryLongitude": 145.0046161,
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 21,
@@ -398,10 +446,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 22,
@@ -417,10 +465,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 23,
@@ -436,10 +484,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 24,
@@ -455,10 +503,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 25,
@@ -474,10 +522,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 26,
@@ -493,10 +541,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 27,
@@ -512,10 +560,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 28,
@@ -531,10 +579,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 29,
@@ -547,10 +595,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 30,
@@ -564,10 +612,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 31,
@@ -580,10 +628,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 32,
@@ -599,10 +647,28 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
+      },
+      {
+        "source": "open-brewery-db",
+        "sourceId": "d1a61260-d377-4e7d-8ce9-8851e30934ae",
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "breweryId": "d1a61260-d377-4e7d-8ce9-8851e30934ae",
+    "breweryWebsite": "http://www.anheuser-busch.com",
+    "breweryCity": "Saint Louis",
+    "breweryState": "Missouri",
+    "breweryStateProvince": "Missouri",
+    "breweryCountryCode": "United States",
+    "breweryType": "large",
+    "breweryPhone": "3145772000",
+    "breweryPostalCode": "63118-1849",
+    "breweryStreet": "1 Busch Pl",
+    "breweryAddress1": "1 Busch Pl",
+    "breweryLatitude": 38.5954536,
+    "breweryLongitude": -90.2118998,
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 33,
@@ -618,10 +684,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 34,
@@ -637,10 +703,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 35,
@@ -656,10 +722,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 36,
@@ -675,10 +741,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 37,
@@ -694,10 +760,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 38,
@@ -713,10 +779,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 39,
@@ -732,10 +798,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 40,
@@ -751,10 +817,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 41,
@@ -770,10 +836,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 42,
@@ -789,10 +855,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 43,
@@ -808,10 +874,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 44,
@@ -827,10 +893,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 45,
@@ -846,10 +912,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 46,
@@ -865,10 +931,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 47,
@@ -884,10 +950,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 48,
@@ -903,10 +969,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 49,
@@ -922,10 +988,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 50,
@@ -941,10 +1007,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 51,
@@ -960,10 +1026,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 52,
@@ -979,10 +1045,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 53,
@@ -998,10 +1064,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 54,
@@ -1017,10 +1083,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 55,
@@ -1036,10 +1102,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 56,
@@ -1055,10 +1121,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 57,
@@ -1074,10 +1140,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 58,
@@ -1093,10 +1159,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 59,
@@ -1112,10 +1178,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 60,
@@ -1131,10 +1197,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 61,
@@ -1150,10 +1216,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 62,
@@ -1169,10 +1235,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 63,
@@ -1188,10 +1254,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 64,
@@ -1207,10 +1273,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 65,
@@ -1226,10 +1292,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 66,
@@ -1245,10 +1311,28 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
+      },
+      {
+        "source": "open-brewery-db",
+        "sourceId": "d1a61260-d377-4e7d-8ce9-8851e30934ae",
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "breweryId": "d1a61260-d377-4e7d-8ce9-8851e30934ae",
+    "breweryWebsite": "http://www.anheuser-busch.com",
+    "breweryCity": "Saint Louis",
+    "breweryState": "Missouri",
+    "breweryStateProvince": "Missouri",
+    "breweryCountryCode": "United States",
+    "breweryType": "large",
+    "breweryPhone": "3145772000",
+    "breweryPostalCode": "63118-1849",
+    "breweryStreet": "1 Busch Pl",
+    "breweryAddress1": "1 Busch Pl",
+    "breweryLatitude": 38.5954536,
+    "breweryLongitude": -90.2118998,
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 67,
@@ -1264,10 +1348,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 68,
@@ -1283,10 +1367,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 69,
@@ -1302,10 +1386,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 70,
@@ -1321,10 +1405,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 71,
@@ -1340,10 +1424,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 72,
@@ -1359,10 +1443,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 73,
@@ -1378,10 +1462,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 74,
@@ -1397,10 +1481,27 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
+      },
+      {
+        "source": "open-brewery-db",
+        "sourceId": "e5d8969a-c6b8-4931-901b-0ba2222bcd63",
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "breweryId": "e5d8969a-c6b8-4931-901b-0ba2222bcd63",
+    "breweryWebsite": "https://mikkeller.com/locations/mikkeller-berlin",
+    "breweryCity": "Berlin",
+    "breweryState": "Berlin",
+    "breweryStateProvince": "Berlin",
+    "breweryCountryCode": "Germany",
+    "breweryType": "bar",
+    "breweryPostalCode": "10119",
+    "breweryStreet": "Torstraße 102",
+    "breweryAddress1": "Torstraße 102",
+    "breweryLatitude": 13.3942421,
+    "breweryLongitude": 52.5285769,
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 75,
@@ -1416,10 +1517,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 76,
@@ -1435,10 +1536,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 77,
@@ -1454,10 +1555,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 78,
@@ -1470,10 +1571,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 79,
@@ -1486,10 +1587,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 80,
@@ -1505,10 +1606,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 81,
@@ -1522,10 +1623,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 82,
@@ -1541,10 +1642,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 83,
@@ -1557,10 +1658,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 84,
@@ -1573,10 +1674,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 85,
@@ -1589,10 +1690,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 86,
@@ -1608,10 +1709,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 87,
@@ -1627,10 +1728,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 88,
@@ -1643,10 +1744,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 89,
@@ -1659,10 +1760,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 90,
@@ -1676,10 +1777,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 91,
@@ -1692,10 +1793,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 92,
@@ -1709,10 +1810,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 93,
@@ -1725,10 +1826,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 94,
@@ -1741,10 +1842,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 95,
@@ -1760,10 +1861,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 96,
@@ -1779,10 +1880,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 97,
@@ -1796,10 +1897,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 98,
@@ -1815,10 +1916,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 99,
@@ -1834,10 +1935,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 100,
@@ -1853,10 +1954,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 101,
@@ -1869,10 +1970,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 102,
@@ -1885,10 +1986,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 103,
@@ -1901,10 +2002,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 104,
@@ -1919,10 +2020,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 105,
@@ -1938,10 +2039,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 106,
@@ -1954,10 +2055,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 107,
@@ -1970,10 +2071,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 108,
@@ -1986,10 +2087,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 109,
@@ -2002,10 +2103,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 110,
@@ -2018,10 +2119,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 111,
@@ -2034,10 +2135,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 112,
@@ -2050,10 +2151,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 113,
@@ -2066,10 +2167,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 114,
@@ -2082,10 +2183,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 115,
@@ -2098,10 +2199,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 116,
@@ -2114,10 +2215,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 117,
@@ -2130,10 +2231,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 118,
@@ -2146,10 +2247,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 119,
@@ -2162,10 +2263,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 120,
@@ -2178,10 +2279,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 121,
@@ -2197,10 +2298,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 122,
@@ -2216,10 +2317,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 123,
@@ -2235,10 +2336,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 124,
@@ -2251,10 +2352,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 125,
@@ -2267,10 +2368,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 126,
@@ -2286,10 +2387,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 127,
@@ -2303,10 +2404,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 128,
@@ -2322,10 +2423,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 129,
@@ -2338,10 +2439,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 130,
@@ -2354,10 +2455,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 131,
@@ -2370,10 +2471,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 132,
@@ -2386,10 +2487,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 133,
@@ -2405,10 +2506,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 134,
@@ -2424,10 +2525,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 135,
@@ -2440,10 +2541,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 136,
@@ -2456,10 +2557,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 137,
@@ -2472,10 +2573,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 138,
@@ -2488,10 +2589,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 139,
@@ -2504,10 +2605,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 140,
@@ -2520,10 +2621,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 141,
@@ -2536,10 +2637,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 142,
@@ -2553,10 +2654,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 143,
@@ -2569,10 +2670,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 144,
@@ -2585,10 +2686,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 145,
@@ -2601,10 +2702,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 146,
@@ -2617,10 +2718,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 147,
@@ -2636,10 +2737,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 148,
@@ -2655,10 +2756,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 149,
@@ -2673,10 +2774,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 150,
@@ -2692,10 +2793,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 151,
@@ -2711,10 +2812,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 152,
@@ -2730,10 +2831,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 153,
@@ -2749,10 +2850,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 154,
@@ -2768,10 +2869,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 155,
@@ -2787,10 +2888,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 156,
@@ -2806,10 +2907,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 157,
@@ -2825,10 +2926,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 158,
@@ -2844,10 +2945,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 159,
@@ -2863,10 +2964,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 160,
@@ -2882,10 +2983,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 161,
@@ -2901,10 +3002,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 162,
@@ -2920,10 +3021,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 163,
@@ -2939,10 +3040,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 164,
@@ -2958,10 +3059,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 165,
@@ -2977,10 +3078,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 166,
@@ -2996,10 +3097,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 167,
@@ -3015,10 +3116,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 168,
@@ -3034,10 +3135,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 169,
@@ -3053,10 +3154,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 170,
@@ -3072,10 +3173,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 171,
@@ -3091,10 +3192,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 172,
@@ -3110,10 +3211,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 173,
@@ -3129,10 +3230,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 174,
@@ -3148,10 +3249,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 175,
@@ -3167,10 +3268,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 176,
@@ -3186,10 +3287,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 177,
@@ -3205,10 +3306,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 178,
@@ -3224,10 +3325,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 179,
@@ -3243,10 +3344,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 180,
@@ -3262,10 +3363,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 181,
@@ -3281,10 +3382,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 182,
@@ -3300,10 +3401,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 183,
@@ -3319,10 +3420,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 184,
@@ -3338,10 +3439,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 185,
@@ -3357,10 +3458,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 186,
@@ -3376,10 +3477,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 187,
@@ -3395,10 +3496,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 188,
@@ -3414,10 +3515,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 189,
@@ -3433,10 +3534,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 190,
@@ -3452,10 +3553,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 191,
@@ -3471,10 +3572,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 192,
@@ -3490,10 +3591,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 193,
@@ -3509,10 +3610,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 194,
@@ -3528,10 +3629,26 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
+      },
+      {
+        "source": "open-brewery-db",
+        "sourceId": "a36146d0-57f4-4ce1-ad54-e6bc200c02a3",
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "breweryId": "a36146d0-57f4-4ce1-ad54-e6bc200c02a3",
+    "breweryCity": "Abbotsford",
+    "breweryState": "VIC",
+    "breweryStateProvince": "VIC",
+    "breweryCountryCode": "Australia",
+    "breweryType": "large",
+    "breweryPostalCode": "3067",
+    "breweryStreet": "1 Southampton Crescent",
+    "breweryAddress1": "1 Southampton Crescent",
+    "breweryLatitude": -37.8085828,
+    "breweryLongitude": 145.0046161,
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 195,
@@ -3547,10 +3664,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 196,
@@ -3566,10 +3683,26 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
+      },
+      {
+        "source": "open-brewery-db",
+        "sourceId": "a36146d0-57f4-4ce1-ad54-e6bc200c02a3",
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "breweryId": "a36146d0-57f4-4ce1-ad54-e6bc200c02a3",
+    "breweryCity": "Abbotsford",
+    "breweryState": "VIC",
+    "breweryStateProvince": "VIC",
+    "breweryCountryCode": "Australia",
+    "breweryType": "large",
+    "breweryPostalCode": "3067",
+    "breweryStreet": "1 Southampton Crescent",
+    "breweryAddress1": "1 Southampton Crescent",
+    "breweryLatitude": -37.8085828,
+    "breweryLongitude": 145.0046161,
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 197,
@@ -3585,10 +3718,26 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
+      },
+      {
+        "source": "open-brewery-db",
+        "sourceId": "a36146d0-57f4-4ce1-ad54-e6bc200c02a3",
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "breweryId": "a36146d0-57f4-4ce1-ad54-e6bc200c02a3",
+    "breweryCity": "Abbotsford",
+    "breweryState": "VIC",
+    "breweryStateProvince": "VIC",
+    "breweryCountryCode": "Australia",
+    "breweryType": "large",
+    "breweryPostalCode": "3067",
+    "breweryStreet": "1 Southampton Crescent",
+    "breweryAddress1": "1 Southampton Crescent",
+    "breweryLatitude": -37.8085828,
+    "breweryLongitude": 145.0046161,
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 198,
@@ -3604,10 +3753,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 199,
@@ -3623,10 +3772,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 200,
@@ -3642,10 +3791,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 201,
@@ -3660,10 +3809,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 202,
@@ -3679,10 +3828,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 203,
@@ -3698,10 +3847,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 204,
@@ -3717,10 +3866,28 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
+      },
+      {
+        "source": "open-brewery-db",
+        "sourceId": "81a41e48-68a4-4835-bf31-1d41fd16880a",
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "breweryId": "81a41e48-68a4-4835-bf31-1d41fd16880a",
+    "breweryWebsite": "http://beamish.ie/",
+    "breweryCity": "Cork",
+    "breweryState": "Cork",
+    "breweryStateProvince": "Cork",
+    "breweryCountryCode": "Ireland",
+    "breweryType": "large",
+    "breweryPhone": "353214503371",
+    "breweryPostalCode": "T23 VF78",
+    "breweryStreet": "Leitrim Street",
+    "breweryAddress1": "Leitrim Street",
+    "breweryLatitude": 51.9037117,
+    "breweryLongitude": -8.4750739,
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 205,
@@ -3736,10 +3903,29 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
+      },
+      {
+        "source": "open-brewery-db",
+        "sourceId": "b82b05d8-ca46-4954-b9a9-bb91a98406e5",
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "breweryId": "b82b05d8-ca46-4954-b9a9-bb91a98406e5",
+    "breweryWebsite": "https://www.guinness-storehouse.com/en",
+    "breweryCity": "Dublin",
+    "breweryState": "Dublin",
+    "breweryStateProvince": "Dublin",
+    "breweryCountryCode": "Ireland",
+    "breweryType": "large",
+    "breweryPhone": "35314084800",
+    "breweryPostalCode": "D08 VF8H",
+    "breweryStreet": "St. James's Gate",
+    "breweryAddress1": "St. James's Gate",
+    "breweryAddress2": "Dublin 8",
+    "breweryLatitude": 53.34193275,
+    "breweryLongitude": -6.286729743,
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 206,
@@ -3755,10 +3941,29 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
+      },
+      {
+        "source": "open-brewery-db",
+        "sourceId": "b82b05d8-ca46-4954-b9a9-bb91a98406e5",
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "breweryId": "b82b05d8-ca46-4954-b9a9-bb91a98406e5",
+    "breweryWebsite": "https://www.guinness-storehouse.com/en",
+    "breweryCity": "Dublin",
+    "breweryState": "Dublin",
+    "breweryStateProvince": "Dublin",
+    "breweryCountryCode": "Ireland",
+    "breweryType": "large",
+    "breweryPhone": "35314084800",
+    "breweryPostalCode": "D08 VF8H",
+    "breweryStreet": "St. James's Gate",
+    "breweryAddress1": "St. James's Gate",
+    "breweryAddress2": "Dublin 8",
+    "breweryLatitude": 53.34193275,
+    "breweryLongitude": -6.286729743,
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 207,
@@ -3774,10 +3979,28 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
+      },
+      {
+        "source": "open-brewery-db",
+        "sourceId": "81a41e48-68a4-4835-bf31-1d41fd16880a",
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "breweryId": "81a41e48-68a4-4835-bf31-1d41fd16880a",
+    "breweryWebsite": "http://beamish.ie/",
+    "breweryCity": "Cork",
+    "breweryState": "Cork",
+    "breweryStateProvince": "Cork",
+    "breweryCountryCode": "Ireland",
+    "breweryType": "large",
+    "breweryPhone": "353214503371",
+    "breweryPostalCode": "T23 VF78",
+    "breweryStreet": "Leitrim Street",
+    "breweryAddress1": "Leitrim Street",
+    "breweryLatitude": 51.9037117,
+    "breweryLongitude": -8.4750739,
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 208,
@@ -3793,10 +4016,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 209,
@@ -3812,10 +4035,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 210,
@@ -3831,10 +4054,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 211,
@@ -3850,10 +4073,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 212,
@@ -3869,10 +4092,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 213,
@@ -3888,10 +4111,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 214,
@@ -3907,10 +4130,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 215,
@@ -3926,10 +4149,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 216,
@@ -3945,10 +4168,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 217,
@@ -3964,10 +4187,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 218,
@@ -3983,10 +4206,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 219,
@@ -4002,10 +4225,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 220,
@@ -4021,10 +4244,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 221,
@@ -4040,10 +4263,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 222,
@@ -4059,10 +4282,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 223,
@@ -4078,10 +4301,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 224,
@@ -4097,10 +4320,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 225,
@@ -4116,10 +4339,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 226,
@@ -4135,10 +4358,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 227,
@@ -4154,10 +4377,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 228,
@@ -4173,10 +4396,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 229,
@@ -4192,10 +4415,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 230,
@@ -4211,10 +4434,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 231,
@@ -4230,10 +4453,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 232,
@@ -4249,10 +4472,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 233,
@@ -4268,10 +4491,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 234,
@@ -4287,10 +4510,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 235,
@@ -4306,10 +4529,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 236,
@@ -4325,10 +4548,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 237,
@@ -4344,10 +4567,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 238,
@@ -4363,10 +4586,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 239,
@@ -4382,10 +4605,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 240,
@@ -4401,10 +4624,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 241,
@@ -4420,10 +4643,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 242,
@@ -4439,10 +4662,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 243,
@@ -4458,10 +4681,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 244,
@@ -4477,10 +4700,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 245,
@@ -4496,10 +4719,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 246,
@@ -4515,10 +4738,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 247,
@@ -4534,10 +4757,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 248,
@@ -4553,10 +4776,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 249,
@@ -4572,10 +4795,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 250,
@@ -4591,10 +4814,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 251,
@@ -4610,10 +4833,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 252,
@@ -4629,10 +4852,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 253,
@@ -4648,10 +4871,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 254,
@@ -4667,10 +4890,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 255,
@@ -4686,10 +4909,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 256,
@@ -4705,10 +4928,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 257,
@@ -4724,10 +4947,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 258,
@@ -4743,10 +4966,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 259,
@@ -4762,10 +4985,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 260,
@@ -4781,10 +5004,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 261,
@@ -4800,10 +5023,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 262,
@@ -4819,10 +5042,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 263,
@@ -4838,10 +5061,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 264,
@@ -4857,10 +5080,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 265,
@@ -4876,10 +5099,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 266,
@@ -4895,10 +5118,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 267,
@@ -4914,10 +5137,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 268,
@@ -4933,10 +5156,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 269,
@@ -4952,10 +5175,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 270,
@@ -4971,10 +5194,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 271,
@@ -4990,10 +5213,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 272,
@@ -5009,10 +5232,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 273,
@@ -5028,10 +5251,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 274,
@@ -5047,10 +5270,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 275,
@@ -5066,10 +5289,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 276,
@@ -5085,10 +5308,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 277,
@@ -5104,10 +5327,28 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
+      },
+      {
+        "source": "open-brewery-db",
+        "sourceId": "d1a61260-d377-4e7d-8ce9-8851e30934ae",
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "breweryId": "d1a61260-d377-4e7d-8ce9-8851e30934ae",
+    "breweryWebsite": "http://www.anheuser-busch.com",
+    "breweryCity": "Saint Louis",
+    "breweryState": "Missouri",
+    "breweryStateProvince": "Missouri",
+    "breweryCountryCode": "United States",
+    "breweryType": "large",
+    "breweryPhone": "3145772000",
+    "breweryPostalCode": "63118-1849",
+    "breweryStreet": "1 Busch Pl",
+    "breweryAddress1": "1 Busch Pl",
+    "breweryLatitude": 38.5954536,
+    "breweryLongitude": -90.2118998,
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 278,
@@ -5123,10 +5364,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 279,
@@ -5142,10 +5383,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 280,
@@ -5161,10 +5402,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 281,
@@ -5180,10 +5421,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 282,
@@ -5199,10 +5440,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 283,
@@ -5218,10 +5459,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 284,
@@ -5237,10 +5478,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 285,
@@ -5256,10 +5497,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 286,
@@ -5275,10 +5516,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 287,
@@ -5294,10 +5535,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 288,
@@ -5313,10 +5554,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 289,
@@ -5332,10 +5573,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 290,
@@ -5351,10 +5592,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 291,
@@ -5370,10 +5611,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 292,
@@ -5389,10 +5630,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 293,
@@ -5408,10 +5649,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 294,
@@ -5427,10 +5668,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 295,
@@ -5446,10 +5687,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 296,
@@ -5465,10 +5706,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 297,
@@ -5484,10 +5725,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 298,
@@ -5503,10 +5744,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 299,
@@ -5522,10 +5763,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 300,
@@ -5541,10 +5782,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 301,
@@ -5557,10 +5798,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 302,
@@ -5576,10 +5817,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 303,
@@ -5595,10 +5836,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 304,
@@ -5614,10 +5855,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 305,
@@ -5633,10 +5874,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 306,
@@ -5652,10 +5893,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 307,
@@ -5669,10 +5910,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 308,
@@ -5686,10 +5927,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 309,
@@ -5702,10 +5943,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 310,
@@ -5721,10 +5962,28 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
+      },
+      {
+        "source": "open-brewery-db",
+        "sourceId": "81a41e48-68a4-4835-bf31-1d41fd16880a",
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "breweryId": "81a41e48-68a4-4835-bf31-1d41fd16880a",
+    "breweryWebsite": "http://beamish.ie/",
+    "breweryCity": "Cork",
+    "breweryState": "Cork",
+    "breweryStateProvince": "Cork",
+    "breweryCountryCode": "Ireland",
+    "breweryType": "large",
+    "breweryPhone": "353214503371",
+    "breweryPostalCode": "T23 VF78",
+    "breweryStreet": "Leitrim Street",
+    "breweryAddress1": "Leitrim Street",
+    "breweryLatitude": 51.9037117,
+    "breweryLongitude": -8.4750739,
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 311,
@@ -5740,10 +5999,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 312,
@@ -5759,10 +6018,28 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
+      },
+      {
+        "source": "open-brewery-db",
+        "sourceId": "81a41e48-68a4-4835-bf31-1d41fd16880a",
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "breweryId": "81a41e48-68a4-4835-bf31-1d41fd16880a",
+    "breweryWebsite": "http://beamish.ie/",
+    "breweryCity": "Cork",
+    "breweryState": "Cork",
+    "breweryStateProvince": "Cork",
+    "breweryCountryCode": "Ireland",
+    "breweryType": "large",
+    "breweryPhone": "353214503371",
+    "breweryPostalCode": "T23 VF78",
+    "breweryStreet": "Leitrim Street",
+    "breweryAddress1": "Leitrim Street",
+    "breweryLatitude": 51.9037117,
+    "breweryLongitude": -8.4750739,
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 313,
@@ -5778,10 +6055,28 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
+      },
+      {
+        "source": "open-brewery-db",
+        "sourceId": "e5b27570-2203-47b4-b92a-92e8eb46a4f8",
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "breweryId": "e5b27570-2203-47b4-b92a-92e8eb46a4f8",
+    "breweryWebsite": "http://www.thebavarianbierhaus.com",
+    "breweryCity": "Glendale",
+    "breweryState": "Wisconsin",
+    "breweryStateProvince": "Wisconsin",
+    "breweryCountryCode": "United States",
+    "breweryType": "brewpub",
+    "breweryPhone": "4142367000",
+    "breweryPostalCode": "53217-4912",
+    "breweryStreet": "700 W Lexington Blvd",
+    "breweryAddress1": "700 W Lexington Blvd",
+    "breweryLatitude": 43.11415845,
+    "breweryLongitude": -87.91923009,
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 314,
@@ -5797,10 +6092,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 315,
@@ -5816,10 +6111,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 316,
@@ -5835,10 +6130,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 317,
@@ -5854,10 +6149,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 318,
@@ -5873,10 +6168,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 319,
@@ -5892,10 +6187,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 320,
@@ -5911,10 +6206,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 321,
@@ -5930,10 +6225,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 322,
@@ -5949,10 +6244,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 323,
@@ -5968,10 +6263,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 324,
@@ -5987,10 +6282,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 325,
@@ -6003,10 +6298,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 326,
@@ -6022,10 +6317,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 327,
@@ -6041,10 +6336,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 328,
@@ -6060,10 +6355,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 329,
@@ -6079,10 +6374,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 330,
@@ -6098,10 +6393,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 331,
@@ -6116,10 +6411,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 332,
@@ -6135,10 +6430,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 333,
@@ -6154,10 +6449,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 334,
@@ -6173,10 +6468,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 335,
@@ -6192,10 +6487,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 336,
@@ -6211,10 +6506,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 337,
@@ -6230,10 +6525,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 338,
@@ -6249,10 +6544,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 339,
@@ -6268,10 +6563,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 340,
@@ -6287,10 +6582,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 341,
@@ -6306,10 +6601,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 342,
@@ -6325,10 +6620,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 343,
@@ -6344,10 +6639,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 344,
@@ -6360,10 +6655,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 345,
@@ -6379,10 +6674,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 346,
@@ -6398,10 +6693,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 347,
@@ -6417,10 +6712,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 348,
@@ -6436,10 +6731,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 349,
@@ -6455,10 +6750,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 350,
@@ -6474,10 +6769,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 351,
@@ -6493,10 +6788,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 352,
@@ -6512,10 +6807,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 353,
@@ -6531,10 +6826,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 354,
@@ -6550,10 +6845,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 355,
@@ -6569,10 +6864,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 356,
@@ -6588,10 +6883,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 357,
@@ -6607,10 +6902,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 358,
@@ -6626,10 +6921,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 359,
@@ -6645,10 +6940,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 360,
@@ -6664,10 +6959,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 361,
@@ -6683,10 +6978,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 362,
@@ -6702,10 +6997,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 363,
@@ -6721,10 +7016,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 364,
@@ -6740,10 +7035,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 365,
@@ -6759,10 +7054,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 366,
@@ -6778,10 +7073,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 367,
@@ -6797,10 +7092,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 368,
@@ -6816,10 +7111,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 369,
@@ -6835,10 +7130,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 370,
@@ -6854,10 +7149,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 371,
@@ -6873,10 +7168,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 372,
@@ -6892,10 +7187,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 373,
@@ -6911,10 +7206,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 374,
@@ -6930,10 +7225,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 375,
@@ -6949,10 +7244,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 376,
@@ -6968,10 +7263,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 377,
@@ -6987,10 +7282,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 378,
@@ -7006,10 +7301,28 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
+      },
+      {
+        "source": "open-brewery-db",
+        "sourceId": "e5c53698-deb0-4bb9-ab37-56db1bc09efb",
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "breweryId": "e5c53698-deb0-4bb9-ab37-56db1bc09efb",
+    "breweryWebsite": "https://www.apbsingapore.com.sg/",
+    "breweryCity": "Singapore",
+    "breweryState": "Singapore",
+    "breweryStateProvince": "Singapore",
+    "breweryCountryCode": "Singapore",
+    "breweryType": "large",
+    "breweryPhone": "+65 6861 6200",
+    "breweryPostalCode": "639934",
+    "breweryStreet": "459 Jalan Ahmad Ibrahim",
+    "breweryAddress1": "459 Jalan Ahmad Ibrahim",
+    "breweryLatitude": 103.64778327672,
+    "breweryLongitude": 1.3365111315439,
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 379,
@@ -7025,10 +7338,28 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
+      },
+      {
+        "source": "open-brewery-db",
+        "sourceId": "e5c53698-deb0-4bb9-ab37-56db1bc09efb",
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "breweryId": "e5c53698-deb0-4bb9-ab37-56db1bc09efb",
+    "breweryWebsite": "https://www.apbsingapore.com.sg/",
+    "breweryCity": "Singapore",
+    "breweryState": "Singapore",
+    "breweryStateProvince": "Singapore",
+    "breweryCountryCode": "Singapore",
+    "breweryType": "large",
+    "breweryPhone": "+65 6861 6200",
+    "breweryPostalCode": "639934",
+    "breweryStreet": "459 Jalan Ahmad Ibrahim",
+    "breweryAddress1": "459 Jalan Ahmad Ibrahim",
+    "breweryLatitude": 103.64778327672,
+    "breweryLongitude": 1.3365111315439,
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 380,
@@ -7044,10 +7375,28 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
+      },
+      {
+        "source": "open-brewery-db",
+        "sourceId": "e5c53698-deb0-4bb9-ab37-56db1bc09efb",
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "breweryId": "e5c53698-deb0-4bb9-ab37-56db1bc09efb",
+    "breweryWebsite": "https://www.apbsingapore.com.sg/",
+    "breweryCity": "Singapore",
+    "breweryState": "Singapore",
+    "breweryStateProvince": "Singapore",
+    "breweryCountryCode": "Singapore",
+    "breweryType": "large",
+    "breweryPhone": "+65 6861 6200",
+    "breweryPostalCode": "639934",
+    "breweryStreet": "459 Jalan Ahmad Ibrahim",
+    "breweryAddress1": "459 Jalan Ahmad Ibrahim",
+    "breweryLatitude": 103.64778327672,
+    "breweryLongitude": 1.3365111315439,
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 381,
@@ -7063,10 +7412,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 382,
@@ -7082,10 +7431,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 383,
@@ -7101,10 +7450,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 384,
@@ -7120,10 +7469,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 385,
@@ -7139,10 +7488,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 386,
@@ -7158,10 +7507,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 387,
@@ -7177,10 +7526,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 388,
@@ -7196,10 +7545,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 389,
@@ -7215,10 +7564,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 390,
@@ -7234,10 +7583,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 391,
@@ -7253,10 +7602,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 392,
@@ -7272,10 +7621,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 393,
@@ -7291,10 +7640,28 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
+      },
+      {
+        "source": "open-brewery-db",
+        "sourceId": "882855c2-3294-494e-be49-0c48f8263cca",
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "breweryId": "882855c2-3294-494e-be49-0c48f8263cca",
+    "breweryWebsite": "https://lionbreweryco.com/visit-our-brewpub/",
+    "breweryCity": "Singapore",
+    "breweryState": "Singapore",
+    "breweryStateProvince": "Singapore",
+    "breweryCountryCode": "Singapore",
+    "breweryType": "brewpub",
+    "breweryPhone": "93665815",
+    "breweryPostalCode": "069469",
+    "breweryStreet": "36 Club St",
+    "breweryAddress1": "36 Club St",
+    "breweryLatitude": 1.2826554,
+    "breweryLongitude": 103.8434419,
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 394,
@@ -7310,10 +7677,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 395,
@@ -7329,10 +7696,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 396,
@@ -7348,10 +7715,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 397,
@@ -7367,10 +7734,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 398,
@@ -7386,10 +7753,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 399,
@@ -7405,10 +7772,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 400,
@@ -7424,10 +7791,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 401,
@@ -7443,10 +7810,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 402,
@@ -7462,10 +7829,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 403,
@@ -7481,10 +7848,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 404,
@@ -7500,10 +7867,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 405,
@@ -7519,10 +7886,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 406,
@@ -7538,10 +7905,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 407,
@@ -7557,10 +7924,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 408,
@@ -7576,10 +7943,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 409,
@@ -7595,10 +7962,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 410,
@@ -7614,10 +7981,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 411,
@@ -7633,10 +8000,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 412,
@@ -7652,10 +8019,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 413,
@@ -7671,10 +8038,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 414,
@@ -7690,10 +8057,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 415,
@@ -7709,10 +8076,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 416,
@@ -7728,10 +8095,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 417,
@@ -7747,10 +8114,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 418,
@@ -7766,10 +8133,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 419,
@@ -7785,10 +8152,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 420,
@@ -7804,10 +8171,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 421,
@@ -7823,10 +8190,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 422,
@@ -7842,10 +8209,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 423,
@@ -7861,10 +8228,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 424,
@@ -7880,10 +8247,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 425,
@@ -7896,10 +8263,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 426,
@@ -7915,10 +8282,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 427,
@@ -7934,10 +8301,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 428,
@@ -7953,10 +8320,28 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
+      },
+      {
+        "source": "open-brewery-db",
+        "sourceId": "a5485562-03fe-4578-856f-6005ff261cbb",
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "breweryId": "a5485562-03fe-4578-856f-6005ff261cbb",
+    "breweryWebsite": "https://brewdogpentridge.com.au/?utm_campaign=gmb&utm_medium=organic&utm_source=google&utm_term=plcid_13735306181176417173",
+    "breweryCity": "Coburg",
+    "breweryState": "VIC",
+    "breweryStateProvince": "VIC",
+    "breweryCountryCode": "Australia",
+    "breweryType": "micro",
+    "breweryPhone": "+61 3 8840 4896",
+    "breweryPostalCode": "3058",
+    "breweryStreet": "1 Champ Street",
+    "breweryAddress1": "1 Champ Street",
+    "breweryLatitude": -37.7367888,
+    "breweryLongitude": 144.9683229,
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 429,
@@ -7972,10 +8357,28 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
+      },
+      {
+        "source": "open-brewery-db",
+        "sourceId": "a5485562-03fe-4578-856f-6005ff261cbb",
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "breweryId": "a5485562-03fe-4578-856f-6005ff261cbb",
+    "breweryWebsite": "https://brewdogpentridge.com.au/?utm_campaign=gmb&utm_medium=organic&utm_source=google&utm_term=plcid_13735306181176417173",
+    "breweryCity": "Coburg",
+    "breweryState": "VIC",
+    "breweryStateProvince": "VIC",
+    "breweryCountryCode": "Australia",
+    "breweryType": "micro",
+    "breweryPhone": "+61 3 8840 4896",
+    "breweryPostalCode": "3058",
+    "breweryStreet": "1 Champ Street",
+    "breweryAddress1": "1 Champ Street",
+    "breweryLatitude": -37.7367888,
+    "breweryLongitude": 144.9683229,
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 430,
@@ -7991,10 +8394,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 431,
@@ -8010,10 +8413,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 432,
@@ -8029,10 +8432,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 433,
@@ -8048,10 +8451,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 434,
@@ -8067,10 +8470,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 435,
@@ -8086,10 +8489,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 436,
@@ -8102,10 +8505,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 437,
@@ -8121,10 +8524,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 438,
@@ -8140,10 +8543,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 439,
@@ -8159,10 +8562,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 440,
@@ -8178,10 +8581,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 441,
@@ -8197,10 +8600,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 442,
@@ -8216,10 +8619,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 443,
@@ -8235,10 +8638,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 444,
@@ -8254,10 +8657,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 445,
@@ -8273,10 +8676,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 446,
@@ -8292,10 +8695,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 447,
@@ -8311,10 +8714,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 448,
@@ -8330,10 +8733,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 449,
@@ -8349,10 +8752,24 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
+      },
+      {
+        "source": "open-brewery-db",
+        "sourceId": "e47d18ae-4f7c-4c27-8a28-feae3c16d541",
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "breweryId": "e47d18ae-4f7c-4c27-8a28-feae3c16d541",
+    "breweryWebsite": "http://www.fatheads.com",
+    "breweryCity": "Middleburg Heights",
+    "breweryState": "Ohio",
+    "breweryStateProvince": "Ohio",
+    "breweryCountryCode": "United States",
+    "breweryType": "regional",
+    "breweryPhone": "2168980242",
+    "breweryPostalCode": "44130-2472",
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 450,
@@ -8368,10 +8785,28 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
+      },
+      {
+        "source": "open-brewery-db",
+        "sourceId": "d1a61260-d377-4e7d-8ce9-8851e30934ae",
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "breweryId": "d1a61260-d377-4e7d-8ce9-8851e30934ae",
+    "breweryWebsite": "http://www.anheuser-busch.com",
+    "breweryCity": "Saint Louis",
+    "breweryState": "Missouri",
+    "breweryStateProvince": "Missouri",
+    "breweryCountryCode": "United States",
+    "breweryType": "large",
+    "breweryPhone": "3145772000",
+    "breweryPostalCode": "63118-1849",
+    "breweryStreet": "1 Busch Pl",
+    "breweryAddress1": "1 Busch Pl",
+    "breweryLatitude": 38.5954536,
+    "breweryLongitude": -90.2118998,
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 451,
@@ -8387,10 +8822,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 452,
@@ -8406,10 +8841,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 453,
@@ -8425,10 +8860,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 454,
@@ -8444,10 +8879,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 455,
@@ -8463,10 +8898,26 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
+      },
+      {
+        "source": "open-brewery-db",
+        "sourceId": "5ec37fdc-66c6-42ba-b23e-e985eb0c6558",
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "breweryId": "5ec37fdc-66c6-42ba-b23e-e985eb0c6558",
+    "breweryWebsite": "http://www.brooklynbrewery.com",
+    "breweryCity": "Brooklyn",
+    "breweryState": "New York",
+    "breweryStateProvince": "New York",
+    "breweryCountryCode": "United States",
+    "breweryType": "regional",
+    "breweryPhone": "7184867422",
+    "breweryPostalCode": "11249-1913",
+    "breweryStreet": "79 N 11th St #1 Brewers Row",
+    "breweryAddress1": "79 N 11th St #1 Brewers Row",
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 456,
@@ -8482,10 +8933,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 457,
@@ -8501,10 +8952,28 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
+      },
+      {
+        "source": "open-brewery-db",
+        "sourceId": "3ccda21a-5229-4bb1-b442-eb96ed891145",
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "breweryId": "3ccda21a-5229-4bb1-b442-eb96ed891145",
+    "breweryWebsite": "https://stoneandwood.com.au/pages/byron-bay?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+    "breweryCity": "Byron Bay",
+    "breweryState": "NSW",
+    "breweryStateProvince": "NSW",
+    "breweryCountryCode": "Australia",
+    "breweryType": "micro",
+    "breweryPhone": "+61 429 060 262",
+    "breweryPostalCode": "2481",
+    "breweryStreet": "100 Centennial Circuit",
+    "breweryAddress1": "100 Centennial Circuit",
+    "breweryLatitude": -28.6371693,
+    "breweryLongitude": 153.5807582,
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 458,
@@ -8520,10 +8989,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 459,
@@ -8539,10 +9008,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 460,
@@ -8558,10 +9027,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 461,
@@ -8577,10 +9046,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 462,
@@ -8596,10 +9065,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 463,
@@ -8615,10 +9084,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 464,
@@ -8634,10 +9103,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 465,
@@ -8653,10 +9122,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 466,
@@ -8672,10 +9141,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 467,
@@ -8691,10 +9160,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 468,
@@ -8710,10 +9179,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 469,
@@ -8729,10 +9198,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 470,
@@ -8748,10 +9217,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 471,
@@ -8767,10 +9236,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 472,
@@ -8786,10 +9255,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 473,
@@ -8802,10 +9271,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 474,
@@ -8818,10 +9287,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 475,
@@ -8834,10 +9303,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 476,
@@ -8850,10 +9319,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 477,
@@ -8866,10 +9335,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 478,
@@ -8882,10 +9351,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 479,
@@ -8898,10 +9367,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 480,
@@ -8914,10 +9383,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 481,
@@ -8930,10 +9399,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 482,
@@ -8946,10 +9415,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 483,
@@ -8962,10 +9431,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 484,
@@ -8978,10 +9447,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 485,
@@ -8994,10 +9463,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 486,
@@ -9010,10 +9479,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 487,
@@ -9026,10 +9495,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 488,
@@ -9042,10 +9511,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 489,
@@ -9058,10 +9527,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 490,
@@ -9074,10 +9543,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 491,
@@ -9091,10 +9560,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 492,
@@ -9107,10 +9576,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 493,
@@ -9123,10 +9592,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 494,
@@ -9139,10 +9608,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 495,
@@ -9156,10 +9625,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 496,
@@ -9173,10 +9642,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 497,
@@ -9190,10 +9659,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 498,
@@ -9207,10 +9676,10 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   },
   {
     "nr": 499,
@@ -9224,9 +9693,9 @@
     "dataSources": [
       {
         "source": "csv",
-        "syncedAt": "2026-02-19T18:13:05.701Z"
+        "syncedAt": "2026-02-20T09:03:21.673Z"
       }
     ],
-    "syncedAt": "2026-02-19T18:13:05.701Z"
+    "syncedAt": "2026-02-20T09:03:21.673Z"
   }
 ]
