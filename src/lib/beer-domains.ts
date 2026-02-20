@@ -874,45 +874,12 @@ function normalizeLogoDomain(domain: string): string {
   return normalizeDoubleTldDomain(normalizeDomain(domain));
 }
 
-export function normalizeLogoName(value: string): string {
-  return value
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^a-zA-Z0-9 ]+/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
 export function getLocalLogoUrl(domain: string): string {
   const normalizedDomain = normalizeLogoDomain(domain).replace(
     /[^a-z0-9.-]/g,
     "-"
   );
   return `/logos/${normalizedDomain}.png`;
-}
-
-export function getLogoDevUrl(domain: string, token: string): string {
-  const normalizedDomain = normalizeLogoDomain(domain);
-  const params = new URLSearchParams({
-    token,
-    format: "png",
-    size: "128",
-  });
-  return `https://img.logo.dev/${encodeURIComponent(
-    normalizedDomain
-  )}?${params.toString()}`;
-}
-
-export function getLogoDevNameUrl(name: string, token: string): string {
-  const normalizedName = normalizeLogoName(name);
-  const params = new URLSearchParams({
-    token,
-    format: "png",
-    size: "128",
-  });
-  return `https://img.logo.dev/name/${encodeURIComponent(
-    normalizedName
-  )}?${params.toString()}`;
 }
 
 export function getFaviconUrl(domain: string): string {

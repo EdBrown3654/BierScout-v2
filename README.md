@@ -63,7 +63,6 @@ Danach: `http://localhost:3000`
   `public/header/bierscout_banner.jpg`
   Wenn die Datei fehlt, erscheint im Browser ein 404-Bildplatzhalter.
 - Fuer Design-Asset-Generierung ist `OPENAI_API_KEY` in `.env` erforderlich.
-- Fuer `logos:sync` ist `LOGO_DEV_TOKEN` (oder `NEXT_PUBLIC_LOGO_DEV_TOKEN`) in `.env` erforderlich.
 - `.env.example` enthaelt alle relevanten Variablen.
 
 ## Dokumentation
@@ -77,8 +76,7 @@ Danach: `http://localhost:3000`
 Logo-Caching:
 - Lokale Logos: `public/logos/*.png`
 - Sync-Script: `scripts/logos/fetch-logos.mjs`
-- Optionaler Browser-Fallback via `NEXT_PUBLIC_LOGO_DEV_TOKEN`
-- Rendering-Reihenfolge: lokales PNG → `img.logo.dev/<domain>` → `img.logo.dev/name/<name>` → Google Favicon → Monogramm
+- Rendering-Reihenfolge: lokales PNG → Google Favicon → Monogramm
 
 ## Projektstruktur (wichtigste Pfade)
 

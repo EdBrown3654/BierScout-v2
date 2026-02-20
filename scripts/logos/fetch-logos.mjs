@@ -93,37 +93,8 @@ function normalizeLogoDomain(domain) {
   return normalizeDoubleTldDomain(normalizeDomain(domain));
 }
 
-function normalizeLogoName(value) {
-  return value
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^a-zA-Z0-9 ]+/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
 function toDomainSlug(domain) {
   return normalizeLogoDomain(domain).replace(/[^a-z0-9.-]/g, "-");
-}
-
-function getLogoDevUrl(domain, token) {
-  const normalizedDomain = normalizeLogoDomain(domain);
-  const params = new URLSearchParams({
-    token,
-    format: "png",
-    size: "128",
-  });
-  return `https://img.logo.dev/${encodeURIComponent(normalizedDomain)}?${params.toString()}`;
-}
-
-function getLogoDevNameUrl(name, token) {
-  const normalizedName = normalizeLogoName(name);
-  const params = new URLSearchParams({
-    token,
-    format: "png",
-    size: "128",
-  });
-  return `https://img.logo.dev/name/${encodeURIComponent(normalizedName)}?${params.toString()}`;
 }
 
 function getFaviconUrl(domain) {
@@ -143,7 +114,6 @@ function parseArgs(argv) {
     force: false,
     dryRun: false,
     limit: null,
-    token: null,
   };
 
   for (let i = 0; i < argv.length; i += 1) {
@@ -156,12 +126,6 @@ function parseArgs(argv) {
 
     if (arg === "--dry-run") {
       options.dryRun = true;
-      continue;
-    }
-
-    if (arg === "--token") {
-      options.token = argv[i + 1] ?? null;
-      i += 1;
       continue;
     }
 
@@ -200,23 +164,20 @@ function extractObjectBlock(source, objectName) {
   throw new Error(`Could not parse object block for ${objectName}`);
 }
 
-function extractEntriesFromBlock(block) {
-  const entries = [];
-  const valueRegex = /"([^"\n]+)"\s*:\s*"([^"\n]+)"/g;
+function extractDomainsFromBlock(block) {
+  const domains = [];
+  const valueRegex = /:\s*"([^"\n]+)"/g;
 
   let match = valueRegex.exec(block);
   while (match) {
-    const name = normalizeLogoName(match[1].trim());
-    const normalized = normalizeLogoDomain(match[2].trim());
-
-    if (name && normalized.includes(".")) {
-      entries.push({ name, domain: normalized });
+    const normalized = normalizeLogoDomain(match[1].trim());
+    if (normalized.includes(".")) {
+      domains.push(normalized);
     }
-
     match = valueRegex.exec(block);
   }
 
-  return entries;
+  return domains;
 }
 
 async function listExistingSlugs() {
@@ -235,7 +196,8 @@ async function listExistingSlugs() {
   }
 }
 
-async function downloadImage(url) {
+async function downloadFavicon(domain) {
+  const url = getFaviconUrl(domain);
   const response = await fetch(url, {
     redirect: "follow",
     signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
@@ -250,7 +212,6 @@ async function downloadImage(url) {
       reason: `HTTP ${response.status}`,
       bytes: 0,
       buffer: null,
-      url,
     };
   }
 
@@ -262,7 +223,6 @@ async function downloadImage(url) {
       reason: `Non-image response (${contentType || "unknown content-type"})`,
       bytes: 0,
       buffer: null,
-      url,
     };
   }
 
@@ -275,7 +235,6 @@ async function downloadImage(url) {
       reason: "Empty image body",
       bytes: 0,
       buffer: null,
-      url,
     };
   }
 
@@ -286,57 +245,22 @@ async function downloadImage(url) {
     reason: null,
     bytes: buffer.length,
     buffer,
-    url,
   };
-}
-
-async function downloadByDomain(domain, token) {
-  const url = getLogoDevUrl(domain, token);
-  return downloadImage(url);
-}
-
-async function downloadByName(name, token) {
-  const url = getLogoDevNameUrl(name, token);
-  return downloadImage(url);
-}
-
-async function downloadFavicon(domain) {
-  const url = getFaviconUrl(domain);
-  return downloadImage(url);
 }
 
 async function main() {
   const options = parseArgs(process.argv.slice(2));
-  const token =
-    options.token ||
-    process.env.LOGO_DEV_TOKEN ||
-    process.env.NEXT_PUBLIC_LOGO_DEV_TOKEN ||
-    "";
-
-  if (!token) {
-    console.error(
-      "Missing token. Set LOGO_DEV_TOKEN (or NEXT_PUBLIC_LOGO_DEV_TOKEN) or pass --token <value>."
-    );
-    process.exit(1);
-  }
 
   const source = await fs.readFile(DOMAIN_SOURCE_FILE, "utf8");
   const breweryBlock = extractObjectBlock(source, "breweryMap");
   const brandBlock = extractObjectBlock(source, "brandMap");
-  const parsedEntries = [
-    ...extractEntriesFromBlock(breweryBlock),
-    ...extractEntriesFromBlock(brandBlock),
-  ];
 
-  const domainToNames = new Map();
-  for (const entry of parsedEntries) {
-    if (!domainToNames.has(entry.domain)) {
-      domainToNames.set(entry.domain, new Set());
-    }
-    domainToNames.get(entry.domain).add(entry.name);
-  }
-
-  const domains = Array.from(domainToNames.keys()).sort();
+  const domains = Array.from(
+    new Set([
+      ...extractDomainsFromBlock(breweryBlock),
+      ...extractDomainsFromBlock(brandBlock),
+    ])
+  ).sort();
 
   const limitedDomains =
     options.limit && options.limit > 0 ? domains.slice(0, options.limit) : domains;
@@ -346,16 +270,14 @@ async function main() {
   const existingSlugs = await listExistingSlugs();
   const summary = {
     generatedAt: new Date().toISOString(),
-    provider: "logo.dev",
+    provider: "google-favicon",
     totalDiscoveredDomains: domains.length,
     processedDomains: limitedDomains.length,
     downloaded: 0,
     skipped: 0,
     failed: 0,
     downloadedBySource: {
-      logoDevDomain: 0,
-      logoDevName: 0,
-      favicon: 0,
+      googleFavicon: 0,
     },
     dryRun: options.dryRun,
     force: options.force,
@@ -370,6 +292,7 @@ async function main() {
     const shouldLogProgress =
       processedCounter % PROGRESS_EVERY === 0 ||
       processedCounter === limitedDomains.length;
+
     const slug = toDomainSlug(domain);
     const relativePath = `logos/${slug}.png`;
     const filePath = path.join(OUTPUT_DIR, `${slug}.png`);
@@ -397,54 +320,7 @@ async function main() {
     }
 
     try {
-      const nameCandidates = Array.from(domainToNames.get(domain) ?? [])
-        .map((name) => normalizeLogoName(name))
-        .filter((name) => name.length > 0);
-
-      const attempts = [];
-      let result = await downloadByDomain(domain, token);
-      attempts.push({
-        source: "logo.dev/domain",
-        status: result.status,
-        contentType: result.contentType,
-        reason: result.reason,
-      });
-      let selectedSource = "logo.dev/domain";
-      let selectedName = null;
-
-      if (!result.ok || !result.buffer) {
-        for (const name of nameCandidates) {
-          const nameResult = await downloadByName(name, token);
-          attempts.push({
-            source: "logo.dev/name",
-            name,
-            status: nameResult.status,
-            contentType: nameResult.contentType,
-            reason: nameResult.reason,
-          });
-          if (nameResult.ok && nameResult.buffer) {
-            result = nameResult;
-            selectedSource = "logo.dev/name";
-            selectedName = name;
-            break;
-          }
-        }
-      }
-
-      if (!result.ok || !result.buffer) {
-        const faviconResult = await downloadFavicon(domain);
-        attempts.push({
-          source: "google-favicon",
-          status: faviconResult.status,
-          contentType: faviconResult.contentType,
-          reason: faviconResult.reason,
-        });
-        if (faviconResult.ok && faviconResult.buffer) {
-          result = faviconResult;
-          selectedSource = "google-favicon";
-        }
-      }
-
+      const result = await downloadFavicon(domain);
       if (!result.ok || !result.buffer) {
         summary.failed += 1;
         failures.push({
@@ -452,28 +328,24 @@ async function main() {
           status: result.status,
           contentType: result.contentType,
           reason: result.reason,
-          attempts,
         });
         outputs.push({ domain, path: relativePath, status: "failed" });
+        if (shouldLogProgress) {
+          console.log(
+            `[${processedCounter}/${limitedDomains.length}] downloaded=${summary.downloaded} skipped=${summary.skipped} failed=${summary.failed}`
+          );
+        }
         continue;
       }
 
       await fs.writeFile(filePath, result.buffer);
       summary.downloaded += 1;
-      if (selectedSource === "logo.dev/domain") {
-        summary.downloadedBySource.logoDevDomain += 1;
-      } else if (selectedSource === "logo.dev/name") {
-        summary.downloadedBySource.logoDevName += 1;
-      } else if (selectedSource === "google-favicon") {
-        summary.downloadedBySource.favicon += 1;
-      }
-
+      summary.downloadedBySource.googleFavicon += 1;
       outputs.push({
         domain,
         path: relativePath,
         status: "downloaded",
-        source: selectedSource,
-        name: selectedName,
+        source: "google-favicon",
         bytes: result.bytes,
         contentType: result.contentType,
       });
@@ -507,9 +379,7 @@ async function main() {
   console.log(`Domains discovered: ${summary.totalDiscoveredDomains}`);
   console.log(`Domains processed:  ${summary.processedDomains}`);
   console.log(`Downloaded:         ${summary.downloaded}`);
-  console.log(
-    `  - by source: domain=${summary.downloadedBySource.logoDevDomain}, name=${summary.downloadedBySource.logoDevName}, favicon=${summary.downloadedBySource.favicon}`
-  );
+  console.log(`  - by source: favicon=${summary.downloadedBySource.googleFavicon}`);
   console.log(`Skipped existing:   ${summary.skipped}`);
   console.log(`Failed:             ${summary.failed}`);
   console.log(`Manifest:           ${path.relative(ROOT_DIR, MANIFEST_FILE)}`);
