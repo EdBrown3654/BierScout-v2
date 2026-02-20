@@ -299,10 +299,10 @@ ANALYSIS METHODOLOGY:
   8. Generate recommendations
 
 OUTPUT FILES GENERATED:
-  • QA_REPORT_MISSING_LOGOS.md (detailed report)
+  • docs/QA_REPORT_MISSING_LOGOS.md (detailed report)
   • missing_logos_detailed.csv (tracking spreadsheet)
   • missing_logos_report.json (machine-readable data)
-  • QA_AUDIT_SUMMARY.txt (this file)
+  • docs/QA_AUDIT_SUMMARY.txt (this file)
 
 SCRIPT USED:
   • e:\bier\BierScout v2\analyze_missing_logos.js

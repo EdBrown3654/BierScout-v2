@@ -63,6 +63,14 @@ Danach: `http://localhost:3000`
 - Fuer Design-Asset-Generierung ist `OPENAI_API_KEY` in `.env` erforderlich.
 - `.env.example` enthaelt alle relevanten Variablen.
 
+## Dokumentation
+
+- Technische und QA-Dokumente liegen unter `docs/`
+- Data-Sync User Guide: `docs/DATA_SYNC.md`
+- Implementierungszusammenfassung: `docs/IMPLEMENTATION_SUMMARY.md`
+- QA-Report: `docs/QA_REPORT.md`
+- QA-Testevidence: `docs/QA_TEST_EVIDENCE.md`
+
 ## Projektstruktur (wichtigste Pfade)
 
 - `src/app/page.tsx`: Server-Komponente, laedt Bierdaten und Statistiken

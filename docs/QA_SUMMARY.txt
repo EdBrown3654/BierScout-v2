@@ -151,10 +151,10 @@ FILE LOCATIONS
 ================================================================================
 
 Documentation:
-  - QA Report:               /QA_REPORT.md
-  - Test Evidence:           /QA_TEST_EVIDENCE.md
-  - Implementation:          /IMPLEMENTATION_SUMMARY.md
-  - User Guide:              /DATA_SYNC.md
+  - QA Report:               /docs/QA_REPORT.md
+  - Test Evidence:           /docs/QA_TEST_EVIDENCE.md
+  - Implementation:          /docs/IMPLEMENTATION_SUMMARY.md
+  - User Guide:              /docs/DATA_SYNC.md
   - Feature Spec:            /.features/002-beer-data-sync-and-enrichment.feature.md
 
 Output Files (Generated):
@@ -177,7 +177,7 @@ CI/CD:
 NEXT STEPS
 ================================================================================
 
-1. REVIEW: QA_REPORT.md and QA_TEST_EVIDENCE.md
+1. REVIEW: docs/QA_REPORT.md and docs/QA_TEST_EVIDENCE.md
 2. APPROVE: Feature for production deployment
 3. DEPLOY: Merge to production branch
 4. MONITOR: First scheduled sync run (02:00 UTC)

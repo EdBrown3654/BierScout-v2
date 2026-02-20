@@ -147,16 +147,16 @@ DOCUMENTATION PROVIDED
 ================================================================================
 
 QA Reports:
-  - QA_REPORT.md (Main validation report)
-  - QA_TEST_EVIDENCE.md (Detailed test evidence)
-  - QA_SUMMARY.txt (Executive summary)
-  - POST_DEPLOYMENT_CHECKLIST.md (7-day monitoring guide)
-  - QA_FINAL_REPORT.txt (This file)
+  - docs/QA_REPORT.md (Main validation report)
+  - docs/QA_TEST_EVIDENCE.md (Detailed test evidence)
+  - docs/QA_SUMMARY.txt (Executive summary)
+  - docs/POST_DEPLOYMENT_CHECKLIST.md (7-day monitoring guide)
+  - docs/QA_FINAL_REPORT.txt (This file)
 
 Feature Documentation:
   - .features/002-beer-data-sync-and-enrichment.feature.md
-  - IMPLEMENTATION_SUMMARY.md
-  - DATA_SYNC.md
+  - docs/IMPLEMENTATION_SUMMARY.md
+  - docs/DATA_SYNC.md
 
 ================================================================================
 COMMANDS FOR REFERENCE
