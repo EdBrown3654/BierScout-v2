@@ -1,7 +1,14 @@
 "use client";
 
-import { useState, type SyntheticEvent } from "react";
-import { getBeerDomain, getFaviconUrl } from "@/lib/beer-domains";
+import { useMemo, useState, type SyntheticEvent } from "react";
+import {
+  getBeerDomain,
+  getFaviconUrl,
+  getLocalLogoUrl,
+  getLogoDevNameUrl,
+  getLogoDevUrl,
+  normalizeLogoName,
+} from "@/lib/beer-domains";
 
 // Category → background color for monogram fallback
 const categoryColors: Record<string, string> = {
@@ -49,7 +56,31 @@ export default function BeerLogo({
   category: string;
 }) {
   const domain = getBeerDomain(beerName, breweryName);
+  const logoDevToken = process.env.NEXT_PUBLIC_LOGO_DEV_TOKEN?.trim() || "";
   const [imgError, setImgError] = useState(false);
+  const [srcIndex, setSrcIndex] = useState(0);
+
+  const sourceCandidates = useMemo(() => {
+    if (!domain) return [];
+
+    const sources: string[] = [getLocalLogoUrl(domain)];
+
+    if (logoDevToken) {
+      sources.push(getLogoDevUrl(domain, logoDevToken));
+
+      const nameCandidates = Array.from(
+        new Set([breweryName, beerName].map((name) => normalizeLogoName(name)))
+      ).filter((name) => name.length > 0);
+
+      for (const name of nameCandidates) {
+        sources.push(getLogoDevNameUrl(name, logoDevToken));
+      }
+    }
+
+    sources.push(getFaviconUrl(domain));
+
+    return Array.from(new Set(sources));
+  }, [domain, logoDevToken, breweryName, beerName]);
 
   const handleImageLoad = (event: SyntheticEvent<HTMLImageElement>) => {
     const img = event.currentTarget;
@@ -57,7 +88,13 @@ export default function BeerLogo({
       img.naturalWidth < MIN_FAVICON_DIMENSION ||
       img.naturalHeight < MIN_FAVICON_DIMENSION
     ) {
-      setImgError(true);
+      setSrcIndex((currentIndex) => {
+        if (currentIndex < sourceCandidates.length - 1) {
+          return currentIndex + 1;
+        }
+        setImgError(true);
+        return currentIndex;
+      });
     }
   };
 
@@ -70,8 +107,10 @@ export default function BeerLogo({
     category.includes("Doppelbock") ||
     category.includes("Bockbier");
 
-  // Show monogram fallback if no domain is found, loading fails, or favicon is too small
-  if (!domain || imgError) {
+  const currentSrc = sourceCandidates[srcIndex] ?? null;
+
+  // Show monogram fallback if no source is found or all source candidates fail
+  if (!currentSrc || imgError) {
     return (
       <div
         className="flex h-24 w-24 shrink-0 items-center justify-center border-[2px] border-black font-mono text-3xl font-black uppercase"
@@ -90,13 +129,21 @@ export default function BeerLogo({
     <div className="flex h-24 w-24 shrink-0 items-center justify-center border-[2px] border-black bg-white p-1">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src={getFaviconUrl(domain)}
+        src={currentSrc}
         alt={`${beerName} Logo`}
         width={80}
         height={80}
         className="h-20 w-20 object-contain"
         onLoad={handleImageLoad}
-        onError={() => setImgError(true)}
+        onError={() => {
+          setSrcIndex((currentIndex) => {
+            if (currentIndex < sourceCandidates.length - 1) {
+              return currentIndex + 1;
+            }
+            setImgError(true);
+            return currentIndex;
+          });
+        }}
         loading="lazy"
       />
     </div>

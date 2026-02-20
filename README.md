@@ -47,6 +47,8 @@ Danach: `http://localhost:3000`
 - `npm run ai:start`: installiert Abhaengigkeiten (falls noetig), prueft Specialization und startet Dev-Server
 - `npm run design:logo`: generiert Logo-Assets via OpenAI Images API
 - `npm run design:image`: generiert Bild-Assets via OpenAI Images API
+- `npm run logos:sync`: laedt fehlende Brauerei-Logos in `public/logos/`
+- `npm run logos:sync:force`: laedt alle Logos neu in `public/logos/`
 
 ## Datenquelle
 
@@ -58,9 +60,10 @@ Danach: `http://localhost:3000`
 ## Wichtige Hinweise
 
 - Die Hero-Sektion erwartet ein Banner unter:
-  `public/Header/bierscout_banner.jpg`
+  `public/header/bierscout_banner.jpg`
   Wenn die Datei fehlt, erscheint im Browser ein 404-Bildplatzhalter.
 - Fuer Design-Asset-Generierung ist `OPENAI_API_KEY` in `.env` erforderlich.
+- Fuer `logos:sync` ist `LOGO_DEV_TOKEN` (oder `NEXT_PUBLIC_LOGO_DEV_TOKEN`) in `.env` erforderlich.
 - `.env.example` enthaelt alle relevanten Variablen.
 
 ## Dokumentation
@@ -70,6 +73,12 @@ Danach: `http://localhost:3000`
 - Implementierungszusammenfassung: `docs/IMPLEMENTATION_SUMMARY.md`
 - QA-Report: `docs/QA_REPORT.md`
 - QA-Testevidence: `docs/QA_TEST_EVIDENCE.md`
+
+Logo-Caching:
+- Lokale Logos: `public/logos/*.png`
+- Sync-Script: `scripts/logos/fetch-logos.mjs`
+- Optionaler Browser-Fallback via `NEXT_PUBLIC_LOGO_DEV_TOKEN`
+- Rendering-Reihenfolge: lokales PNG → `img.logo.dev/<domain>` → `img.logo.dev/name/<name>` → Google Favicon → Monogramm
 
 ## Projektstruktur (wichtigste Pfade)
 

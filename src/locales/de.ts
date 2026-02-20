@@ -20,6 +20,15 @@ const de: Dictionary = {
     categories: "SORTEN",
     breweries: "BRAUEREIEN",
   },
+  logos: {
+    title: "LOGO-SYNC AUSGABE",
+    domains: "DOMAINS",
+    cached: "LOKAL",
+    downloaded: "GELADEN",
+    skipped: "UEBERSPRUNGEN",
+    failed: "FEHLER",
+    updated: "STAND",
+  },
   footer: {
     tagline: "Hopfen, Humor und Harte Rabatte.",
     copyright: "\u00A9 2026 BIERSCOUT. PROST.",

@@ -16,6 +16,15 @@ export interface Dictionary {
     categories: string;
     breweries: string;
   };
+  logos: {
+    title: string;
+    domains: string;
+    cached: string;
+    downloaded: string;
+    skipped: string;
+    failed: string;
+    updated: string;
+  };
   footer: { tagline: string; copyright: string };
   board: { title: string; subtitle: (n: number, m: number) => string };
   search: { placeholder: string };

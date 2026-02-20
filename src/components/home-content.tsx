@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo } from "react";
-import { useT } from "@/lib/i18n-context";
+import { useLocale, useT } from "@/lib/i18n-context";
 import type { Beer } from "@/lib/beers";
 import { getRandomProstWords } from "@/lib/prost-words";
 import HopfenBoard from "@/components/hopfen-board";
@@ -17,6 +17,15 @@ interface HomeContentProps {
     categoriesCount: number;
     breweriesCount: number;
   };
+  logoSyncStats: {
+    provider: string;
+    totalDomains: number;
+    cachedLogos: number;
+    downloaded: number;
+    skipped: number;
+    failed: number;
+    generatedAt: string | null;
+  } | null;
 }
 
 export default function HomeContent({
@@ -24,8 +33,10 @@ export default function HomeContent({
   countries,
   categories,
   statValues,
+  logoSyncStats,
 }: HomeContentProps) {
   const t = useT();
+  const { locale } = useLocale();
 
   const stats = useMemo(
     () => [
@@ -39,6 +50,17 @@ export default function HomeContent({
 
   // Get all prost words for marquee (shuffled)
   const prostWords = useMemo(() => getRandomProstWords(), []);
+
+  const logoUpdatedText = useMemo(() => {
+    if (!logoSyncStats?.generatedAt) return "-";
+    const date = new Date(logoSyncStats.generatedAt);
+    if (Number.isNaN(date.getTime())) return "-";
+
+    return new Intl.DateTimeFormat(locale === "de" ? "de-DE" : "en-US", {
+      dateStyle: "medium",
+      timeStyle: "short",
+    }).format(date);
+  }, [logoSyncStats?.generatedAt, locale]);
 
   return (
     <main className="min-h-screen">
@@ -59,7 +81,7 @@ export default function HomeContent({
         <div className="relative w-full bg-black overflow-hidden">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/Header/bierscout_banner.jpg"
+            src="/header/bierscout_banner.jpg"
             alt="BIERSCOUT Banner"
             className="w-full h-auto"
           />
@@ -136,6 +158,25 @@ export default function HomeContent({
         ))}
       </div>
 
+      {/* LOGO SYNC OUTPUT */}
+      {logoSyncStats && (
+        <div className="border-b-[3px] border-black bg-black px-4 py-4 text-white sm:px-8">
+          <div className="mx-auto max-w-6xl">
+            <p className="font-mono text-[11px] font-bold uppercase tracking-[0.2em] text-[#d4a017]">
+              {t.logos.title} · {logoSyncStats.provider.toUpperCase()}
+            </p>
+            <div className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-6">
+              <LogoStatCell label={t.logos.domains} value={logoSyncStats.totalDomains} />
+              <LogoStatCell label={t.logos.cached} value={logoSyncStats.cachedLogos} />
+              <LogoStatCell label={t.logos.downloaded} value={logoSyncStats.downloaded} />
+              <LogoStatCell label={t.logos.skipped} value={logoSyncStats.skipped} />
+              <LogoStatCell label={t.logos.failed} value={logoSyncStats.failed} />
+              <LogoStatCell label={t.logos.updated} value={logoUpdatedText} />
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* HOPFEN-BOARD */}
       <HopfenBoard beers={beers} countries={countries} categories={categories} />
 
@@ -159,3 +200,15 @@ export default function HomeContent({
   );
 }
 
+function LogoStatCell({ label, value }: { label: string; value: string | number }) {
+  return (
+    <div className="border-[2px] border-white/30 bg-white/5 px-3 py-2">
+      <div className="font-mono text-[9px] uppercase tracking-[0.18em] text-white/60">
+        {label}
+      </div>
+      <div className="mt-1 truncate text-sm font-black uppercase tracking-wide text-white">
+        {value}
+      </div>
+    </div>
+  );
+}

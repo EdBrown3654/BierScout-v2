@@ -14,6 +14,8 @@
     "design:asset": "node scripts/design/generate-asset.mjs",
     "design:logo": "node scripts/design/generate-asset.mjs --type logo",
     "design:image": "node scripts/design/generate-asset.mjs --type image",
+    "logos:sync": "node scripts/logos/fetch-logos.mjs",
+    "logos:sync:force": "node scripts/logos/fetch-logos.mjs --force",
     "data:sync": "node scripts/data/sync-beers.mjs",
     "data:sync:dry": "node scripts/data/sync-beers.mjs --dry-run",
     "data:test": "node scripts/data/__tests__/load-csv.test.mjs && node scripts/data/__tests__/merge-enrichment.test.mjs && node scripts/data/__tests__/integration.test.mjs"

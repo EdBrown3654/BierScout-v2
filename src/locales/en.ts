@@ -20,6 +20,15 @@ const en: Dictionary = {
     categories: "STYLES",
     breweries: "BREWERIES",
   },
+  logos: {
+    title: "LOGO SYNC OUTPUT",
+    domains: "DOMAINS",
+    cached: "CACHED",
+    downloaded: "DOWNLOADED",
+    skipped: "SKIPPED",
+    failed: "FAILED",
+    updated: "UPDATED",
+  },
   footer: {
     tagline: "Hops, Humor, and Hard Bargains.",
     copyright: "\u00A9 2026 BIERSCOUT. CHEERS.",
