@@ -35,4 +35,39 @@ export interface Dictionary {
     unknown: string;
     label: { country: string; abv: string; size: string; price: string };
   };
+  detail: {
+    backToBoard: string;
+    title: string;
+    subtitle: (nr: number) => string;
+    section: {
+      base: string;
+      brewery: string;
+    };
+    labels: {
+      name: string;
+      brewery: string;
+      country: string;
+      category: string;
+      abv: string;
+      stammwuerze: string;
+      ingredients: string;
+      size: string;
+      price: string;
+      breweryId: string;
+      breweryType: string;
+      breweryWebsite: string;
+      breweryCity: string;
+      breweryState: string;
+      breweryStateProvince: string;
+      breweryCountryCode: string;
+      breweryPhone: string;
+      breweryPostalCode: string;
+      breweryStreet: string;
+      breweryAddress1: string;
+      breweryAddress2: string;
+      breweryAddress3: string;
+      breweryCoordinates: string;
+    };
+    missing: string;
+  };
 }

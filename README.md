@@ -60,7 +60,7 @@ Danach: `http://localhost:3000`
 
 ## Automatischer Sync auf Vercel
 
-- Cron-Konfiguration: `vercel.json` (taeglich `02:00 UTC`)
+- Cron-Konfiguration: `vercel.json` (woechentlich, montags `02:00 UTC`)
 - Endpoint: `GET /api/cron/data-sync`
 - Scheduler-Auth: `Authorization: Bearer $CRON_SECRET`
 - Persistenz: `@vercel/blob` schreibt

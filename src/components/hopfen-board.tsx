@@ -1,7 +1,9 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import Link from "next/link";
 import type { Beer } from "@/lib/beers";
+import { buildBeerSlug } from "@/lib/beer-slug";
 import { useLocale, useT } from "@/lib/i18n-context";
 import BeerLogo from "@/components/beer-logo";
 
@@ -186,7 +188,11 @@ function BeerCard({ beer }: { beer: Beer }) {
   const t = useT();
 
   return (
-    <div className="group border-[3px] border-black bg-white p-4 transition-colors hover:bg-[#d4a017] hover:text-black">
+    <Link
+      href={`/bier/${buildBeerSlug(beer)}`}
+      className="group block border-[3px] border-black bg-white p-4 transition-colors hover:bg-[#d4a017] hover:text-black"
+      aria-label={`${beer.name} #${String(beer.nr).padStart(3, "0")}`}
+    >
       {/* Top row: Logo + Header info */}
       <div className="flex gap-3">
         {/* Beer Logo */}
@@ -223,7 +229,7 @@ function BeerCard({ beer }: { beer: Beer }) {
         <InfoCell label={t.card.label.size} value={beer.size} />
         <InfoCell label={t.card.label.price} value={beer.price} />
       </div>
-    </div>
+    </Link>
   );
 }
 

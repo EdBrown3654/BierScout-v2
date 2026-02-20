@@ -85,14 +85,14 @@ Im Repo steht bereits:
   "crons": [
     {
       "path": "/api/cron/data-sync",
-      "schedule": "0 2 * * *"
+      "schedule": "0 2 * * 1"
     }
   ]
 }
 ```
 
 Bedeutung:
-- Jeden Tag um `02:00 UTC` ruft Vercel automatisch den Endpoint auf.
+- Jeden Montag um `02:00 UTC` ruft Vercel automatisch den Endpoint auf.
 
 Wichtig:
 - Cron Jobs laufen nur auf `Production` Deployments.
