@@ -5,9 +5,6 @@ import {
   getBeerDomain,
   getFaviconUrl,
   getLocalLogoUrl,
-  getLogoDevNameUrl,
-  getLogoDevUrl,
-  normalizeLogoName,
 } from "@/lib/beer-domains";
 
 // Category → background color for monogram fallback
@@ -45,6 +42,7 @@ function getInitials(name: string): string {
 }
 
 const MIN_FAVICON_DIMENSION = 32;
+const DEFAULT_LOGO_WRAPPER_BG = "#1f2937";
 
 export default function BeerLogo({
   beerName,
@@ -56,7 +54,6 @@ export default function BeerLogo({
   category: string;
 }) {
   const domain = getBeerDomain(beerName, breweryName);
-  const logoDevToken = process.env.NEXT_PUBLIC_LOGO_DEV_TOKEN?.trim() || "";
   const [imgError, setImgError] = useState(false);
   const [srcIndex, setSrcIndex] = useState(0);
 
@@ -65,22 +62,10 @@ export default function BeerLogo({
 
     const sources: string[] = [getLocalLogoUrl(domain)];
 
-    if (logoDevToken) {
-      sources.push(getLogoDevUrl(domain, logoDevToken));
-
-      const nameCandidates = Array.from(
-        new Set([breweryName, beerName].map((name) => normalizeLogoName(name)))
-      ).filter((name) => name.length > 0);
-
-      for (const name of nameCandidates) {
-        sources.push(getLogoDevNameUrl(name, logoDevToken));
-      }
-    }
-
     sources.push(getFaviconUrl(domain));
 
     return Array.from(new Set(sources));
-  }, [domain, logoDevToken, breweryName, beerName]);
+  }, [domain]);
 
   const handleImageLoad = (event: SyntheticEvent<HTMLImageElement>) => {
     const img = event.currentTarget;
@@ -113,7 +98,7 @@ export default function BeerLogo({
   if (!currentSrc || imgError) {
     return (
       <div
-        className="flex h-24 w-24 shrink-0 items-center justify-center border-[2px] border-black font-mono text-3xl font-black uppercase"
+        className="flex h-24 w-24 shrink-0 items-center justify-center border-[5px] border-black font-mono text-3xl font-black uppercase"
         style={{
           backgroundColor: bgColor,
           color: isDark ? "#d4a017" : "#000000",
@@ -126,14 +111,17 @@ export default function BeerLogo({
   }
 
   return (
-    <div className="flex h-24 w-24 shrink-0 items-center justify-center border-[2px] border-black bg-white p-1">
+    <div
+      className="flex h-24 w-24 shrink-0 items-center justify-center border-[5px] border-black"
+      style={{ backgroundColor: DEFAULT_LOGO_WRAPPER_BG }}
+    >
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={currentSrc}
         alt={`${beerName} Logo`}
-        width={80}
-        height={80}
-        className="h-20 w-20 object-contain"
+        width={96}
+        height={96}
+        className="h-full w-full object-contain"
         onLoad={handleImageLoad}
         onError={() => {
           setSrcIndex((currentIndex) => {
