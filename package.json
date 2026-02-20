@@ -21,6 +21,7 @@
     "data:test": "node scripts/data/__tests__/load-csv.test.mjs && node scripts/data/__tests__/merge-enrichment.test.mjs && node scripts/data/__tests__/integration.test.mjs"
   },
   "dependencies": {
+    "@vercel/blob": "^2.3.0",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3"

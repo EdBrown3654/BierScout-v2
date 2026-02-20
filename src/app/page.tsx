@@ -104,7 +104,7 @@ function getInitialCountryFromAcceptLanguage(
 }
 
 export default async function Home() {
-  const beers = loadBeers();
+  const beers = await loadBeers();
   const countries = getCountries(beers);
   const categories = getCategories(beers);
   const requestHeaders = await headers();

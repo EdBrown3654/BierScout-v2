@@ -56,10 +56,21 @@ interface Beer {
   ingredients?: string;
 
   // Optional enriched fields (from APIs)
+  breweryId?: string;
   breweryWebsite?: string;
   breweryCity?: string;
   breweryState?: string;
+  breweryStateProvince?: string;
   breweryCountryCode?: string;
+  breweryType?: string;
+  breweryPhone?: string;
+  breweryPostalCode?: string;
+  breweryStreet?: string;
+  breweryAddress1?: string;
+  breweryAddress2?: string;
+  breweryAddress3?: string;
+  breweryLatitude?: number;
+  breweryLongitude?: number;
 
   // Source tracking
   dataSources: Array<{
@@ -162,7 +173,7 @@ Key metrics:
 
 ### Open Brewery DB
 
-- **Endpoint**: `https://api.openbrewerydb.org/v1/breweries/search`
+- **Endpoint**: `https://api.openbrewerydb.org/v1/breweries?by_name=...`
 - **Query**: Brewery name + country matching
 - **Timeout**: 10 seconds per request
 - **Retry**: Up to 2 retries on failure

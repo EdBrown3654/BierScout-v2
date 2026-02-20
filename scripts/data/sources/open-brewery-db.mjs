@@ -15,10 +15,21 @@
  * @property {string} [country]
  *
  * @typedef {Object} EnrichmentPayload
+ * @property {string} [breweryId]
  * @property {string} [breweryWebsite]
  * @property {string} [breweryCity]
  * @property {string} [breweryState]
+ * @property {string} [breweryStateProvince]
  * @property {string} [breweryCountryCode]
+ * @property {string} [breweryType]
+ * @property {string} [breweryPhone]
+ * @property {string} [breweryPostalCode]
+ * @property {string} [breweryStreet]
+ * @property {string} [breweryAddress1]
+ * @property {string} [breweryAddress2]
+ * @property {string} [breweryAddress3]
+ * @property {number} [breweryLatitude]
+ * @property {number} [breweryLongitude]
  * @property {number} [matchScore]
  */
 
@@ -77,6 +88,14 @@ function calculateMatchScore(csvName, breweryName, csvCountry, breweryCountry) {
   }
 
   return Math.min(score, 100);
+}
+
+function toOptionalNumber(value) {
+  if (value === null || value === undefined || value === "") {
+    return undefined;
+  }
+  const parsed = Number(value);
+  return Number.isFinite(parsed) ? parsed : undefined;
 }
 
 /**
@@ -140,13 +159,12 @@ async function httpGetWithTimeout(urlStr, options = {}) {
 /**
  * Search brewery by name and country
  *
- * @param {string} beerName
  * @param {string} breweryName
  * @param {string} country
  * @param {Object} options
  * @returns {Promise<EnrichmentPayload|null>}
  */
-export async function searchBrewery(beerName, breweryName, country, options = {}) {
+export async function searchBrewery(breweryName, country, options = {}) {
   const { delayMs = DEFAULT_DELAY_MS } = options;
 
   // Skip if no brewery name provided
@@ -159,7 +177,9 @@ export async function searchBrewery(beerName, breweryName, country, options = {}
     await sleep(delayMs);
 
     // Build search query: brewery name
-    const url = `${API_BASE}/breweries/search?by_name=${encodeURIComponent(breweryName)}`;
+    const url = `${API_BASE}/breweries?by_name=${encodeURIComponent(
+      breweryName
+    )}&per_page=50`;
 
     const results = await httpGetWithTimeout(url, { timeout: TIMEOUT_MS, retries: 1 });
 
@@ -173,7 +193,7 @@ export async function searchBrewery(beerName, breweryName, country, options = {}
 
     for (const brewery of results) {
       const score = calculateMatchScore(
-        beerName,
+        breweryName,
         brewery.name,
         country,
         brewery.country
@@ -191,10 +211,21 @@ export async function searchBrewery(beerName, breweryName, country, options = {}
     }
 
     return {
+      breweryId: bestMatch.id || undefined,
       breweryWebsite: bestMatch.website_url || undefined,
       breweryCity: bestMatch.city || undefined,
-      breweryState: bestMatch.state || undefined,
+      breweryState: bestMatch.state || bestMatch.state_province || undefined,
+      breweryStateProvince: bestMatch.state_province || undefined,
       breweryCountryCode: bestMatch.country || undefined,
+      breweryType: bestMatch.brewery_type || undefined,
+      breweryPhone: bestMatch.phone || undefined,
+      breweryPostalCode: bestMatch.postal_code || undefined,
+      breweryStreet: bestMatch.street || bestMatch.address_1 || undefined,
+      breweryAddress1: bestMatch.address_1 || undefined,
+      breweryAddress2: bestMatch.address_2 || undefined,
+      breweryAddress3: bestMatch.address_3 || undefined,
+      breweryLatitude: toOptionalNumber(bestMatch.latitude),
+      breweryLongitude: toOptionalNumber(bestMatch.longitude),
       matchScore: bestScore,
     };
   } catch (err) {
@@ -214,7 +245,7 @@ export async function searchBrewery(beerName, breweryName, country, options = {}
  * @returns {Promise<{enrichment: Map, stats: Object}>}
  */
 export async function enrichBeers(baselineBeers, options = {}) {
-  const { delayMs = DEFAULT_DELAY_MS, dryRun = false } = options;
+  const { delayMs = DEFAULT_DELAY_MS } = options;
   const enrichment = new Map();
   let matched = 0;
   let attempted = 0;
@@ -222,7 +253,6 @@ export async function enrichBeers(baselineBeers, options = {}) {
   for (const beer of baselineBeers) {
     attempted++;
     const payload = await searchBrewery(
-      beer.name,
       beer.brewery,
       beer.country,
       { delayMs }

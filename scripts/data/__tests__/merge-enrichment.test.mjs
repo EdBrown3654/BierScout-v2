@@ -30,8 +30,16 @@ describe("Merge Engine", () => {
       [
         1,
         {
+          breweryId: "brewery-123",
           breweryWebsite: "https://test-brewery.de",
           breweryCity: "Munich",
+          breweryState: "Bayern",
+          breweryType: "micro",
+          breweryPhone: "+4989123456",
+          breweryPostalCode: "80331",
+          breweryStreet: "Teststrasse 1",
+          breweryLatitude: 48.137,
+          breweryLongitude: 11.575,
         },
       ],
     ]);
@@ -58,11 +66,19 @@ describe("Merge Engine", () => {
     // CSV baseline should be preserved
     assert.strictEqual(beer.name, "Test Beer");
     assert.strictEqual(beer.abv, "4,8%");
+    assert.strictEqual(beer.breweryId, "brewery-123");
+    assert.strictEqual(beer.breweryType, "micro");
+    assert.strictEqual(beer.breweryPhone, "+4989123456");
+    assert.strictEqual(beer.breweryPostalCode, "80331");
+    assert.strictEqual(beer.breweryStreet, "Teststrasse 1");
+    assert.strictEqual(beer.breweryLatitude, 48.137);
+    assert.strictEqual(beer.breweryLongitude, 11.575);
 
     // Source tracking should include all sources
     assert.strictEqual(beer.dataSources.length, 3);
     assert.strictEqual(beer.dataSources[0].source, "csv");
     assert.strictEqual(beer.dataSources[1].source, "open-brewery-db");
+    assert.strictEqual(beer.dataSources[1].sourceId, "brewery-123");
     assert.strictEqual(beer.dataSources[2].source, "manual-override");
   });
 

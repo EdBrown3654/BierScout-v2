@@ -24,9 +24,20 @@
  * @property {string} [stammwuerze]
  * @property {string} [ingredients]
  * @property {string} [breweryWebsite]
+ * @property {string} [breweryId]
  * @property {string} [breweryCity]
  * @property {string} [breweryState]
+ * @property {string} [breweryStateProvince]
  * @property {string} [breweryCountryCode]
+ * @property {string} [breweryType]
+ * @property {string} [breweryPhone]
+ * @property {string} [breweryPostalCode]
+ * @property {string} [breweryStreet]
+ * @property {string} [breweryAddress1]
+ * @property {string} [breweryAddress2]
+ * @property {string} [breweryAddress3]
+ * @property {number} [breweryLatitude]
+ * @property {number} [breweryLongitude]
  * @property {DataSource[]} dataSources
  * @property {string} [syncedAt]
  */
@@ -123,6 +134,9 @@ export function mergeBeers(baselineBeers, enrichmentMap, manualOverridesMap = ne
     // Apply API enrichment (if available and not overridden)
     const apiEnrichment = enrichmentMap.get(baseline.nr);
     if (apiEnrichment) {
+      if (apiEnrichment.breweryId) {
+        enriched.breweryId = apiEnrichment.breweryId;
+      }
       if (apiEnrichment.breweryWebsite) {
         enriched.breweryWebsite = apiEnrichment.breweryWebsite;
       }
@@ -132,8 +146,38 @@ export function mergeBeers(baselineBeers, enrichmentMap, manualOverridesMap = ne
       if (apiEnrichment.breweryState) {
         enriched.breweryState = apiEnrichment.breweryState;
       }
+      if (apiEnrichment.breweryStateProvince) {
+        enriched.breweryStateProvince = apiEnrichment.breweryStateProvince;
+      }
       if (apiEnrichment.breweryCountryCode) {
         enriched.breweryCountryCode = apiEnrichment.breweryCountryCode;
+      }
+      if (apiEnrichment.breweryType) {
+        enriched.breweryType = apiEnrichment.breweryType;
+      }
+      if (apiEnrichment.breweryPhone) {
+        enriched.breweryPhone = apiEnrichment.breweryPhone;
+      }
+      if (apiEnrichment.breweryPostalCode) {
+        enriched.breweryPostalCode = apiEnrichment.breweryPostalCode;
+      }
+      if (apiEnrichment.breweryStreet) {
+        enriched.breweryStreet = apiEnrichment.breweryStreet;
+      }
+      if (apiEnrichment.breweryAddress1) {
+        enriched.breweryAddress1 = apiEnrichment.breweryAddress1;
+      }
+      if (apiEnrichment.breweryAddress2) {
+        enriched.breweryAddress2 = apiEnrichment.breweryAddress2;
+      }
+      if (apiEnrichment.breweryAddress3) {
+        enriched.breweryAddress3 = apiEnrichment.breweryAddress3;
+      }
+      if (typeof apiEnrichment.breweryLatitude === "number") {
+        enriched.breweryLatitude = apiEnrichment.breweryLatitude;
+      }
+      if (typeof apiEnrichment.breweryLongitude === "number") {
+        enriched.breweryLongitude = apiEnrichment.breweryLongitude;
       }
 
       enriched.dataSources.push({

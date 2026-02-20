@@ -53,9 +53,26 @@ Danach: `http://localhost:3000`
 ## Datenquelle
 
 - CSV-Datei: `biermarket_bierliste.csv`
-- Parser: `src/lib/beers.ts`
+- Runtime-Loader: `src/lib/beers.ts`
+- Reihenfolge zur Laufzeit: Vercel Blob (`beers/latest.json`) -> `data/beers.enriched.json` -> CSV-Fallback
 - Country-Section-Header (`=== LAND ===`) werden als Fallback fuer fehlende Country-Felder genutzt
 - Kategorien und Laender werden zur Laufzeit aus den Datensaetzen dedupliziert
+
+## Automatischer Sync auf Vercel
+
+- Cron-Konfiguration: `vercel.json` (taeglich `02:00 UTC`)
+- Endpoint: `GET /api/cron/data-sync`
+- Scheduler-Auth: `Authorization: Bearer $CRON_SECRET`
+- Persistenz: `@vercel/blob` schreibt
+  - `beers/latest.json`
+  - `sync-report/latest.json`
+
+Noetige Environment-Variablen:
+- `CRON_SECRET`
+- `BLOB_READ_WRITE_TOKEN`
+- optional `BEERS_BLOB_PATH` (Default `beers/latest.json`)
+- optional `SYNC_REPORT_BLOB_PATH` (Default `sync-report/latest.json`)
+- optional `DATA_SYNC_REQUEST_DELAY_MS` (Default `150`)
 
 ## Wichtige Hinweise
 
