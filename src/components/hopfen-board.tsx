@@ -5,6 +5,20 @@ import type { Beer } from "@/lib/beers";
 import { useLocale, useT } from "@/lib/i18n-context";
 import BeerLogo from "@/components/beer-logo";
 
+const LETTER_OPTIONS = Array.from({ length: 26 }, (_, index) =>
+  String.fromCharCode(65 + index),
+);
+
+function getBeerInitial(beerName: string): string {
+  const normalized = beerName
+    .trim()
+    .charAt(0)
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toUpperCase();
+  return /^[A-Z]$/.test(normalized) ? normalized : "";
+}
+
 export default function HopfenBoard({
   beers,
   countries,
@@ -21,6 +35,7 @@ export default function HopfenBoard({
   const [search, setSearch] = useState("");
   const [selectedCountry, setSelectedCountry] = useState(initialCountry);
   const [selectedCategory, setSelectedCategory] = useState("");
+  const [selectedInitial, setSelectedInitial] = useState("");
   const collator = useMemo(
     () =>
       new Intl.Collator(locale === "de" ? "de-DE" : "en-US", {
@@ -29,6 +44,20 @@ export default function HopfenBoard({
       }),
     [locale],
   );
+  const availableInitials = useMemo(() => {
+    return new Set(
+      beers
+        .filter((beer) => {
+          const matchesCountry =
+            !selectedCountry || beer.country === selectedCountry;
+          const matchesCategory =
+            !selectedCategory || beer.category === selectedCategory;
+          return matchesCountry && matchesCategory;
+        })
+        .map((beer) => getBeerInitial(beer.name))
+        .filter(Boolean),
+    );
+  }, [beers, selectedCountry, selectedCategory]);
 
   const filtered = useMemo(() => {
     return beers
@@ -45,15 +74,22 @@ export default function HopfenBoard({
           !selectedCountry || beer.country === selectedCountry;
         const matchesCategory =
           !selectedCategory || beer.category === selectedCategory;
+        const matchesInitial =
+          !selectedInitial || getBeerInitial(beer.name) === selectedInitial;
 
-        return matchesSearch && matchesCountry && matchesCategory;
+        return (
+          matchesSearch &&
+          matchesCountry &&
+          matchesCategory &&
+          matchesInitial
+        );
       })
       .sort((a, b) => {
         const byName = collator.compare(a.name, b.name);
         if (byName !== 0) return byName;
         return a.nr - b.nr;
       });
-  }, [beers, search, selectedCountry, selectedCategory, collator]);
+  }, [beers, search, selectedCountry, selectedCategory, selectedInitial, collator]);
 
   return (
     <section id="hopfen-board">
@@ -80,7 +116,7 @@ export default function HopfenBoard({
           <select
             value={selectedCountry}
             onChange={(e) => setSelectedCountry(e.target.value)}
-            className="border-[3px] border-black bg-white px-4 py-3 font-mono text-sm uppercase tracking-wider text-black focus:border-[#d4a017] focus:outline-none"
+            className="select-chevron border-[3px] border-black bg-white px-4 py-3 font-mono text-sm uppercase tracking-wider text-black focus:border-[#d4a017] focus:outline-none"
           >
             <option value="">{t.filter.allCountries}</option>
             {countries.map((c) => (
@@ -92,7 +128,7 @@ export default function HopfenBoard({
           <select
             value={selectedCategory}
             onChange={(e) => setSelectedCategory(e.target.value)}
-            className="border-[3px] border-black bg-white px-4 py-3 font-mono text-sm uppercase tracking-wider text-black focus:border-[#d4a017] focus:outline-none"
+            className="select-chevron border-[3px] border-black bg-white px-4 py-3 font-mono text-sm uppercase tracking-wider text-black focus:border-[#d4a017] focus:outline-none"
           >
             <option value="">{t.filter.allCategories}</option>
             {categories.map((c) => (
@@ -100,6 +136,21 @@ export default function HopfenBoard({
                 {c}
               </option>
             ))}
+          </select>
+          <select
+            value={selectedInitial}
+            onChange={(e) => setSelectedInitial(e.target.value)}
+            className="select-chevron border-[3px] border-black bg-white px-4 py-3 font-mono text-sm uppercase tracking-wider text-black focus:border-[#d4a017] focus:outline-none"
+          >
+            <option value="">{t.filter.allBeers}</option>
+            {LETTER_OPTIONS.map((letter) => {
+              const isAvailable = availableInitials.has(letter);
+              return (
+                <option key={letter} value={letter} disabled={!isAvailable}>
+                  {letter}
+                </option>
+              );
+            })}
           </select>
         </div>
 
@@ -138,7 +189,6 @@ function BeerCard({ beer }: { beer: Beer }) {
         <BeerLogo
           beerName={beer.name}
           breweryName={beer.brewery}
-          category={beer.category}
         />
 
         {/* Name + Brewery + Nr */}

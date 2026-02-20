@@ -38,7 +38,11 @@ const en: Dictionary = {
     subtitle: (n, m) => `${n} beers from ${m} countries`,
   },
   search: { placeholder: "SEARCH: BEER, BREWERY, COUNTRY..." },
-  filter: { allCountries: "ALL COUNTRIES", allCategories: "ALL STYLES" },
+  filter: {
+    allCountries: "ALL COUNTRIES",
+    allCategories: "ALL STYLES",
+    allBeers: "ALL BEERS",
+  },
   results: {
     count: (n) => `${n} RESULT${n !== 1 ? "S" : ""}`,
   },

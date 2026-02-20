@@ -38,7 +38,11 @@ const de: Dictionary = {
     subtitle: (n, m) => `${n} Biere aus ${m} Laendern`,
   },
   search: { placeholder: "SUCHE: BIER, BRAUEREI, LAND..." },
-  filter: { allCountries: "ALLE LAENDER", allCategories: "ALLE SORTEN" },
+  filter: {
+    allCountries: "ALLE LAENDER",
+    allCategories: "ALLE SORTEN",
+    allBeers: "ALLE BIERE",
+  },
   results: {
     count: (n) => `${n} ERGEBNIS${n !== 1 ? "SE" : ""}`,
   },

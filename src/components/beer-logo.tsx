@@ -8,12 +8,19 @@ import {
 } from "@/lib/beer-domains";
 
 function getInitials(name: string): string {
-  // Get first letter, or first two if single word
-  const words = name.trim().split(/\s+/);
+  const words = name.trim().split(/\s+/).filter(Boolean);
+  const takeLeadingChar = (value: string) =>
+    value.replace(/^[^A-Za-z0-9ÄÖÜäöüß]+/, "").charAt(0);
+
   if (words.length >= 2) {
-    return (words[0][0] + words[1][0]).toUpperCase();
+    const first = takeLeadingChar(words[0]);
+    const second = takeLeadingChar(words[1]);
+    const pair = `${first}${second}`.toUpperCase();
+    if (pair) return pair;
   }
-  return name.slice(0, 2).toUpperCase();
+
+  const compact = name.replace(/[^A-Za-z0-9ÄÖÜäöüß]/g, "").slice(0, 2);
+  return (compact || "?").toUpperCase();
 }
 
 const MIN_FAVICON_DIMENSION = 32;
@@ -22,11 +29,9 @@ const DEFAULT_LOGO_WRAPPER_BG = "#1f2937";
 export default function BeerLogo({
   beerName,
   breweryName,
-  category,
 }: {
   beerName: string;
   breweryName: string;
-  category: string;
 }) {
   const domain = getBeerDomain(beerName, breweryName);
   const [imgError, setImgError] = useState(false);
@@ -59,12 +64,6 @@ export default function BeerLogo({
   };
 
   const initials = getInitials(beerName);
-  const isDark =
-    category.includes("Schwarz") ||
-    category.includes("Porter") ||
-    category.includes("Stout") ||
-    category.includes("Doppelbock") ||
-    category.includes("Bockbier");
 
   const currentSrc = sourceCandidates[srcIndex] ?? null;
 
@@ -72,10 +71,7 @@ export default function BeerLogo({
   if (!currentSrc || imgError) {
     return (
       <div
-        className="flex h-24 w-24 shrink-0 items-center justify-center border-[5px] border-black font-mono text-3xl font-black uppercase"
-        style={{
-          color: isDark ? "#d4a017" : "#000000",
-        }}
+        className="flex h-24 w-24 shrink-0 items-center justify-center border-[5px] border-black font-mono text-3xl font-black uppercase text-black"
         title={beerName}
       >
         {initials}

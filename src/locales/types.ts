@@ -28,7 +28,7 @@ export interface Dictionary {
   footer: { tagline: string; copyright: string };
   board: { title: string; subtitle: (n: number, m: number) => string };
   search: { placeholder: string };
-  filter: { allCountries: string; allCategories: string };
+  filter: { allCountries: string; allCategories: string; allBeers: string };
   results: { count: (n: number) => string };
   empty: { title: string; subtitle: string };
   card: {
