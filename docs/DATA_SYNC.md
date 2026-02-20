@@ -130,9 +130,9 @@ npm run data:sync -- --request-delay-ms 2000
 
 ### Scheduled Sync
 
-The sync runs automatically daily via GitHub Actions:
+The sync runs automatically weekly via GitHub Actions:
 
-- **Trigger**: 02:00 UTC every day (`.github/workflows/data-sync.yml`)
+- **Trigger**: 02:00 UTC every Monday (`.github/workflows/data-sync.yml`, cron `0 2 * * 1`)
 - **On change**: Commits `data/beers.enriched.json` and `data/sync-report.json`
 - **On failure**: Creates visible logs and exits with non-zero code
 
@@ -280,7 +280,7 @@ npm run data:sync
 
 - **Sync time**: ~2-5 minutes for 500 beers (Open Brewery DB rate limits)
 - **Output size**: ~200-300 KB gzipped (deterministic JSON with source metadata)
-- **Caching**: GitHub Actions uses `actions/cache` to speed up sync runs
+- **Workflow cadence**: Weekly schedule keeps API usage low for hobby-project operation
 - **Diffs**: Deterministic output (sorted by `nr`) minimizes Git diffs
 
 ## Security & Privacy
