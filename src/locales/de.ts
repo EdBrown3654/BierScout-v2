@@ -41,7 +41,7 @@ const de: Dictionary = {
   filter: {
     allCountries: "ALLE LAENDER",
     allCategories: "ALLE SORTEN",
-    allBeers: "ALLE BIERE",
+    allBeers: "A - Z",
   },
   results: {
     count: (n) => `${n} ERGEBNIS${n !== 1 ? "SE" : ""}`,

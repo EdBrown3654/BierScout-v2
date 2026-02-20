@@ -41,7 +41,7 @@ const en: Dictionary = {
   filter: {
     allCountries: "ALL COUNTRIES",
     allCategories: "ALL STYLES",
-    allBeers: "ALL BEERS",
+    allBeers: "A - Z",
   },
   results: {
     count: (n) => `${n} RESULT${n !== 1 ? "S" : ""}`,
