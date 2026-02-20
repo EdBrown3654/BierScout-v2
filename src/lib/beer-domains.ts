@@ -10,7 +10,7 @@ const breweryMap: Record<string, string> = {
 
   // ─── ALBANIEN ───
   "birra korça": "birrakorca.al",
-  "birra tirana": "birratirana.com.al",
+  "birra tirana": "birratirana.com",
 
   // ─── ANGOLA ───
   "empresa de cervejas de angola": "cuca.co.ao",
@@ -787,8 +787,99 @@ export function getBeerDomain(
 
 /**
  * Get the Google Favicon URL for a domain.
- * Returns a 128px favicon from Google's service.
+ * Uses the faviconV2 endpoint and requests a 128px favicon.
  */
+const countryCompoundSecondLevels = new Set([
+  "app",
+  "biz",
+  "co",
+  "com",
+  "edu",
+  "fm",
+  "gov",
+  "info",
+  "io",
+  "me",
+  "mil",
+  "net",
+  "org",
+  "tv",
+]);
+
+// Known valid public-suffix-like combinations that should not be collapsed.
+const knownCompoundCountrySuffixes = new Set([
+  "co.ao",
+  "co.id",
+  "co.il",
+  "co.jp",
+  "co.ke",
+  "co.kr",
+  "co.me",
+  "co.mz",
+  "co.nz",
+  "co.rw",
+  "co.th",
+  "co.tz",
+  "co.ug",
+  "co.uk",
+  "co.za",
+  "co.zw",
+  "com.ar",
+  "com.au",
+  "com.br",
+  "com.cn",
+  "com.co",
+  "com.cy",
+  "com.do",
+  "com.lb",
+  "com.my",
+  "com.ni",
+  "com.sg",
+  "com.tn",
+  "com.tw",
+  "com.uy",
+  "com.vn",
+]);
+
+function normalizeDomain(domain: string): string {
+  return domain
+    .trim()
+    .toLowerCase()
+    .replace(/^https?:\/\//, "")
+    .replace(/^www\./, "")
+    .replace(/\/.*$/, "");
+}
+
+function normalizeDoubleTldDomain(domain: string): string {
+  const parts = domain.split(".").filter(Boolean);
+  if (parts.length < 3) return domain;
+
+  const secondLevel = parts[parts.length - 2];
+  const countryCode = parts[parts.length - 1];
+  const compoundSuffix = `${secondLevel}.${countryCode}`;
+
+  const hasCompoundCountrySuffix =
+    /^[a-z]{2}$/.test(countryCode) &&
+    countryCompoundSecondLevels.has(secondLevel);
+
+  if (!hasCompoundCountrySuffix) return domain;
+  if (knownCompoundCountrySuffixes.has(compoundSuffix)) return domain;
+
+  // Collapse suspicious "*.com.xx" / "*.org.xx" style hostnames to "*.com" / "*.org".
+  parts.pop();
+  return parts.join(".");
+}
+
 export function getFaviconUrl(domain: string): string {
-  return `https://www.google.com/s2/favicons?domain=${domain}&sz=128`;
+  const normalizedDomain = normalizeDoubleTldDomain(normalizeDomain(domain));
+
+  const params = new URLSearchParams({
+    client: "SOCIAL",
+    type: "FAVICON",
+    fallback_opts: "TYPE,SIZE,URL",
+    url: `https://${normalizedDomain}`,
+    size: "128",
+  });
+
+  return `https://t2.gstatic.com/faviconV2?${params.toString()}`;
 }

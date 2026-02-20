@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, type SyntheticEvent } from "react";
 import { getBeerDomain, getFaviconUrl } from "@/lib/beer-domains";
 
 // Category → background color for monogram fallback
@@ -37,6 +37,8 @@ function getInitials(name: string): string {
   return name.slice(0, 2).toUpperCase();
 }
 
+const MIN_FAVICON_DIMENSION = 32;
+
 export default function BeerLogo({
   beerName,
   breweryName,
@@ -49,6 +51,16 @@ export default function BeerLogo({
   const domain = getBeerDomain(beerName, breweryName);
   const [imgError, setImgError] = useState(false);
 
+  const handleImageLoad = (event: SyntheticEvent<HTMLImageElement>) => {
+    const img = event.currentTarget;
+    if (
+      img.naturalWidth < MIN_FAVICON_DIMENSION ||
+      img.naturalHeight < MIN_FAVICON_DIMENSION
+    ) {
+      setImgError(true);
+    }
+  };
+
   const initials = getInitials(beerName);
   const bgColor = getCategoryColor(category);
   const isDark =
@@ -58,7 +70,7 @@ export default function BeerLogo({
     category.includes("Doppelbock") ||
     category.includes("Bockbier");
 
-  // Show monogram fallback if no domain found or image fails
+  // Show monogram fallback if no domain is found, loading fails, or favicon is too small
   if (!domain || imgError) {
     return (
       <div
@@ -83,6 +95,7 @@ export default function BeerLogo({
         width={80}
         height={80}
         className="h-20 w-20 object-contain"
+        onLoad={handleImageLoad}
         onError={() => setImgError(true)}
         loading="lazy"
       />
