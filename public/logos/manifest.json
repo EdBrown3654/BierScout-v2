@@ -1,998 +1,1251 @@
 {
-  "generatedAt": "2026-02-20T07:00:07.569Z",
-  "provider": "logo.dev",
+  "generatedAt": "2026-02-20T07:08:04.864Z",
+  "provider": "google-favicon",
   "totalDiscoveredDomains": 295,
   "processedDomains": 295,
-  "downloaded": 295,
+  "downloaded": 221,
   "skipped": 0,
-  "failed": 0,
+  "failed": 74,
   "downloadedBySource": {
-    "logoDevDomain": 293,
-    "logoDevName": 2,
-    "favicon": 0
+    "googleFavicon": 221
   },
   "dryRun": false,
-  "force": true,
-  "failures": [],
+  "force": false,
+  "failures": [
+    {
+      "domain": "accrabrewery.com",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "ambev.com.br",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "apb.com.sg",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "asahibeer.com",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "banksbeer.com",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "bavaria.com",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "bestbelgianspecialbeers.be",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "biermanufaktur-engel.de",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "birra-menabrea.it",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "birratirana.com",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "boonrawd.co.th",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "bralimagroup.com",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "bralirwa.co.rw",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "brasserie.lu",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "bucanero.cu",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "carlsberg.com.my",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "carlsberg.se",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "castelain.com",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "cbn.bo",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "ccu.cl",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "cerveceríanacional.com",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "cerveceríaregional.com",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "commonwealthbrewery.com",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "cuca.co.ao",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "dosequis.com",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "efes.kz",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "egils.is",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "fixbeer.gr",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "fosters.com.au",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "gab.com.my",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "groupesbm.com",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "guinness-ghana.com",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "habeco.com.vn",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "heineken.com.vn",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "hitejinro.com",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "hoegaarden.com",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "hopfenheld.de",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "ichnusa.it",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "keesmann.de",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "keo.com.cy",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "kilkennyale.com",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "kingfisherworld.com",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "latrappetrappist.com",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "lottechilsung.co.kr",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "metaabo.com",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "molsoncanadian.ca",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "myanmarbrewery.com",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "mythosbrewery.gr",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "newcastlebeer.co.uk",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "nilebreweries.co.ug",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "pivo-union.si",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "rodenbach.be",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "sab.co.za",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "sabc-sa.com",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "sabmiller.com",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "sarajevskopivo.ba",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "sfbt.com.tn",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "sfrgroup.ee",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "skopskopivo.mk",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "smithwicks.com",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "snowbeer.com.cn",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "solbeer.com",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "steinlager.co.nz",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "tempobeer.co.il",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "thaibev.com",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "trebjesa.co.me",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "tsingtao.com.cn",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "ttl.com.tw",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "tusker.co.ke",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "uzavasalus.lv",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "weiherer-bier.de",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "zagorka.bg",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "zajecarskopivo.rs",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    },
+    {
+      "domain": "zambian-breweries.com",
+      "status": 404,
+      "contentType": "image/png",
+      "reason": "HTTP 404"
+    }
+  ],
   "outputs": [
     {
       "domain": "961beer.com",
       "path": "logos/961beer.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 22717,
+      "source": "google-favicon",
+      "bytes": 4339,
       "contentType": "image/png"
     },
     {
       "domain": "aass.no",
       "path": "logos/aass.no.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 10254,
+      "source": "google-favicon",
+      "bytes": 3093,
       "contentType": "image/png"
     },
     {
       "domain": "ab-inbev.com",
       "path": "logos/ab-inbev.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 11239,
+      "source": "google-favicon",
+      "bytes": 2376,
       "contentType": "image/png"
     },
     {
       "domain": "accrabrewery.com",
       "path": "logos/accrabrewery.com.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1546,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "alahrambeverages.com",
       "path": "logos/alahrambeverages.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 9187,
+      "source": "google-favicon",
+      "bytes": 5133,
       "contentType": "image/png"
     },
     {
       "domain": "alecoq.ee",
       "path": "logos/alecoq.ee.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 10186,
+      "source": "google-favicon",
+      "bytes": 2907,
       "contentType": "image/png"
     },
     {
       "domain": "almaza.com.lb",
       "path": "logos/almaza.com.lb.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 9486,
+      "source": "google-favicon",
+      "bytes": 3855,
       "contentType": "image/png"
     },
     {
       "domain": "ambev.com.br",
       "path": "logos/ambev.com.br.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 5848,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "amstel.com",
       "path": "logos/amstel.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 30155,
+      "source": "google-favicon",
+      "bytes": 993,
       "contentType": "image/png"
     },
     {
       "domain": "anadoluefes.com",
       "path": "logos/anadoluefes.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 9771,
+      "source": "google-favicon",
+      "bytes": 310,
       "contentType": "image/png"
     },
     {
       "domain": "anchorbrewing.com",
       "path": "logos/anchorbrewing.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 14459,
+      "source": "google-favicon",
+      "bytes": 3522,
       "contentType": "image/png"
     },
     {
       "domain": "andechs.de",
       "path": "logos/andechs.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 13356,
+      "source": "google-favicon",
+      "bytes": 2567,
       "contentType": "image/png"
     },
     {
       "domain": "anheuser-busch.com",
       "path": "logos/anheuser-busch.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 12128,
+      "source": "google-favicon",
+      "bytes": 3350,
       "contentType": "image/png"
     },
     {
       "domain": "apatinskapivara.rs",
       "path": "logos/apatinskapivara.rs.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 15455,
+      "source": "google-favicon",
+      "bytes": 711,
       "contentType": "image/png"
     },
     {
       "domain": "apb.com.sg",
       "path": "logos/apb.com.sg.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 15213,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "apu.mn",
       "path": "logos/apu.mn.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 8299,
+      "source": "google-favicon",
+      "bytes": 490,
       "contentType": "image/png"
     },
     {
       "domain": "asahibeer.com",
       "path": "logos/asahibeer.com.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 10726,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "athenianbrewery.gr",
       "path": "logos/athenianbrewery.gr.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 10759,
+      "source": "google-favicon",
+      "bytes": 2693,
       "contentType": "image/png"
     },
     {
       "domain": "augustiner-braeu.de",
       "path": "logos/augustiner-braeu.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 25128,
+      "source": "google-favicon",
+      "bytes": 446,
       "contentType": "image/png"
     },
     {
       "domain": "backus.pe",
       "path": "logos/backus.pe.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 11307,
+      "source": "google-favicon",
+      "bytes": 1621,
       "contentType": "image/png"
     },
     {
       "domain": "baltika.ru",
       "path": "logos/baltika.ru.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 7157,
+      "source": "google-favicon",
+      "bytes": 1745,
       "contentType": "image/png"
     },
     {
       "domain": "banksbeer.com",
       "path": "logos/banksbeer.com.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 12459,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "bavaria.co",
       "path": "logos/bavaria.co.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 5517,
+      "source": "google-favicon",
+      "bytes": 3710,
       "contentType": "image/png"
     },
     {
       "domain": "bavaria.com",
       "path": "logos/bavaria.com.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 18801,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "becks.de",
       "path": "logos/becks.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 16639,
+      "source": "google-favicon",
+      "bytes": 892,
       "contentType": "image/png"
     },
     {
       "domain": "beerlao.la",
       "path": "logos/beerlao.la.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 2745,
+      "source": "google-favicon",
+      "bytes": 386,
       "contentType": "image/png"
     },
     {
       "domain": "belhaven.co.uk",
       "path": "logos/belhaven.co.uk.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 15833,
+      "source": "google-favicon",
+      "bytes": 2339,
       "contentType": "image/png"
     },
     {
       "domain": "bernard.cz",
       "path": "logos/bernard.cz.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 12420,
+      "source": "google-favicon",
+      "bytes": 3860,
       "contentType": "image/png"
     },
     {
       "domain": "bestbelgianspecialbeers.be",
       "path": "logos/bestbelgianspecialbeers.be.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 15330,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "biermanufaktur-engel.de",
       "path": "logos/biermanufaktur-engel.de.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1440,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "birra-menabrea.it",
       "path": "logos/birra-menabrea.it.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1440,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "birrakorca.al",
       "path": "logos/birrakorca.al.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 11476,
-      "contentType": "image/png"
+      "source": "google-favicon",
+      "bytes": 2533,
+      "contentType": "image/jpeg"
     },
     {
       "domain": "birramessina.it",
       "path": "logos/birramessina.it.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 27742,
+      "source": "google-favicon",
+      "bytes": 4746,
       "contentType": "image/png"
     },
     {
       "domain": "birramoretti.com",
       "path": "logos/birramoretti.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 10927,
+      "source": "google-favicon",
+      "bytes": 7734,
       "contentType": "image/png"
     },
     {
       "domain": "birratirana.com",
       "path": "logos/birratirana.com.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 11337,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "bitburger.de",
       "path": "logos/bitburger.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 20819,
-      "contentType": "image/png"
+      "source": "google-favicon",
+      "bytes": 1694,
+      "contentType": "image/jpeg"
     },
     {
       "domain": "bluemoonbrewingcompany.com",
       "path": "logos/bluemoonbrewingcompany.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 15823,
+      "source": "google-favicon",
+      "bytes": 12755,
       "contentType": "image/png"
     },
     {
       "domain": "bofferding.lu",
       "path": "logos/bofferding.lu.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 27787,
+      "source": "google-favicon",
+      "bytes": 3389,
       "contentType": "image/png"
     },
     {
       "domain": "boonrawd.co.th",
       "path": "logos/boonrawd.co.th.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 12355,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "borsodi.hu",
       "path": "logos/borsodi.hu.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 2981,
+      "source": "google-favicon",
+      "bytes": 2972,
       "contentType": "image/png"
     },
     {
       "domain": "bralimagroup.com",
       "path": "logos/bralimagroup.com.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1440,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "bralirwa.co.rw",
       "path": "logos/bralirwa.co.rw.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 9670,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "brand.nl",
       "path": "logos/brand.nl.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 18005,
+      "source": "google-favicon",
+      "bytes": 1541,
       "contentType": "image/png"
     },
     {
       "domain": "brasserie.lu",
       "path": "logos/brasserie.lu.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1440,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "brauerei-hummel.de",
       "path": "logos/brauerei-hummel.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 27490,
+      "source": "google-favicon",
+      "bytes": 5459,
       "contentType": "image/png"
     },
     {
       "domain": "brauerei-kanone.de",
       "path": "logos/brauerei-kanone.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 12987,
+      "source": "google-favicon",
+      "bytes": 2206,
       "contentType": "image/png"
     },
     {
       "domain": "brauhaus-tegernsee.de",
       "path": "logos/brauhaus-tegernsee.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 11286,
+      "source": "google-favicon",
+      "bytes": 1269,
       "contentType": "image/png"
     },
     {
       "domain": "brauunion.at",
       "path": "logos/brauunion.at.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 6891,
-      "contentType": "image/png"
+      "source": "google-favicon",
+      "bytes": 3053,
+      "contentType": "image/jpeg"
     },
     {
       "domain": "brewdog.com",
       "path": "logos/brewdog.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 4001,
+      "source": "google-favicon",
+      "bytes": 1675,
       "contentType": "image/png"
     },
     {
       "domain": "brinkhoffs.de",
       "path": "logos/brinkhoffs.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 24773,
+      "source": "google-favicon",
+      "bytes": 4723,
       "contentType": "image/png"
     },
     {
       "domain": "brooklynbrewery.com",
       "path": "logos/brooklynbrewery.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 16491,
+      "source": "google-favicon",
+      "bytes": 2185,
       "contentType": "image/png"
     },
     {
       "domain": "bucanero.cu",
       "path": "logos/bucanero.cu.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1440,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "budvar.cz",
       "path": "logos/budvar.cz.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 14662,
+      "source": "google-favicon",
+      "bytes": 1354,
       "contentType": "image/png"
     },
     {
       "domain": "budweiser.com",
       "path": "logos/budweiser.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 3407,
+      "source": "google-favicon",
+      "bytes": 985,
       "contentType": "image/png"
     },
     {
       "domain": "cambodiabrewery.com",
       "path": "logos/cambodiabrewery.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 6695,
+      "source": "google-favicon",
+      "bytes": 1963,
       "contentType": "image/png"
     },
     {
       "domain": "cambrew.com",
       "path": "logos/cambrew.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 2898,
-      "contentType": "image/png"
+      "source": "google-favicon",
+      "bytes": 3481,
+      "contentType": "image/jpeg"
     },
     {
       "domain": "caribbrewery.com",
       "path": "logos/caribbrewery.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 32039,
+      "source": "google-favicon",
+      "bytes": 1739,
       "contentType": "image/png"
     },
     {
       "domain": "carling.com",
       "path": "logos/carling.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 3771,
+      "source": "google-favicon",
+      "bytes": 186,
       "contentType": "image/png"
     },
     {
       "domain": "carlsberg.com",
       "path": "logos/carlsberg.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 18013,
+      "source": "google-favicon",
+      "bytes": 1842,
       "contentType": "image/png"
     },
     {
       "domain": "carlsberg.com.cy",
       "path": "logos/carlsberg.com.cy.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 18013,
+      "source": "google-favicon",
+      "bytes": 1095,
       "contentType": "image/png"
     },
     {
       "domain": "carlsberg.com.my",
       "path": "logos/carlsberg.com.my.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1090,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "carlsberg.hr",
       "path": "logos/carlsberg.hr.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 16932,
+      "source": "google-favicon",
+      "bytes": 386,
       "contentType": "image/png"
     },
     {
       "domain": "carlsberg.lt",
       "path": "logos/carlsberg.lt.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 18013,
+      "source": "google-favicon",
+      "bytes": 1842,
       "contentType": "image/png"
     },
     {
       "domain": "carlsberg.lv",
       "path": "logos/carlsberg.lv.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 18013,
+      "source": "google-favicon",
+      "bytes": 1842,
       "contentType": "image/png"
     },
     {
       "domain": "carlsberg.pl",
       "path": "logos/carlsberg.pl.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 18013,
+      "source": "google-favicon",
+      "bytes": 1095,
       "contentType": "image/png"
     },
     {
       "domain": "carlsberg.rs",
       "path": "logos/carlsberg.rs.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 18013,
+      "source": "google-favicon",
+      "bytes": 1095,
       "contentType": "image/png"
     },
     {
       "domain": "carlsberg.se",
       "path": "logos/carlsberg.se.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1090,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "castelain.com",
       "path": "logos/castelain.com.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1651,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "castlelager.co.za",
       "path": "logos/castlelager.co.za.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 5388,
+      "source": "google-favicon",
+      "bytes": 2794,
       "contentType": "image/png"
     },
     {
       "domain": "cbn.bo",
       "path": "logos/cbn.bo.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 5052,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "ccn.com.ni",
       "path": "logos/ccn.com.ni.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 25213,
+      "source": "google-favicon",
+      "bytes": 4995,
       "contentType": "image/png"
     },
     {
       "domain": "ccu.cl",
       "path": "logos/ccu.cl.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 5917,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "cdm.co.mz",
       "path": "logos/cdm.co.mz.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 14258,
+      "source": "google-favicon",
+      "bytes": 329,
       "contentType": "image/png"
     },
     {
       "domain": "centralcervejas.pt",
       "path": "logos/centralcervejas.pt.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 9970,
+      "source": "google-favicon",
+      "bytes": 2021,
       "contentType": "image/png"
     },
     {
       "domain": "cerveceriacentroamericana.com",
       "path": "logos/cerveceriacentroamericana.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 15915,
+      "source": "google-favicon",
+      "bytes": 5806,
       "contentType": "image/png"
     },
     {
       "domain": "cerveceriahondurena.com",
       "path": "logos/cerveceriahondurena.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 14149,
+      "source": "google-favicon",
+      "bytes": 1423,
       "contentType": "image/png"
     },
     {
       "domain": "cerveceriakunstmann.cl",
       "path": "logos/cerveceriakunstmann.cl.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 7414,
+      "source": "google-favicon",
+      "bytes": 965,
       "contentType": "image/png"
     },
     {
       "domain": "cerveceríanacional.com",
       "path": "logos/cervecer-anacional.com.png",
-      "status": "downloaded",
-      "source": "logo.dev/name",
-      "name": "cerveceria nacional",
-      "bytes": 1651,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "cerveceríaregional.com",
       "path": "logos/cervecer-aregional.com.png",
-      "status": "downloaded",
-      "source": "logo.dev/name",
-      "name": "cerveceria regional",
-      "bytes": 29826,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "cervezaaustral.cl",
       "path": "logos/cervezaaustral.cl.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 7496,
-      "contentType": "image/png"
+      "source": "google-favicon",
+      "bytes": 1251,
+      "contentType": "image/jpeg"
     },
     {
       "domain": "cervezasalhambra.es",
       "path": "logos/cervezasalhambra.es.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 5424,
+      "source": "google-favicon",
+      "bytes": 2654,
       "contentType": "image/png"
     },
     {
       "domain": "changbeer.com",
       "path": "logos/changbeer.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 15502,
-      "contentType": "image/png"
+      "source": "google-favicon",
+      "bytes": 5227,
+      "contentType": "image/jpeg"
     },
     {
       "domain": "chimay.com",
       "path": "logos/chimay.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 18994,
+      "source": "google-favicon",
+      "bytes": 4461,
       "contentType": "image/png"
     },
     {
       "domain": "chouffe.com",
       "path": "logos/chouffe.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 13491,
+      "source": "google-favicon",
+      "bytes": 4213,
       "contentType": "image/png"
     },
     {
       "domain": "clubcolombia.com.co",
       "path": "logos/clubcolombia.com.co.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 8093,
+      "source": "google-favicon",
+      "bytes": 2690,
       "contentType": "image/png"
     },
     {
       "domain": "cnd.com.do",
       "path": "logos/cnd.com.do.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 9492,
+      "source": "google-favicon",
+      "bytes": 2126,
       "contentType": "image/png"
     },
     {
       "domain": "cobrabeer.com",
       "path": "logos/cobrabeer.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 22644,
+      "source": "google-favicon",
+      "bytes": 1748,
       "contentType": "image/png"
     },
     {
       "domain": "commonwealthbrewery.com",
       "path": "logos/commonwealthbrewery.com.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1651,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "coopers.com.au",
       "path": "logos/coopers.com.au.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 23735,
+      "source": "google-favicon",
+      "bytes": 2632,
       "contentType": "image/png"
     },
     {
       "domain": "coorslight.com",
       "path": "logos/coorslight.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 5734,
+      "source": "google-favicon",
+      "bytes": 1558,
       "contentType": "image/png"
     },
     {
       "domain": "corona.com",
       "path": "logos/corona.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 10460,
+      "source": "google-favicon",
+      "bytes": 2059,
       "contentType": "image/png"
     },
     {
       "domain": "cruzcampo.es",
       "path": "logos/cruzcampo.es.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 30345,
+      "source": "google-favicon",
+      "bytes": 988,
       "contentType": "image/png"
     },
     {
       "domain": "cub.com.au",
       "path": "logos/cub.com.au.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 8375,
+      "source": "google-favicon",
+      "bytes": 2154,
       "contentType": "image/png"
     },
     {
       "domain": "cuca.co.ao",
       "path": "logos/cuca.co.ao.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1651,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "damm.com",
       "path": "logos/damm.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 10753,
+      "source": "google-favicon",
+      "bytes": 316,
       "contentType": "image/png"
     },
     {
       "domain": "db.co.nz",
       "path": "logos/db.co.nz.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 2450,
+      "source": "google-favicon",
+      "bytes": 703,
       "contentType": "image/png"
     },
     {
       "domain": "delta.co.zw",
       "path": "logos/delta.co.zw.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 5992,
+      "source": "google-favicon",
+      "bytes": 1116,
       "contentType": "image/png"
     },
     {
       "domain": "diageo.com",
       "path": "logos/diageo.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 12401,
+      "source": "google-favicon",
+      "bytes": 1328,
       "contentType": "image/png"
     },
     {
       "domain": "diekirch.lu",
       "path": "logos/diekirch.lu.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 20038,
+      "source": "google-favicon",
+      "bytes": 4361,
       "contentType": "image/png"
     },
     {
       "domain": "discoverpacifico.com",
       "path": "logos/discoverpacifico.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1371,
+      "source": "google-favicon",
+      "bytes": 2877,
       "contentType": "image/png"
     },
     {
       "domain": "dosequis.com",
       "path": "logos/dosequis.com.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 13773,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "dreher.hu",
       "path": "logos/dreher.hu.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 4815,
+      "source": "google-favicon",
+      "bytes": 1993,
       "contentType": "image/png"
     },
     {
       "domain": "duvel.com",
       "path": "logos/duvel.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 12391,
+      "source": "google-favicon",
+      "bytes": 2188,
       "contentType": "image/png"
     },
     {
       "domain": "eabl.com",
       "path": "logos/eabl.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 2677,
-      "contentType": "image/png"
+      "source": "google-favicon",
+      "bytes": 760,
+      "contentType": "image/jpeg"
     },
     {
       "domain": "efes.kz",
       "path": "logos/efes.kz.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 574,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "egils.is",
       "path": "logos/egils.is.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 879,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "eichhof.ch",
       "path": "logos/eichhof.ch.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 32110,
+      "source": "google-favicon",
+      "bytes": 2190,
       "contentType": "image/png"
     },
     {
       "domain": "empresaspolar.com",
       "path": "logos/empresaspolar.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 4595,
+      "source": "google-favicon",
+      "bytes": 11349,
       "contentType": "image/png"
     },
     {
       "domain": "erdinger.de",
       "path": "logos/erdinger.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
+      "source": "google-favicon",
       "bytes": 574,
       "contentType": "image/png"
     },
@@ -1000,1674 +1253,1347 @@
       "domain": "eschenbacher.de",
       "path": "logos/eschenbacher.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 16149,
+      "source": "google-favicon",
+      "bytes": 2241,
       "contentType": "image/png"
     },
     {
       "domain": "estrelladamm.com",
       "path": "logos/estrelladamm.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 11710,
+      "source": "google-favicon",
+      "bytes": 1218,
       "contentType": "image/png"
     },
     {
       "domain": "estrellagalicia.es",
       "path": "logos/estrellagalicia.es.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 14019,
+      "source": "google-favicon",
+      "bytes": 2425,
       "contentType": "image/png"
     },
     {
       "domain": "farsons.com",
       "path": "logos/farsons.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 17122,
+      "source": "google-favicon",
+      "bytes": 614,
       "contentType": "image/png"
     },
     {
       "domain": "fatheads.com",
       "path": "logos/fatheads.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 29192,
+      "source": "google-favicon",
+      "bytes": 6119,
       "contentType": "image/png"
     },
     {
       "domain": "feldschloesschen.swiss",
       "path": "logos/feldschloesschen.swiss.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 12641,
+      "source": "google-favicon",
+      "bytes": 386,
       "contentType": "image/png"
     },
     {
       "domain": "fifco.com",
       "path": "logos/fifco.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 3799,
+      "source": "google-favicon",
+      "bytes": 1790,
       "contentType": "image/png"
     },
     {
       "domain": "fixbeer.gr",
       "path": "logos/fixbeer.gr.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 533,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "fnc.com.uy",
       "path": "logos/fnc.com.uy.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 19503,
+      "source": "google-favicon",
+      "bytes": 1933,
       "contentType": "image/png"
     },
     {
       "domain": "fosters.com",
       "path": "logos/fosters.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 3220,
+      "source": "google-favicon",
+      "bytes": 422,
       "contentType": "image/png"
     },
     {
       "domain": "fosters.com.au",
       "path": "logos/fosters.com.au.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 533,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "franziskaner-weissbier.de",
       "path": "logos/franziskaner-weissbier.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 9146,
+      "source": "google-favicon",
+      "bytes": 8030,
       "contentType": "image/png"
     },
     {
       "domain": "fullers.co.uk",
       "path": "logos/fullers.co.uk.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 9077,
+      "source": "google-favicon",
+      "bytes": 6851,
       "contentType": "image/png"
     },
     {
       "domain": "gab.com.my",
       "path": "logos/gab.com.my.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1709,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "gambrinus.cz",
       "path": "logos/gambrinus.cz.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 21886,
+      "source": "google-favicon",
+      "bytes": 910,
       "contentType": "image/png"
     },
     {
       "domain": "goesser.at",
       "path": "logos/goesser.at.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 3278,
-      "contentType": "image/png"
+      "source": "google-favicon",
+      "bytes": 4465,
+      "contentType": "image/jpeg"
     },
     {
       "domain": "gooseisland.com",
       "path": "logos/gooseisland.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 14823,
+      "source": "google-favicon",
+      "bytes": 2177,
       "contentType": "image/png"
     },
     {
       "domain": "gorkhabrewery.com",
       "path": "logos/gorkhabrewery.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 16932,
+      "source": "google-favicon",
+      "bytes": 386,
       "contentType": "image/png"
     },
     {
       "domain": "greeneking.co.uk",
       "path": "logos/greeneking.co.uk.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 15428,
+      "source": "google-favicon",
+      "bytes": 2195,
       "contentType": "image/png"
     },
     {
       "domain": "grolsch.com",
       "path": "logos/grolsch.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 6748,
+      "source": "google-favicon",
+      "bytes": 2405,
       "contentType": "image/png"
     },
     {
       "domain": "groupesbm.com",
       "path": "logos/groupesbm.com.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1709,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "grupazywiec.pl",
       "path": "logos/grupazywiec.pl.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 10256,
+      "source": "google-favicon",
+      "bytes": 2097,
       "contentType": "image/png"
     },
     {
       "domain": "grupomodelo.com",
       "path": "logos/grupomodelo.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 30726,
+      "source": "google-favicon",
+      "bytes": 4389,
       "contentType": "image/png"
     },
     {
       "domain": "grupopetropolis.com.br",
       "path": "logos/grupopetropolis.com.br.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 9717,
+      "source": "google-favicon",
+      "bytes": 806,
       "contentType": "image/png"
     },
     {
       "domain": "guinness-ghana.com",
       "path": "logos/guinness-ghana.com.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1709,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "guinness.com",
       "path": "logos/guinness.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 10463,
+      "source": "google-favicon",
+      "bytes": 2307,
       "contentType": "image/png"
     },
     {
       "domain": "habeco.com.vn",
       "path": "logos/habeco.com.vn.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 11610,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "hartwall.fi",
       "path": "logos/hartwall.fi.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 6051,
+      "source": "google-favicon",
+      "bytes": 852,
       "contentType": "image/png"
     },
     {
       "domain": "hasseroeder.de",
       "path": "logos/hasseroeder.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 25380,
+      "source": "google-favicon",
+      "bytes": 5962,
       "contentType": "image/png"
     },
     {
       "domain": "heineken.co.uk",
       "path": "logos/heineken.co.uk.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 4027,
+      "source": "google-favicon",
+      "bytes": 1507,
       "contentType": "image/png"
     },
     {
       "domain": "heineken.com",
       "path": "logos/heineken.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 6861,
+      "source": "google-favicon",
+      "bytes": 2537,
       "contentType": "image/png"
     },
     {
       "domain": "heineken.com.vn",
       "path": "logos/heineken.com.vn.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 559,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "heineken.hu",
       "path": "logos/heineken.hu.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 6861,
+      "source": "google-favicon",
+      "bytes": 2537,
       "contentType": "image/png"
     },
     {
       "domain": "heineken.ro",
       "path": "logos/heineken.ro.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 6861,
+      "source": "google-favicon",
+      "bytes": 2537,
       "contentType": "image/png"
     },
     {
       "domain": "heineken.ru",
       "path": "logos/heineken.ru.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 6861,
+      "source": "google-favicon",
+      "bytes": 2537,
       "contentType": "image/png"
     },
     {
       "domain": "heineken.sk",
       "path": "logos/heineken.sk.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 6861,
+      "source": "google-favicon",
+      "bytes": 2537,
       "contentType": "image/png"
     },
     {
       "domain": "heinekenitalia.it",
       "path": "logos/heinekenitalia.it.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 5420,
+      "source": "google-favicon",
+      "bytes": 1207,
       "contentType": "image/png"
     },
     {
       "domain": "hertogjan.nl",
       "path": "logos/hertogjan.nl.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 20440,
+      "source": "google-favicon",
+      "bytes": 896,
       "contentType": "image/png"
     },
     {
       "domain": "hitejinro.com",
       "path": "logos/hitejinro.com.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 4935,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "hoegaarden.com",
       "path": "logos/hoegaarden.com.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 7527,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "hofbraeu-muenchen.de",
       "path": "logos/hofbraeu-muenchen.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 15129,
+      "source": "google-favicon",
+      "bytes": 3785,
       "contentType": "image/png"
     },
     {
       "domain": "hopfenheld.de",
       "path": "logos/hopfenheld.de.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1371,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "ichnusa.it",
       "path": "logos/ichnusa.it.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 429,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "innisandgunn.com",
       "path": "logos/innisandgunn.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 8761,
+      "source": "google-favicon",
+      "bytes": 1359,
       "contentType": "image/png"
     },
     {
       "domain": "jever.de",
       "path": "logos/jever.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 8861,
+      "source": "google-favicon",
+      "bytes": 837,
       "contentType": "image/png"
     },
     {
       "domain": "jupiler.be",
       "path": "logos/jupiler.be.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 8221,
+      "source": "google-favicon",
+      "bytes": 3563,
       "contentType": "image/png"
     },
     {
       "domain": "kamenitza.bg",
       "path": "logos/kamenitza.bg.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 17658,
+      "source": "google-favicon",
+      "bytes": 2053,
       "contentType": "image/png"
     },
     {
       "domain": "karlovacko.hr",
       "path": "logos/karlovacko.hr.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 20779,
+      "source": "google-favicon",
+      "bytes": 5703,
       "contentType": "image/png"
     },
     {
       "domain": "keesmann.de",
       "path": "logos/keesmann.de.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1272,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "keo.com.cy",
       "path": "logos/keo.com.cy.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 20023,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "kilkennyale.com",
       "path": "logos/kilkennyale.com.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1272,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "kingfisherworld.com",
       "path": "logos/kingfisherworld.com.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 12789,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "kirin.co.jp",
       "path": "logos/kirin.co.jp.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 4110,
+      "source": "google-favicon",
+      "bytes": 2023,
       "contentType": "image/png"
     },
     {
       "domain": "kozel.cz",
       "path": "logos/kozel.cz.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 22846,
-      "contentType": "image/png"
+      "source": "google-favicon",
+      "bytes": 4566,
+      "contentType": "image/jpeg"
     },
     {
       "domain": "kp.pl",
       "path": "logos/kp.pl.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 7296,
+      "source": "google-favicon",
+      "bytes": 362,
       "contentType": "image/png"
     },
     {
       "domain": "krombacher.de",
       "path": "logos/krombacher.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 15132,
-      "contentType": "image/png"
+      "source": "google-favicon",
+      "bytes": 2529,
+      "contentType": "image/jpeg"
     },
     {
       "domain": "kronenbourg.com",
       "path": "logos/kronenbourg.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 2632,
+      "source": "google-favicon",
+      "bytes": 386,
       "contentType": "image/png"
     },
     {
       "domain": "krusovice.cz",
       "path": "logos/krusovice.cz.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 13196,
+      "source": "google-favicon",
+      "bytes": 1765,
       "contentType": "image/png"
     },
     {
       "domain": "labatt.com",
       "path": "logos/labatt.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 9114,
+      "source": "google-favicon",
+      "bytes": 2523,
       "contentType": "image/png"
     },
     {
       "domain": "laconstancia.com",
       "path": "logos/laconstancia.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 2589,
+      "source": "google-favicon",
+      "bytes": 2922,
       "contentType": "image/png"
     },
     {
       "domain": "lagunitas.com",
       "path": "logos/lagunitas.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 13626,
+      "source": "google-favicon",
+      "bytes": 864,
       "contentType": "image/png"
     },
     {
       "domain": "lasko.eu",
       "path": "logos/lasko.eu.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 487,
+      "source": "google-favicon",
+      "bytes": 4153,
       "contentType": "image/png"
     },
     {
       "domain": "latrappetrappist.com",
       "path": "logos/latrappetrappist.com.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 14911,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "lech.pl",
       "path": "logos/lech.pl.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 7108,
-      "contentType": "image/png"
+      "source": "google-favicon",
+      "bytes": 2035,
+      "contentType": "image/jpeg"
     },
     {
       "domain": "leffe.com",
       "path": "logos/leffe.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 16209,
+      "source": "google-favicon",
+      "bytes": 3345,
       "contentType": "image/png"
     },
     {
       "domain": "lindenbraeu.de",
       "path": "logos/lindenbraeu.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 27736,
-      "contentType": "image/png"
+      "source": "google-favicon",
+      "bytes": 6724,
+      "contentType": "image/jpeg"
     },
     {
       "domain": "lionbeer.com",
       "path": "logos/lionbeer.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 4538,
-      "contentType": "image/png"
+      "source": "google-favicon",
+      "bytes": 1471,
+      "contentType": "image/jpeg"
     },
     {
       "domain": "lionco.com",
       "path": "logos/lionco.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 13667,
+      "source": "google-favicon",
+      "bytes": 1989,
       "contentType": "image/png"
     },
     {
       "domain": "loewenbraeu.de",
       "path": "logos/loewenbraeu.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 27274,
+      "source": "google-favicon",
+      "bytes": 4077,
       "contentType": "image/png"
     },
     {
       "domain": "lottechilsung.co.kr",
       "path": "logos/lottechilsung.co.kr.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 11634,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "mack.no",
       "path": "logos/mack.no.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 4368,
+      "source": "google-favicon",
+      "bytes": 1020,
       "contentType": "image/png"
     },
     {
       "domain": "mahou.com",
       "path": "logos/mahou.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 4910,
+      "source": "google-favicon",
+      "bytes": 1593,
       "contentType": "image/png"
     },
     {
       "domain": "marstons.co.uk",
       "path": "logos/marstons.co.uk.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 8866,
+      "source": "google-favicon",
+      "bytes": 2852,
       "contentType": "image/png"
     },
     {
       "domain": "medallalight.com",
       "path": "logos/medallalight.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 6052,
+      "source": "google-favicon",
+      "bytes": 1688,
       "contentType": "image/png"
     },
     {
       "domain": "metaabo.com",
       "path": "logos/metaabo.com.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1268,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "meteor.fr",
       "path": "logos/meteor.fr.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 5435,
+      "source": "google-favicon",
+      "bytes": 962,
       "contentType": "image/png"
     },
     {
       "domain": "mikkeller.com",
       "path": "logos/mikkeller.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 11541,
+      "source": "google-favicon",
+      "bytes": 2982,
       "contentType": "image/png"
     },
     {
       "domain": "millerlite.com",
       "path": "logos/millerlite.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 12542,
+      "source": "google-favicon",
+      "bytes": 7656,
       "contentType": "image/png"
     },
     {
       "domain": "modelousa.com",
       "path": "logos/modelousa.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 23399,
+      "source": "google-favicon",
+      "bytes": 2091,
       "contentType": "image/png"
     },
     {
       "domain": "molsoncanadian.ca",
       "path": "logos/molsoncanadian.ca.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 962,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "molsoncoors.com",
       "path": "logos/molsoncoors.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 8960,
+      "source": "google-favicon",
+      "bytes": 8994,
       "contentType": "image/png"
     },
     {
       "domain": "multibintang.co.id",
       "path": "logos/multibintang.co.id.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 11145,
+      "source": "google-favicon",
+      "bytes": 1506,
       "contentType": "image/png"
     },
     {
       "domain": "murphys.com",
       "path": "logos/murphys.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 7246,
+      "source": "google-favicon",
+      "bytes": 705,
       "contentType": "image/png"
     },
     {
       "domain": "murreebrewery.com",
       "path": "logos/murreebrewery.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 9636,
+      "source": "google-favicon",
+      "bytes": 16000,
       "contentType": "image/png"
     },
     {
       "domain": "myanmarbrewery.com",
       "path": "logos/myanmarbrewery.com.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1268,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "mythosbrewery.gr",
       "path": "logos/mythosbrewery.gr.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 13536,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "nambrew.com",
       "path": "logos/nambrew.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 16046,
+      "source": "google-favicon",
+      "bytes": 4235,
       "contentType": "image/png"
     },
     {
       "domain": "nbplc.com",
       "path": "logos/nbplc.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 12610,
-      "contentType": "image/png"
+      "source": "google-favicon",
+      "bytes": 4116,
+      "contentType": "image/jpeg"
     },
     {
       "domain": "newcastlebeer.co.uk",
       "path": "logos/newcastlebeer.co.uk.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1203,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "nilebreweries.co.ug",
       "path": "logos/nilebreweries.co.ug.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1203,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "ob.co.kr",
       "path": "logos/ob.co.kr.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 11227,
+      "source": "google-favicon",
+      "bytes": 351,
       "contentType": "image/png"
     },
     {
       "domain": "ochakovo.ru",
       "path": "logos/ochakovo.ru.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 10878,
+      "source": "google-favicon",
+      "bytes": 1138,
       "contentType": "image/png"
     },
     {
       "domain": "octobraeu.de",
       "path": "logos/octobraeu.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 5508,
+      "source": "google-favicon",
+      "bytes": 2591,
       "contentType": "image/png"
     },
     {
       "domain": "okocim.pl",
       "path": "logos/okocim.pl.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 8823,
+      "source": "google-favicon",
+      "bytes": 522,
       "contentType": "image/png"
     },
     {
       "domain": "olvi.fi",
       "path": "logos/olvi.fi.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 9985,
+      "source": "google-favicon",
+      "bytes": 1811,
       "contentType": "image/png"
     },
     {
       "domain": "olvisholt.is",
       "path": "logos/olvisholt.is.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 26425,
+      "source": "google-favicon",
+      "bytes": 5269,
       "contentType": "image/png"
     },
     {
       "domain": "olympicbrewery.gr",
       "path": "logos/olympicbrewery.gr.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 8937,
+      "source": "google-favicon",
+      "bytes": 386,
       "contentType": "image/png"
     },
     {
       "domain": "orcabrau.de",
       "path": "logos/orcabrau.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 10006,
+      "source": "google-favicon",
+      "bytes": 1292,
       "contentType": "image/png"
     },
     {
       "domain": "orionbeer.co.jp",
       "path": "logos/orionbeer.co.jp.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 5985,
+      "source": "google-favicon",
+      "bytes": 1512,
       "contentType": "image/png"
     },
     {
       "domain": "orval.be",
       "path": "logos/orval.be.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 4004,
+      "source": "google-favicon",
+      "bytes": 1807,
       "contentType": "image/png"
     },
     {
       "domain": "ottakringer.at",
       "path": "logos/ottakringer.at.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 5319,
+      "source": "google-favicon",
+      "bytes": 1608,
       "contentType": "image/png"
     },
     {
       "domain": "ozujsko.com",
       "path": "logos/ozujsko.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 12671,
-      "contentType": "image/png"
+      "source": "google-favicon",
+      "bytes": 4608,
+      "contentType": "image/jpeg"
     },
     {
       "domain": "pabstblueribbon.com",
       "path": "logos/pabstblueribbon.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 12023,
+      "source": "google-favicon",
+      "bytes": 4472,
       "contentType": "image/png"
     },
     {
       "domain": "paulaner.de",
       "path": "logos/paulaner.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 24232,
+      "source": "google-favicon",
+      "bytes": 967,
       "contentType": "image/png"
     },
     {
       "domain": "pelforth.fr",
       "path": "logos/pelforth.fr.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 7465,
+      "source": "google-favicon",
+      "bytes": 1143,
       "contentType": "image/png"
     },
     {
       "domain": "peroni.com",
       "path": "logos/peroni.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 10091,
+      "source": "google-favicon",
+      "bytes": 1485,
       "contentType": "image/png"
     },
     {
       "domain": "pilsnerurquell.com",
       "path": "logos/pilsnerurquell.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 19050,
+      "source": "google-favicon",
+      "bytes": 5320,
       "contentType": "image/png"
     },
     {
       "domain": "pivo-union.si",
       "path": "logos/pivo-union.si.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1048,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "puntigamer.at",
       "path": "logos/puntigamer.at.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 21203,
+      "source": "google-favicon",
+      "bytes": 4858,
       "contentType": "image/png"
     },
     {
       "domain": "quilmes.com.ar",
       "path": "logos/quilmes.com.ar.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 3414,
+      "source": "google-favicon",
+      "bytes": 1299,
       "contentType": "image/png"
     },
     {
       "domain": "radeberger.de",
       "path": "logos/radeberger.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 11389,
+      "source": "google-favicon",
+      "bytes": 2420,
       "contentType": "image/png"
     },
     {
       "domain": "ratsherrn.de",
       "path": "logos/ratsherrn.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 30811,
-      "contentType": "image/png"
+      "source": "google-favicon",
+      "bytes": 2828,
+      "contentType": "image/jpeg"
     },
     {
       "domain": "redstripebeer.com",
       "path": "logos/redstripebeer.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 10145,
+      "source": "google-favicon",
+      "bytes": 647,
       "contentType": "image/png"
     },
     {
       "domain": "riedenburger.de",
       "path": "logos/riedenburger.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 9678,
+      "source": "google-favicon",
+      "bytes": 414,
       "contentType": "image/png"
     },
     {
       "domain": "ringnes.no",
       "path": "logos/ringnes.no.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 3988,
+      "source": "google-favicon",
+      "bytes": 386,
       "contentType": "image/png"
     },
     {
       "domain": "rodenbach.be",
       "path": "logos/rodenbach.be.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 7631,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "royalunibrew.com",
       "path": "logos/royalunibrew.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 11447,
+      "source": "google-favicon",
+      "bytes": 965,
       "contentType": "image/png"
     },
     {
       "domain": "sab.co.za",
       "path": "logos/sab.co.za.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 7459,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "sabc-sa.com",
       "path": "logos/sabc-sa.com.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1732,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "sabeco.com.vn",
       "path": "logos/sabeco.com.vn.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 16010,
+      "source": "google-favicon",
+      "bytes": 3877,
       "contentType": "image/png"
     },
     {
       "domain": "sabmiller.com",
       "path": "logos/sabmiller.com.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 14159,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "sagres.pt",
       "path": "logos/sagres.pt.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 9970,
+      "source": "google-favicon",
+      "bytes": 888,
       "contentType": "image/png"
     },
     {
       "domain": "samueladams.com",
       "path": "logos/samueladams.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 11146,
+      "source": "google-favicon",
+      "bytes": 751,
       "contentType": "image/png"
     },
     {
       "domain": "sanmiguel.com",
       "path": "logos/sanmiguel.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 10182,
-      "contentType": "image/png"
+      "source": "google-favicon",
+      "bytes": 2092,
+      "contentType": "image/jpeg"
     },
     {
       "domain": "sanmiguelbrewery.com",
       "path": "logos/sanmiguelbrewery.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 11358,
+      "source": "google-favicon",
+      "bytes": 3655,
       "contentType": "image/png"
     },
     {
       "domain": "sapporobeer.com",
       "path": "logos/sapporobeer.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 10280,
+      "source": "google-favicon",
+      "bytes": 1048,
       "contentType": "image/png"
     },
     {
       "domain": "sarajevskopivo.ba",
       "path": "logos/sarajevskopivo.ba.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1732,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "schorschbraeu.de",
       "path": "logos/schorschbraeu.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 17095,
+      "source": "google-favicon",
+      "bytes": 5934,
       "contentType": "image/png"
     },
     {
       "domain": "sfbt.com.tn",
       "path": "logos/sfbt.com.tn.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1732,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "sfrgroup.ee",
       "path": "logos/sfrgroup.ee.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1732,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "shepherdneame.co.uk",
       "path": "logos/shepherdneame.co.uk.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 11408,
+      "source": "google-favicon",
+      "bytes": 947,
       "contentType": "image/png"
     },
     {
       "domain": "sierranevada.com",
       "path": "logos/sierranevada.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 15546,
+      "source": "google-favicon",
+      "bytes": 8082,
       "contentType": "image/png"
     },
     {
       "domain": "sinebrychoff.fi",
       "path": "logos/sinebrychoff.fi.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 7367,
+      "source": "google-favicon",
+      "bytes": 386,
       "contentType": "image/png"
     },
     {
       "domain": "singha.com",
       "path": "logos/singha.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 11650,
+      "source": "google-favicon",
+      "bytes": 2779,
       "contentType": "image/png"
     },
     {
       "domain": "skopskopivo.mk",
       "path": "logos/skopskopivo.mk.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1732,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "smithwicks.com",
       "path": "logos/smithwicks.com.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 16333,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "snowbeer.com.cn",
       "path": "logos/snowbeer.com.cn.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 12634,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "solbeer.com",
       "path": "logos/solbeer.com.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1732,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "soproni.hu",
       "path": "logos/soproni.hu.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 26505,
+      "source": "google-favicon",
+      "bytes": 4356,
       "contentType": "image/png"
     },
     {
       "domain": "spatenbeer.com",
       "path": "logos/spatenbeer.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 6030,
-      "contentType": "image/png"
+      "source": "google-favicon",
+      "bytes": 2226,
+      "contentType": "image/jpeg"
     },
     {
       "domain": "spendrups.se",
       "path": "logos/spendrups.se.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 10995,
+      "source": "google-favicon",
+      "bytes": 2051,
       "contentType": "image/png"
     },
     {
       "domain": "staropramen.com",
       "path": "logos/staropramen.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 21508,
+      "source": "google-favicon",
+      "bytes": 512,
       "contentType": "image/png"
     },
     {
       "domain": "steinlager.co.nz",
       "path": "logos/steinlager.co.nz.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1732,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "stellaartois.com",
       "path": "logos/stellaartois.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 18064,
+      "source": "google-favicon",
+      "bytes": 2596,
       "contentType": "image/png"
     },
     {
       "domain": "stiegl.at",
       "path": "logos/stiegl.at.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 7388,
+      "source": "google-favicon",
+      "bytes": 575,
       "contentType": "image/png"
     },
     {
       "domain": "stoertebeker.com",
       "path": "logos/stoertebeker.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 12439,
+      "source": "google-favicon",
+      "bytes": 2180,
       "contentType": "image/png"
     },
     {
       "domain": "stonebrewing.com",
       "path": "logos/stonebrewing.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 19091,
+      "source": "google-favicon",
+      "bytes": 2598,
       "contentType": "image/png"
     },
     {
       "domain": "superbock.pt",
       "path": "logos/superbock.pt.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 24974,
+      "source": "google-favicon",
+      "bytes": 392,
       "contentType": "image/png"
     },
     {
       "domain": "tanzaniabreweries.co.tz",
       "path": "logos/tanzaniabreweries.co.tz.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 30161,
+      "source": "google-favicon",
+      "bytes": 5654,
       "contentType": "image/png"
     },
     {
       "domain": "tecate.com",
       "path": "logos/tecate.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 25541,
+      "source": "google-favicon",
+      "bytes": 2890,
       "contentType": "image/png"
     },
     {
       "domain": "tempobeer.co.il",
       "path": "logos/tempobeer.co.il.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 497,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "tennents.com",
       "path": "logos/tennents.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 5630,
+      "source": "google-favicon",
+      "bytes": 1303,
       "contentType": "image/png"
     },
     {
       "domain": "thaibev.com",
       "path": "logos/thaibev.com.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 9074,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "theubgroup.com",
       "path": "logos/theubgroup.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 17323,
+      "source": "google-favicon",
+      "bytes": 2106,
       "contentType": "image/png"
     },
     {
       "domain": "tigerbeer.com",
       "path": "logos/tigerbeer.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 13071,
+      "source": "google-favicon",
+      "bytes": 4791,
       "contentType": "image/png"
     },
     {
       "domain": "tooheys.com.au",
       "path": "logos/tooheys.com.au.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 11171,
+      "source": "google-favicon",
+      "bytes": 2954,
       "contentType": "image/png"
     },
     {
       "domain": "trappistes-rochefort.com",
       "path": "logos/trappistes-rochefort.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 5028,
+      "source": "google-favicon",
+      "bytes": 1702,
       "contentType": "image/png"
     },
     {
       "domain": "trappistwestmalle.be",
       "path": "logos/trappistwestmalle.be.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 451,
+      "source": "google-favicon",
+      "bytes": 3799,
       "contentType": "image/png"
     },
     {
       "domain": "trebjesa.co.me",
       "path": "logos/trebjesa.co.me.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 497,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "tsingtao.com.cn",
       "path": "logos/tsingtao.com.cn.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 10690,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "ttl.com.tw",
       "path": "logos/ttl.com.tw.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 10012,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "tuborg.com",
       "path": "logos/tuborg.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 3033,
+      "source": "google-favicon",
+      "bytes": 1144,
       "contentType": "image/png"
     },
     {
       "domain": "tusker.co.ke",
       "path": "logos/tusker.co.ke.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 497,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "tyskie.pl",
       "path": "logos/tyskie.pl.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 27548,
+      "source": "google-favicon",
+      "bytes": 3994,
       "contentType": "image/png"
     },
     {
       "domain": "ugandabreweries.com",
       "path": "logos/ugandabreweries.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 5882,
+      "source": "google-favicon",
+      "bytes": 329,
       "contentType": "image/png"
     },
     {
       "domain": "uiltjecraftbeer.com",
       "path": "logos/uiltjecraftbeer.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 16232,
+      "source": "google-favicon",
+      "bytes": 2402,
       "contentType": "image/png"
     },
     {
       "domain": "ursus.ro",
       "path": "logos/ursus.ro.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1095,
-      "contentType": "image/png"
+      "source": "google-favicon",
+      "bytes": 414,
+      "contentType": "image/jpeg"
     },
     {
       "domain": "uzavasalus.lv",
       "path": "logos/uzavasalus.lv.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 4192,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "vandestreekbier.nl",
       "path": "logos/vandestreekbier.nl.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 5152,
+      "source": "google-favicon",
+      "bytes": 1375,
       "contentType": "image/png"
     },
     {
       "domain": "vaultcity.co.uk",
       "path": "logos/vaultcity.co.uk.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 6563,
+      "source": "google-favicon",
+      "bytes": 718,
       "contentType": "image/png"
     },
     {
       "domain": "vb.com.au",
       "path": "logos/vb.com.au.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 11039,
+      "source": "google-favicon",
+      "bytes": 12919,
       "contentType": "image/png"
     },
     {
       "domain": "veltins.de",
       "path": "logos/veltins.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 14187,
+      "source": "google-favicon",
+      "bytes": 704,
       "contentType": "image/png"
     },
     {
       "domain": "verginabeer.com",
       "path": "logos/verginabeer.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 12773,
+      "source": "google-favicon",
+      "bytes": 2242,
       "contentType": "image/png"
     },
     {
       "domain": "warsteiner.de",
       "path": "logos/warsteiner.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 16773,
+      "source": "google-favicon",
+      "bytes": 3449,
       "contentType": "image/png"
     },
     {
       "domain": "weiherer-bier.de",
       "path": "logos/weiherer-bier.de.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1862,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "weisse-taube.de",
       "path": "logos/weisse-taube.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 14193,
+      "source": "google-favicon",
+      "bytes": 2116,
       "contentType": "image/png"
     },
     {
       "domain": "weltenburger.de",
       "path": "logos/weltenburger.de.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 10758,
+      "source": "google-favicon",
+      "bytes": 1800,
       "contentType": "image/png"
     },
     {
       "domain": "windhoekbeer.com",
       "path": "logos/windhoekbeer.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 4161,
+      "source": "google-favicon",
+      "bytes": 513,
       "contentType": "image/png"
     },
     {
       "domain": "xxxx.com.au",
       "path": "logos/xxxx.com.au.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 7972,
+      "source": "google-favicon",
+      "bytes": 1688,
       "contentType": "image/png"
     },
     {
       "domain": "yanjing.com.cn",
       "path": "logos/yanjing.com.cn.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 16236,
+      "source": "google-favicon",
+      "bytes": 569,
       "contentType": "image/png"
     },
     {
       "domain": "yuengling.com",
       "path": "logos/yuengling.com.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 12644,
+      "source": "google-favicon",
+      "bytes": 645,
       "contentType": "image/png"
     },
     {
       "domain": "zagorka.bg",
       "path": "logos/zagorka.bg.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1259,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "zajecarskopivo.rs",
       "path": "logos/zajecarskopivo.rs.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1259,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "zambian-breweries.com",
       "path": "logos/zambian-breweries.com.png",
-      "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1259,
-      "contentType": "image/png"
+      "status": "failed"
     },
     {
       "domain": "zipfer.at",
       "path": "logos/zipfer.at.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 9521,
+      "source": "google-favicon",
+      "bytes": 2570,
       "contentType": "image/png"
     },
     {
       "domain": "zlatybazant.sk",
       "path": "logos/zlatybazant.sk.png",
       "status": "downloaded",
-      "source": "logo.dev/domain",
-      "name": null,
-      "bytes": 1371,
+      "source": "google-favicon",
+      "bytes": 2819,
       "contentType": "image/png"
     }
   ]
