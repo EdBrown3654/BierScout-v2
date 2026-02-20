@@ -78,10 +78,7 @@ export default function HopfenBoard({
           !selectedInitial || getBeerInitial(beer.name) === selectedInitial;
 
         return (
-          matchesSearch &&
-          matchesCountry &&
-          matchesCategory &&
-          matchesInitial
+          matchesSearch && matchesCountry && matchesCategory && matchesInitial
         );
       })
       .sort((a, b) => {
@@ -89,7 +86,14 @@ export default function HopfenBoard({
         if (byName !== 0) return byName;
         return a.nr - b.nr;
       });
-  }, [beers, search, selectedCountry, selectedCategory, selectedInitial, collator]);
+  }, [
+    beers,
+    search,
+    selectedCountry,
+    selectedCategory,
+    selectedInitial,
+    collator,
+  ]);
 
   return (
     <section id="hopfen-board">
@@ -160,7 +164,7 @@ export default function HopfenBoard({
       </div>
 
       {/* Beer grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 p-3.5">
         {filtered.map((beer) => (
           <BeerCard key={beer.nr} beer={beer} />
         ))}
@@ -186,10 +190,7 @@ function BeerCard({ beer }: { beer: Beer }) {
       {/* Top row: Logo + Header info */}
       <div className="flex gap-3">
         {/* Beer Logo */}
-        <BeerLogo
-          beerName={beer.name}
-          breweryName={beer.brewery}
-        />
+        <BeerLogo beerName={beer.name} breweryName={beer.brewery} />
 
         {/* Name + Brewery + Nr */}
         <div className="min-w-0 flex-1">
@@ -215,7 +216,10 @@ function BeerCard({ beer }: { beer: Beer }) {
       {/* Info grid */}
       <div className="mt-3 grid grid-cols-4 gap-1 border-t-[2px] border-black pt-3">
         <InfoCell label={t.card.label.country} value={beer.country || "?"} />
-        <InfoCell label={t.card.label.abv} value={beer.abv && beer.abv !== "-" ? beer.abv : "?"} />
+        <InfoCell
+          label={t.card.label.abv}
+          value={beer.abv && beer.abv !== "-" ? beer.abv : "?"}
+        />
         <InfoCell label={t.card.label.size} value={beer.size} />
         <InfoCell label={t.card.label.price} value={beer.price} />
       </div>

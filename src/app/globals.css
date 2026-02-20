@@ -51,7 +51,7 @@ body {
 }
 
 .marquee-track {
-  animation: marquee 40s linear infinite;
+  animation: marquee 60s linear infinite;
 }
 
 .marquee-track:hover {
@@ -64,7 +64,7 @@ body {
 }
 
 .marquee-track-right {
-  animation: marquee-right 40s linear infinite;
+  animation: marquee-right 60s linear infinite;
 }
 
 .marquee-track-right:hover {
