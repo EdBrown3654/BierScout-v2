@@ -38,6 +38,8 @@
  * @property {string} [breweryAddress3]
  * @property {number} [breweryLatitude]
  * @property {number} [breweryLongitude]
+ * @property {string} [openFoodFactsCode]
+ * @property {string} [openFoodFactsUrl]
  * @property {DataSource[]} dataSources
  * @property {string} [syncedAt]
  */
@@ -91,11 +93,19 @@ export async function loadManualOverrides(overridesPath) {
  * Returns array of enriched records with source tracking
  *
  * @param {Array} baselineBeers
- * @param {Map} enrichmentMap - nr -> enrichment payload
+ * @param {Map} enrichmentMap - nr -> Open Brewery DB payload
  * @param {Map} manualOverridesMap - nr -> override fields
+ * @param {Object} options
+ * @param {Map} [options.openFoodFactsMap] - nr -> Open Food Facts payload
  * @returns {Array} enriched beers with source tracking
  */
-export function mergeBeers(baselineBeers, enrichmentMap, manualOverridesMap = new Map()) {
+export function mergeBeers(
+  baselineBeers,
+  enrichmentMap,
+  manualOverridesMap = new Map(),
+  options = {}
+) {
+  const openFoodFactsMap = options.openFoodFactsMap || new Map();
   const now = new Date().toISOString();
   const enrichedBeers = [];
   const collisionMap = new Map(); // Track name collisions
@@ -183,6 +193,48 @@ export function mergeBeers(baselineBeers, enrichmentMap, manualOverridesMap = ne
       enriched.dataSources.push({
         source: "open-brewery-db",
         sourceId: apiEnrichment.breweryId,
+        syncedAt: now,
+      });
+    }
+
+    // Apply Open Food Facts enrichment (fill gaps only; CSV keeps precedence)
+    const offEnrichment = openFoodFactsMap.get(baseline.nr);
+    if (offEnrichment) {
+      if (!enriched.abv && offEnrichment.abv) {
+        enriched.abv = offEnrichment.abv;
+      }
+      if (!enriched.ingredients && offEnrichment.ingredients) {
+        enriched.ingredients = offEnrichment.ingredients;
+      }
+      if (
+        (!enriched.size || enriched.size === "-") &&
+        offEnrichment.size
+      ) {
+        enriched.size = offEnrichment.size;
+      }
+      if (
+        (!enriched.country || enriched.country === "-") &&
+        offEnrichment.country
+      ) {
+        enriched.country = offEnrichment.country;
+      }
+      if (
+        (!enriched.category || enriched.category === "-") &&
+        offEnrichment.category
+      ) {
+        enriched.category = offEnrichment.category;
+      }
+      if (offEnrichment.offCode) {
+        enriched.openFoodFactsCode = offEnrichment.offCode;
+      }
+      if (offEnrichment.offUrl) {
+        enriched.openFoodFactsUrl = offEnrichment.offUrl;
+      }
+
+      enriched.dataSources.push({
+        source: "open-food-facts",
+        sourceId: offEnrichment.offCode,
+        sourceUrl: offEnrichment.offUrl,
         syncedAt: now,
       });
     }

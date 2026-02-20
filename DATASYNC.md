@@ -17,17 +17,19 @@ Stand: 20. Februar 2026
 ## Kurzfassung in 20 Sekunden
 
 1. Basis kommt aus `biermarket_bierliste.csv`.
-2. Das Sync-Script reichert diese Daten ueber Open Brewery DB an.
-3. Ergebnis ist `data/beers.enriched.json`.
-4. Eine GitHub Action startet das automatisch 1x pro Woche.
-5. Wenn sich Daten aendern, commitet die Action automatisch ins Repo.
-6. Vercel deployed danach automatisch den neuen Stand.
+2. Das Sync-Script reichert diese Daten ueber Open Brewery DB und Open Food Facts an.
+3. Open Food Facts kann zusaetzlich neue Bier-Datensaetze entdecken.
+4. Ergebnis ist `data/beers.enriched.json`.
+5. Eine GitHub Action startet das automatisch 1x pro Woche.
+6. Wenn sich Daten aendern, commitet die Action automatisch ins Repo.
+7. Vercel deployed danach automatisch den neuen Stand.
 
 ## Aktueller Stand vs. Ziel
 
-- Aktuell: nur ein Teil der Felder kommt dynamisch (hauptsaechlich Brauerei-Metadaten).
-- Ziel: auch Kernfelder wie ABV, Zutaten, Groesse und Preis sollen schrittweise dynamisch aus mehreren Quellen kommen.
+- Aktuell: dynamische Daten kommen aus zwei kostenlosen Quellen (Open Brewery DB + Open Food Facts).
+- Ziel: auch Kernfelder wie ABV, Zutaten, Groesse und Preis sollen weiter schrittweise aus mehreren Quellen kommen.
 - Wichtig: Preise sind orts- und zeitabhaengig und brauchen deshalb Quelle + Zeitpunkt statt eines statischen Einzelwerts.
+- UI-Hinweis: Source-Metadaten werden intern gespeichert, aber aktuell nicht als eigene Nutzer-Sektion angezeigt.
 
 ## Die wichtigsten Dateien
 
@@ -39,6 +41,9 @@ Stand: 20. Februar 2026
 
 - `scripts/data/sources/open-brewery-db.mjs`
   Holt Zusatzdaten von Open Brewery DB.
+
+- `scripts/data/sources/open-food-facts.mjs`
+  Holt Produktdaten ohne API-Key und kann neue Biere entdecken.
 
 - `data/beers.enriched.json`
   Das ist die fertige Datei, die die App primaer benutzt.
@@ -57,19 +62,22 @@ Stand: 20. Februar 2026
 2. Manuelle Overrides laden
    - Quelle: `data/manual-overrides.json`
 
-3. Open Brewery DB anfragen
+3. Open Brewery DB anfragen (ohne API-Key)
    - Script sucht passende Brauerei-Daten.
 
-4. Daten mergen
+4. Open Food Facts anfragen (ohne API-Key)
+   - Script matched bestehende Biere und entdeckt zusaetzliche Produkte.
+
+5. Daten mergen
    - Prioritaet:
      - manual override
      - CSV
-     - API
+     - API (Open Brewery DB, Open Food Facts fuer fehlende Felder)
 
-5. Report bauen
+6. Report bauen
    - Ausgabe: `data/sync-report.json`
 
-6. Ergebnis schreiben
+7. Ergebnis schreiben
    - Ausgabe: `data/beers.enriched.json`
 
 ## Welche Felder kommen woher?
@@ -104,6 +112,15 @@ Stand: 20. Februar 2026
 - `address_3` -> `breweryAddress3`
 - `latitude` -> `breweryLatitude`
 - `longitude` -> `breweryLongitude`
+
+### Aus Open Food Facts (zusaetzlich)
+
+- `abv` / `alcohol_by_volume` / `nutriments.alcohol` -> `abv` (nur wenn in CSV leer)
+- `ingredients_text` -> `ingredients` (nur wenn in CSV leer)
+- `quantity` -> `size` (nur wenn in CSV leer)
+- `code` -> `openFoodFactsCode`
+- Produkt-URL -> `openFoodFactsUrl`
+- Produkte ausserhalb der CSV koennen als neue Datensaetze aufgenommen werden
 
 ## Was die Website beim Laden macht
 
@@ -165,3 +182,6 @@ Empfehlung fuer euren Setup:
 
 3. Kann das wirklich automatisch woechentlich laufen?
 - Ja. Genau dafuer ist der Schedule in der GitHub Action da.
+
+4. Brauchen wir dafuer API-Keys?
+- Nein, fuer den aktuellen Flow nicht. Beide Quellen sind in der Nutzung als kostenlose No-Key-Reads eingebunden.

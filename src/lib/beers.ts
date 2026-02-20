@@ -33,6 +33,8 @@ export interface Beer {
   breweryAddress3?: string;
   breweryLatitude?: number;
   breweryLongitude?: number;
+  openFoodFactsCode?: string;
+  openFoodFactsUrl?: string;
   // Source tracking
   dataSources?: Array<{
     source: string;

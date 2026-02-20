@@ -7,7 +7,8 @@
  * Usage:
  *   node scripts/data/sync-beers.mjs           # Full sync
  *   node scripts/data/sync-beers.mjs --dry-run # Validate without writing
- *   node scripts/data/sync-beers.mjs --request-delay-ms 1000 # Custom rate limit
+ *   node scripts/data/sync-beers.mjs --request-delay-ms 1000 # Open Brewery delay
+ *   node scripts/data/sync-beers.mjs --off-max-pages 12 --off-discovery-limit 500
  *
  * Implements AC-2: Single command for full sync
  * Implements AC-3: Dry-run mode support
@@ -16,14 +17,12 @@
  */
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "fs";
-import { join, dirname } from "path";
-import { fileURLToPath } from "url";
+import { join } from "path";
 import { loadCsvBaseline } from "./load-csv.mjs";
-import { enrichBeers, searchBrewery } from "./sources/open-brewery-db.mjs";
+import { enrichBeers } from "./sources/open-brewery-db.mjs";
+import { enrichBeersFromOpenFoodFacts } from "./sources/open-food-facts.mjs";
 import { mergeBeers, validateEnrichedBeer } from "./merge-enrichment.mjs";
 import { analyzeQuality } from "./report-quality.mjs";
-
-const __dirname = dirname(fileURLToPath(import.meta.url));
 
 // Configuration
 const CSV_PATH = join(process.cwd(), "biermarket_bierliste.csv");
@@ -35,10 +34,30 @@ const OVERRIDES_PATH = join(DATA_DIR, "manual-overrides.json");
 // Command-line arguments
 const args = process.argv.slice(2);
 const isDryRun = args.includes("--dry-run");
-const skipEnrichment = args.includes("--skip-enrichment");
-const requestDelayMs = args.includes("--request-delay-ms")
-  ? parseInt(args[args.indexOf("--request-delay-ms") + 1], 10)
-  : 500;
+const skipOpenBrewery =
+  args.includes("--skip-open-brewery") || args.includes("--skip-enrichment");
+const skipOpenFoodFacts = args.includes("--skip-open-food-facts");
+
+function parseIntegerArg(flag, defaultValue, { min = 0 } = {}) {
+  const index = args.indexOf(flag);
+  if (index === -1 || index + 1 >= args.length) {
+    return defaultValue;
+  }
+
+  const parsed = Number.parseInt(args[index + 1], 10);
+  if (!Number.isFinite(parsed) || parsed < min) {
+    return defaultValue;
+  }
+  return parsed;
+}
+
+const requestDelayMs = parseIntegerArg("--request-delay-ms", 500, { min: 0 });
+const offMaxPages = parseIntegerArg("--off-max-pages", 8, { min: 1 });
+const offPageSize = parseIntegerArg("--off-page-size", 100, { min: 25 });
+const offDelayMs = parseIntegerArg("--off-delay-ms", 120, { min: 0 });
+const offDiscoveryLimit = parseIntegerArg("--off-discovery-limit", 300, {
+  min: 0,
+});
 
 /**
  * Load manual overrides synchronously (ES module compatibility)
@@ -84,7 +103,10 @@ async function sync() {
   console.log("Beer Data Sync & Enrichment Pipeline");
   console.log("====================================");
   console.log(`Dry run: ${isDryRun}`);
-  console.log(`Request delay: ${requestDelayMs}ms`);
+  console.log(`Open Brewery delay: ${requestDelayMs}ms`);
+  console.log(
+    `Open Food Facts pages: ${offMaxPages} x ${offPageSize} (delay ${offDelayMs}ms, discovery ${offDiscoveryLimit})`
+  );
   console.log("");
 
   try {
@@ -100,24 +122,24 @@ async function sync() {
 
     // 3. Enrich with Open Brewery DB
     console.log("3. Enriching with Open Brewery DB...");
-    const enrichmentMap = new Map();
-    let enrichStats = { attempted: 0, matched: 0 };
+    const openBreweryMap = new Map();
+    let openBreweryStats = { attempted: 0, matched: 0 };
 
-    if (skipEnrichment) {
-      console.log("   Skipped (--skip-enrichment flag)");
+    if (skipOpenBrewery) {
+      console.log("   Skipped (--skip-open-brewery / --skip-enrichment flag)");
     } else {
       try {
         const result = await enrichBeers(baselineBeers, {
           delayMs: requestDelayMs,
           dryRun: isDryRun,
         });
-        enrichmentMap.clear();
+        openBreweryMap.clear();
         for (const [nr, payload] of result.enrichment) {
-          enrichmentMap.set(nr, payload);
+          openBreweryMap.set(nr, payload);
         }
-        enrichStats = result.stats;
+        openBreweryStats = result.stats;
         console.log(
-          `   Attempted: ${enrichStats.attempted}, Matched: ${enrichStats.matched}`
+          `   Attempted: ${openBreweryStats.attempted}, Matched: ${openBreweryStats.matched}`
         );
       } catch (err) {
         console.warn(`   Open Brewery DB failed (graceful fallback): ${err.message}`);
@@ -125,26 +147,75 @@ async function sync() {
       }
     }
 
-    // 4. Merge with explicit precedence
-    console.log("4. Merging with explicit precedence...");
-    const enrichedBeers = mergeBeers(
-      baselineBeers,
-      enrichmentMap,
-      manualOverridesMap
-    );
-    console.log(`   Merged ${enrichedBeers.length} enriched records`);
+    // 4. Enrich + discover with Open Food Facts (no-key public API)
+    console.log("4. Enriching with Open Food Facts...");
+    const openFoodFactsMap = new Map();
+    let discoveredBeers = [];
+    let openFoodFactsStats = {
+      attempted: baselineBeers.length,
+      matched: 0,
+      fetchedProducts: 0,
+      discovered: 0,
+    };
 
-    // 5. Validate and analyze quality
-    console.log("5. Validating and analyzing quality...");
-    const tracker = analyzeQuality(
-      enrichedBeers,
-      enrichmentMap,
-      manualOverridesMap
+    if (skipOpenFoodFacts) {
+      console.log("   Skipped (--skip-open-food-facts flag)");
+    } else {
+      try {
+        const result = await enrichBeersFromOpenFoodFacts(baselineBeers, {
+          maxPages: offMaxPages,
+          pageSize: offPageSize,
+          delayMs: offDelayMs,
+          discoveryLimit: offDiscoveryLimit,
+          includeDiscovery: true,
+        });
+
+        for (const [nr, payload] of result.enrichment) {
+          openFoodFactsMap.set(nr, payload);
+        }
+        discoveredBeers = result.discoveredBeers;
+        openFoodFactsStats = result.stats;
+
+        console.log(
+          `   Attempted: ${openFoodFactsStats.attempted}, Matched: ${openFoodFactsStats.matched}, Discovered: ${openFoodFactsStats.discovered}`
+        );
+        console.log(`   Fetched products: ${openFoodFactsStats.fetchedProducts}`);
+      } catch (err) {
+        console.warn(`   Open Food Facts failed (graceful fallback): ${err.message}`);
+        console.warn("   Continuing without Open Food Facts data");
+      }
+    }
+
+    // 5. Merge with explicit precedence
+    console.log("5. Merging with explicit precedence...");
+    const mergedBaselineBeers = mergeBeers(
+      baselineBeers,
+      openBreweryMap,
+      manualOverridesMap,
+      { openFoodFactsMap }
     );
-    tracker.finish();
+    const allEnrichedBeers = [...mergedBaselineBeers, ...discoveredBeers];
+    console.log(
+      `   Merged ${mergedBaselineBeers.length} baseline records (+${discoveredBeers.length} discovered)`
+    );
+
+    // 6. Validate and analyze quality
+    console.log("6. Validating and analyzing quality...");
+    const baselineNrs = new Set(baselineBeers.map((beer) => beer.nr));
+    const tracker = analyzeQuality(
+      allEnrichedBeers,
+      openBreweryMap,
+      manualOverridesMap,
+      {
+        openFoodFactsMap,
+        baselineNrs,
+        inputCount: baselineBeers.length,
+        discoveredCount: discoveredBeers.length,
+      }
+    );
 
     let validationErrors = 0;
-    for (const beer of enrichedBeers) {
+    for (const beer of allEnrichedBeers) {
       const validation = validateEnrichedBeer(beer);
       if (!validation.valid) {
         validationErrors++;
@@ -154,22 +225,27 @@ async function sync() {
       }
     }
     console.log(
-      `   Valid records: ${enrichedBeers.length - validationErrors}/${enrichedBeers.length}`
+      `   Valid records: ${allEnrichedBeers.length - validationErrors}/${allEnrichedBeers.length}`
     );
     if (validationErrors > 0) {
       console.warn(`   Validation errors: ${validationErrors}`);
     }
+    tracker.finish();
 
-    // 6. Generate quality report
-    console.log("6. Generating quality report...");
+    // 7. Generate quality report
+    console.log("7. Generating quality report...");
     const report = tracker.generateReport();
     console.log(
-      `   Report: ${report.matched.openBreweryDb} matched, ${report.unmatched} unmatched`
+      `   Report: ${report.matched.openBreweryDb} OBDB matched, ${
+        report.matched.openFoodFacts || 0
+      } OFF matched, ${report.discovered || 0} discovered, ${
+        report.unmatched
+      } unmatched`
     );
 
-    // 7. Write outputs (unless dry-run)
+    // 8. Write outputs (unless dry-run)
     if (!isDryRun) {
-      console.log("7. Writing output files...");
+      console.log("8. Writing output files...");
 
       // Create data directory if needed
       if (!existsSync(DATA_DIR)) {
@@ -177,7 +253,7 @@ async function sync() {
       }
 
       // Sort for deterministic output
-      const sortedBeers = sortBeersForOutput(enrichedBeers);
+      const sortedBeers = sortBeersForOutput(allEnrichedBeers);
 
       // Write enriched beers
       writeJsonFile(ENRICHED_PATH, sortedBeers);
@@ -187,7 +263,7 @@ async function sync() {
       writeJsonFile(REPORT_PATH, report);
       console.log(`   Wrote ${REPORT_PATH}`);
     } else {
-      console.log("7. Dry-run mode: skipping file writes");
+      console.log("8. Dry-run mode: skipping file writes");
     }
 
     console.log("");

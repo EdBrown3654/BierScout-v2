@@ -130,6 +130,58 @@ describe("Merge Engine", () => {
     assert(beer.dataSources[0].syncedAt);
     assert(beer.syncedAt);
   });
+
+  test("fills missing core fields from Open Food Facts without overriding CSV", () => {
+    const baseline = [
+      {
+        nr: 1,
+        name: "Beer",
+        brewery: "Brewery",
+        country: "Germany",
+        category: "Lager",
+        size: "0,33L",
+        price: "3,50 €",
+        abv: "-",
+        stammwuerze: "-",
+        ingredients: "-",
+      },
+    ];
+
+    const openFoodFactsMap = new Map([
+      [
+        1,
+        {
+          abv: "5,0%",
+          ingredients: "Water, Malt, Hops",
+          size: "0,5L",
+          offCode: "1234567890",
+          offUrl: "https://world.openfoodfacts.org/product/1234567890",
+        },
+      ],
+    ]);
+
+    const enriched = mergeBeers(baseline, new Map(), new Map(), {
+      openFoodFactsMap,
+    });
+    const beer = enriched[0];
+
+    // Fill gaps from OFF
+    assert.strictEqual(beer.abv, "5,0%");
+    assert.strictEqual(beer.ingredients, "Water, Malt, Hops");
+
+    // CSV precedence: existing size is kept
+    assert.strictEqual(beer.size, "0,33L");
+
+    // Source metadata should include OFF
+    assert.strictEqual(beer.openFoodFactsCode, "1234567890");
+    assert.strictEqual(
+      beer.openFoodFactsUrl,
+      "https://world.openfoodfacts.org/product/1234567890"
+    );
+    assert(
+      beer.dataSources.some((source) => source.source === "open-food-facts")
+    );
+  });
 });
 
 describe("Validation", () => {

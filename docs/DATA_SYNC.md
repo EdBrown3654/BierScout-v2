@@ -15,8 +15,9 @@ The long-term product goal is a global, continuously updated beer catalog:
 
 The pipeline automatically enriches the beer database with metadata from free API sources:
 
-- **Baseline**: `biermarket_bierliste.csv` (local source of truth)
-- **Enrichment**: Open Brewery DB (brewery website, location, country metadata)
+- **Baseline**: `biermarket_bierliste.csv` (seed + fallback)
+- **Enrichment API #1**: Open Brewery DB (brewery website, location, country metadata)
+- **Enrichment API #2**: Open Food Facts (ABV, ingredients, quantity and product discovery)
 - **Manual Overrides**: `data/manual-overrides.json` (curator corrections)
 
 The sync process ensures:
@@ -32,10 +33,13 @@ CSV Baseline
     ↓
 Load & Normalize (load-csv.mjs)
     ↓
-Enrich from APIs (sources/open-brewery-db.mjs)
+Enrich from Open Brewery DB (sources/open-brewery-db.mjs)
+    ↓
+Enrich + Discover from Open Food Facts (sources/open-food-facts.mjs)
     ↓
 Merge with explicit precedence (merge-enrichment.mjs)
-  Priority: manual overrides > CSV > API > scrape
+  Priority: manual overrides > CSV > API
+  (API fills gaps, CSV values keep precedence)
     ↓
 Validate & Track quality (report-quality.mjs)
     ↓
@@ -80,10 +84,12 @@ interface Beer {
   breweryAddress3?: string;
   breweryLatitude?: number;
   breweryLongitude?: number;
+  openFoodFactsCode?: string;
+  openFoodFactsUrl?: string;
 
   // Source tracking
   dataSources: Array<{
-    source: "csv" | "open-brewery-db" | "manual-override";
+    source: "csv" | "open-brewery-db" | "open-food-facts" | "manual-override";
     sourceId?: string;
     sourceUrl?: string;
     syncedAt: string; // ISO timestamp
@@ -124,8 +130,11 @@ npm run data:sync
 # Dry-run mode (validate without writing files)
 npm run data:sync:dry
 
-# Custom rate limit (milliseconds between API requests)
+# Custom Open Brewery delay (milliseconds between requests)
 npm run data:sync -- --request-delay-ms 2000
+
+# Open Food Facts catalog scope tuning
+npm run data:sync -- --off-max-pages 12 --off-page-size 100 --off-discovery-limit 500
 ```
 
 ### Scheduled Sync
@@ -151,8 +160,10 @@ After each sync, review `data/sync-report.json`:
   "inputCount": 500,
   "outputCount": 500,
   "matched": {
-    "openBreweryDb": 450
+    "openBreweryDb": 450,
+    "openFoodFacts": 120
   },
+  "discovered": 40,
   "unmatched": 50,
   "conflicts": 2,
   "overridesApplied": 3,
@@ -172,7 +183,9 @@ After each sync, review `data/sync-report.json`:
 ```
 
 Key metrics:
-- **matched**: Breweries successfully enriched from Open Brewery DB
+- **matched.openBreweryDb**: Breweries successfully enriched from Open Brewery DB
+- **matched.openFoodFacts**: Baseline records matched against Open Food Facts
+- **discovered**: New beer records discovered from Open Food Facts catalog pages
 - **unmatched**: Breweries not found (data added later or API mismatch)
 - **missingFields**: Count of records missing optional enrichment fields
 - **errors**: Non-blocking issues (validation, parsing)
@@ -194,10 +207,18 @@ Matching algorithm:
 2. Score matches: exact name match (70 pts), partial (40 pts), country match (30 pts)
 3. Select best match with score >= 40
 
-### Future Integrations
+### Open Food Facts (No-Key Public API)
 
-- **Open Food Facts** (v2): Barcode-based product data
-- **Approved Scrapers** (v2): Explicit allowlist only
+- **Endpoint**: `https://world.openfoodfacts.org/cgi/search.pl`
+- **Query**: beer category search pages (`tag_0=beers`)
+- **No API key required** for read access
+- **Data used**: ABV, ingredients, quantity, product code, product URL
+- **Discovery**: unmatched OFF products can be added as new beer records
+
+Matching strategy:
+1. Normalize beer and product names
+2. Score name similarity, brewery/brand overlap, country overlap
+3. Accept strongest candidate above configured threshold
 
 ## Application Integration
 
@@ -220,6 +241,7 @@ This ensures:
 - UI components use enriched fields only if available
 - Search/filter behavior unchanged
 - Performance benefits (pre-merged JSON instead of runtime merging)
+- Source metadata is stored for sync quality and troubleshooting (not shown as a dedicated UI section)
 
 ## Testing
 

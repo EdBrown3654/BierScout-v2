@@ -61,6 +61,7 @@ Danach: `http://localhost:3000`
 ## Datenquelle
 
 - CSV-Datei: `biermarket_bierliste.csv`
+- API-Quellen (ohne Key): Open Brewery DB + Open Food Facts
 - Runtime-Loader: `src/lib/beers.ts`
 - Reihenfolge zur Laufzeit: `data/beers.enriched.json` -> optional Vercel Blob (`beers/latest.json`) -> CSV-Fallback
 - Strategisches Ziel: CSV-Abhaengigkeit reduzieren und Daten schrittweise source-basiert dynamisch aufbauen.
@@ -71,8 +72,9 @@ Danach: `http://localhost:3000`
 
 - Workflow: `.github/workflows/data-sync.yml`
 - Schedule: woechentlich, montags `02:00 UTC`
-- Ablauf: `npm run data:sync` -> Commit geaenderter Daten -> Push in den Default-Branch
+- Ablauf: `npm run data:sync` (Open Brewery DB + Open Food Facts, inkl. Discovery) -> Commit geaenderter Daten -> Push in den Default-Branch
 - Vercel bekommt die neuen Daten per normalem Git-Deploy
+- Frontend zeigt keine eigene Source-Metadaten-Sektion; Source-Infos bleiben im Datensatz fuer Sync-Qualitaet.
 
 Wichtig:
 - Wenn GitHub Actions der einzige Scheduler ist, sollte `vercel.json` keinen aktiven Cron enthalten.

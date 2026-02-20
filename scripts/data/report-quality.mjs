@@ -10,6 +10,7 @@
  * @property {number} inputCount
  * @property {number} outputCount
  * @property {{openBreweryDb: number, openFoodFacts?: number}} matched
+ * @property {number} discovered
  * @property {number} unmatched
  * @property {number} conflicts
  * @property {number} overridesApplied
@@ -29,6 +30,7 @@ export class QualityTracker {
     this.inputCount = 0;
     this.outputCount = 0;
     this.matched = { openBreweryDb: 0, openFoodFacts: 0 };
+    this.discovered = 0;
     this.unmatched = 0;
     this.conflicts = 0;
     this.overridesApplied = 0;
@@ -51,6 +53,14 @@ export class QualityTracker {
 
   recordUnmatched() {
     this.unmatched++;
+  }
+
+  recordOpenFoodFactsMatch() {
+    this.matched.openFoodFacts++;
+  }
+
+  recordDiscovered(count = 1) {
+    this.discovered += count;
   }
 
   recordConflict(message) {
@@ -108,6 +118,7 @@ export class QualityTracker {
           openFoodFacts: this.matched.openFoodFacts,
         }),
       },
+      discovered: this.discovered,
       unmatched: this.unmatched,
       conflicts: this.conflicts,
       overridesApplied: this.overridesApplied,
@@ -122,25 +133,54 @@ export class QualityTracker {
  * Analyze enriched beers for quality metrics
  *
  * @param {Array} enrichedBeers
- * @param {Map} enrichmentMap
+ * @param {Map} openBreweryEnrichmentMap
  * @param {Map} manualOverridesMap
+ * @param {Object} options
+ * @param {Map} [options.openFoodFactsMap]
+ * @param {Set<number>} [options.baselineNrs]
+ * @param {number} [options.inputCount]
+ * @param {number} [options.discoveredCount]
  * @returns {QualityTracker}
  */
-export function analyzeQuality(enrichedBeers, enrichmentMap, manualOverridesMap) {
+export function analyzeQuality(
+  enrichedBeers,
+  openBreweryEnrichmentMap,
+  manualOverridesMap,
+  options = {}
+) {
+  const openFoodFactsMap = options.openFoodFactsMap || new Map();
+  const baselineNrs = options.baselineNrs || null;
+  const inputCount = Number.isInteger(options.inputCount)
+    ? options.inputCount
+    : enrichedBeers.length;
+  const discoveredCount = Number.isInteger(options.discoveredCount)
+    ? options.discoveredCount
+    : 0;
+
   const tracker = new QualityTracker();
 
-  tracker.recordInput(enrichedBeers.length);
+  tracker.recordInput(inputCount);
   tracker.recordOutput(enrichedBeers.length);
+  if (discoveredCount > 0) {
+    tracker.recordDiscovered(discoveredCount);
+  }
 
   for (const beer of enrichedBeers) {
-    // Check for enrichment
-    if (enrichmentMap.has(beer.nr)) {
-      tracker.recordOpenBreweryDbMatch();
-    } else {
-      tracker.recordUnmatched();
+    const isBaselineRecord = baselineNrs ? baselineNrs.has(beer.nr) : true;
+
+    if (isBaselineRecord) {
+      // Track Open Brewery DB match coverage over baseline records
+      if (openBreweryEnrichmentMap.has(beer.nr)) {
+        tracker.recordOpenBreweryDbMatch();
+      } else {
+        tracker.recordUnmatched();
+      }
     }
 
-    // Check for manual override
+    if (openFoodFactsMap.has(beer.nr)) {
+      tracker.recordOpenFoodFactsMatch();
+    }
+
     if (manualOverridesMap.has(beer.nr)) {
       tracker.recordOverride();
     }
