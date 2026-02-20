@@ -11,6 +11,7 @@ interface HomeContentProps {
   beers: Beer[];
   countries: string[];
   categories: string[];
+  initialCountry?: string;
   statValues: {
     beersCount: number;
     countriesCount: number;
@@ -23,6 +24,7 @@ export default function HomeContent({
   beers,
   countries,
   categories,
+  initialCountry,
   statValues,
 }: HomeContentProps) {
   const t = useT();
@@ -137,7 +139,12 @@ export default function HomeContent({
       </div>
 
       {/* HOPFEN-BOARD */}
-      <HopfenBoard beers={beers} countries={countries} categories={categories} />
+      <HopfenBoard
+        beers={beers}
+        countries={countries}
+        categories={categories}
+        initialCountry={initialCountry}
+      />
 
       {/* FOOTER */}
       <footer className="border-t-[3px] border-black bg-black px-4 py-8 text-white sm:px-8">

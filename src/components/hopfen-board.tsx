@@ -1,42 +1,59 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useMemo, useState } from "react";
 import type { Beer } from "@/lib/beers";
-import { useT } from "@/lib/i18n-context";
+import { useLocale, useT } from "@/lib/i18n-context";
 import BeerLogo from "@/components/beer-logo";
 
 export default function HopfenBoard({
   beers,
   countries,
   categories,
+  initialCountry = "",
 }: {
   beers: Beer[];
   countries: string[];
   categories: string[];
+  initialCountry?: string;
 }) {
   const t = useT();
+  const { locale } = useLocale();
   const [search, setSearch] = useState("");
-  const [selectedCountry, setSelectedCountry] = useState("");
+  const [selectedCountry, setSelectedCountry] = useState(initialCountry);
   const [selectedCategory, setSelectedCategory] = useState("");
+  const collator = useMemo(
+    () =>
+      new Intl.Collator(locale === "de" ? "de-DE" : "en-US", {
+        sensitivity: "base",
+        numeric: true,
+      }),
+    [locale],
+  );
 
   const filtered = useMemo(() => {
-    return beers.filter((beer) => {
-      const q = search.toLowerCase();
-      const matchesSearch =
-        !q ||
-        beer.name.toLowerCase().includes(q) ||
-        beer.brewery.toLowerCase().includes(q) ||
-        beer.country.toLowerCase().includes(q) ||
-        beer.category.toLowerCase().includes(q);
+    return beers
+      .filter((beer) => {
+        const q = search.toLowerCase();
+        const matchesSearch =
+          !q ||
+          beer.name.toLowerCase().includes(q) ||
+          beer.brewery.toLowerCase().includes(q) ||
+          beer.country.toLowerCase().includes(q) ||
+          beer.category.toLowerCase().includes(q);
 
-      const matchesCountry =
-        !selectedCountry || beer.country === selectedCountry;
-      const matchesCategory =
-        !selectedCategory || beer.category === selectedCategory;
+        const matchesCountry =
+          !selectedCountry || beer.country === selectedCountry;
+        const matchesCategory =
+          !selectedCategory || beer.category === selectedCategory;
 
-      return matchesSearch && matchesCountry && matchesCategory;
-    });
-  }, [beers, search, selectedCountry, selectedCategory]);
+        return matchesSearch && matchesCountry && matchesCategory;
+      })
+      .sort((a, b) => {
+        const byName = collator.compare(a.name, b.name);
+        if (byName !== 0) return byName;
+        return a.nr - b.nr;
+      });
+  }, [beers, search, selectedCountry, selectedCategory, collator]);
 
   return (
     <section id="hopfen-board">
