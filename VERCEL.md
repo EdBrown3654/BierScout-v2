@@ -1,179 +1,110 @@
-# Vercel Setup (Schritt fuer Schritt, fuer Einsteiger)
+# Vercel Setup (mit GitHub Actions Sync, fuer Einsteiger)
 
-Dieses Dokument zeigt dir exakt, was du in Vercel klicken musst, damit der Bier-Daten-Sync automatisch laeuft (ohne manuelles Triggern).
+Dieses Dokument zeigt dir Schritt fuer Schritt, wie du Vercel + GitHub so verbindest,
+dass Bierdaten automatisch 1x pro Woche aktualisiert werden.
 
-Stand: 20. Februar 2026  
-Projekt-Setup im Code:
-- Cron-Config in `vercel.json`
-- Cron-Endpoint in `src/app/api/cron/data-sync/route.ts`
-- Runtime-Loader liest zuerst Blob in `src/lib/beers.ts`
+Stand: 20. Februar 2026
 
-## 1. Vorbereitung (einmal lokal)
+## Wichtig vorab
 
-1. Stelle sicher, dass diese Dateien im Repo sind und gepusht wurden:
-   - `vercel.json`
-   - `src/app/api/cron/data-sync/route.ts`
-   - `src/lib/beers.ts`
-2. Push auf deinen Default-Branch (z. B. `master` oder `main`).
+Der Scheduler laeuft in diesem Setup **nicht** in Vercel, sondern in **GitHub Actions**.
 
-Ohne diesen Push kann Vercel nichts davon deployen.
+Das heisst:
+- GitHub Action aktualisiert `data/beers.enriched.json`
+- GitHub Action commitet + pusht automatisch
+- Vercel deployed den neuen Commit automatisch
 
-## 2. Projekt in Vercel verbinden
+## 1. Repo in Vercel verbinden
 
-1. Gehe auf `https://vercel.com/dashboard`.
-2. Klicke `Add New...` -> `Project`.
-3. Waehl dein Git-Repository aus.
-4. Klicke `Import`.
-5. Framework sollte automatisch `Next.js` sein.
-6. Klicke `Deploy`.
+1. Gehe auf `https://vercel.com/dashboard`
+2. `Add New...` -> `Project`
+3. GitHub-Repo auswaehlen
+4. `Import` klicken
+5. Framework: `Next.js` (automatisch)
+6. `Deploy`
 
-Jetzt existiert das Projekt in Vercel.
+Fertig: Vercel baut jetzt bei jedem Push.
 
-## 3. Blob Store anlegen (wichtig)
+## 2. In Vercel Cron deaktiviert lassen
 
-1. Oeffne dein Projekt in Vercel.
-2. Gehe auf Tab `Storage`.
-3. Klicke `Connect Database`.
-4. Unter `Create New` waehle `Blob`.
-5. Vergib einen Namen, z. B. `bierscout-data`.
-6. Klicke `Create`.
-7. Waehle die Umgebungen, mindestens `Production`.
+In diesem Setup soll **kein** Vercel Cron laufen.
 
-Ergebnis:
-- Vercel legt automatisch `BLOB_READ_WRITE_TOKEN` als Environment Variable an.
+Im Repo ist `vercel.json` deshalb ohne aktive `crons`.
 
-## 4. Environment Variables setzen
+## 3. GitHub Action aktivieren
 
-Pfad in Vercel:
-1. Projekt oeffnen
-2. `Settings`
-3. Links `Environment Variables`
+Datei im Repo:
+- `.github/workflows/data-sync.yml`
 
-Jetzt folgende Variablen anlegen:
+Darin ist bereits eingestellt:
+- Schedule: `0 2 * * 1`
+- Bedeutung: jeden Montag um `02:00 UTC`
+- Auto-Commit geaenderter Daten-Dateien
 
-1. `CRON_SECRET` (Pflicht)
-   - Wert: langer zufaelliger String (mindestens 16 Zeichen, besser 32+)
-   - Beispiel erzeugen lokal:
-   ```bash
-   openssl rand -hex 32
-   ```
-   - Environment: mindestens `Production`
+## 4. GitHub Rechte pruefen (wichtig)
 
-2. `BLOB_READ_WRITE_TOKEN` (Pflicht)
-   - Wird meist vom Blob-Setup automatisch gesetzt.
-   - Wenn nicht vorhanden: aus Blob-Store-Settings kopieren und hier anlegen.
-   - Environment: `Production`
+Die Action braucht Schreibrechte, um committen zu koennen.
 
-3. `BEERS_BLOB_PATH` (optional)
-   - Standard: `beers/latest.json`
+Ist im Workflow bereits gesetzt:
+- `permissions: contents: write`
 
-4. `SYNC_REPORT_BLOB_PATH` (optional)
-   - Standard: `sync-report/latest.json`
+Zusatzcheck in GitHub:
+1. Repo -> `Settings`
+2. `Actions` -> `General`
+3. Bereich `Workflow permissions`
+4. `Read and write permissions` aktivieren (falls noetig)
 
-5. `DATA_SYNC_REQUEST_DELAY_MS` (optional)
-   - Standard: `150`
-   - Groesser = langsamer, aber API-schonender.
+## 5. Erste manuelle Ausfuehrung (Test)
 
-Wichtig:
-- Nach dem Anlegen/Aendern von Env Vars: neu deployen.
+1. Repo in GitHub oeffnen
+2. Tab `Actions`
+3. Workflow `Beer Data Sync` waehlen
+4. `Run workflow`
 
-## 5. Cron Job aktivieren (ist ueber `vercel.json` schon vorbereitet)
+Erwartung:
+- Workflow laeuft gruen durch
+- Bei Datenaenderung entsteht ein Commit wie
+  `chore: update beer data and sync report`
+- Vercel startet danach automatisch ein Deployment
 
-Im Repo steht bereits:
-```json
-{
-  "crons": [
-    {
-      "path": "/api/cron/data-sync",
-      "schedule": "0 2 * * 1"
-    }
-  ]
-}
-```
+## 6. Pruefen, ob neue Daten live sind
 
-Bedeutung:
-- Jeden Montag um `02:00 UTC` ruft Vercel automatisch den Endpoint auf.
+1. In GitHub den letzten Sync-Commit ansehen
+2. In Vercel `Deployments` oeffnen
+3. Deployment nach diesem Commit muss erfolgreich sein
+4. Seite oeffnen und Datenstand pruefen
 
-Wichtig:
-- Cron Jobs laufen nur auf `Production` Deployments.
-- Preview Deployments werden ignoriert.
+## 7. Welche Datei ist entscheidend?
 
-## 6. Neu deployen
+Hauptdatei fuer die App:
+- `data/beers.enriched.json`
 
-1. In Vercel: Tab `Deployments`.
-2. Letztes Deployment oeffnen.
-3. Klicke `Redeploy` (oder neuen Commit pushen).
+Loader-Reihenfolge in `src/lib/beers.ts`:
+1. `data/beers.enriched.json`
+2. optional Blob
+3. CSV-Fallback
 
-Danach sollte der Cron Job in den Settings sichtbar sein.
+Damit funktioniert der GitHub-Flow sauber, auch ohne Vercel Cron.
 
-## 7. Pruefen, ob Cron wirklich aktiv ist
+## 8. Typische Fehler
 
-1. Projekt -> `Settings` -> `Cron Jobs`.
-2. Dort muss ein Job mit Pfad `/api/cron/data-sync` erscheinen.
-3. Oeffne den Job und pruefe:
-   - letzter Run-Status
-   - Logs
-   - naechste geplante Ausfuehrung
+1. Action darf nicht pushen
+- Ursache: fehlende Workflow-Rechte
+- Loesung: GitHub `Workflow permissions` auf Schreibrechte setzen
 
-## 8. Was bei einem Run passiert
+2. Action laeuft, aber kein Commit
+- Ursache: keine Datenaenderung
+- Loesung: normal, dann gibt es nichts zu committen
 
-Der Endpoint `GET /api/cron/data-sync` macht automatisch:
-1. CSV laden (`biermarket_bierliste.csv`)
-2. Open Brewery DB Enrichment
-3. Merge + Validation + Report
-4. Schreiben nach Vercel Blob:
-   - `beers/latest.json`
-   - `sync-report/latest.json`
+3. Vercel zeigt alten Stand
+- Ursache: neues Deployment noch nicht fertig
+- Loesung: Vercel Deployment-Status checken
 
-Die Website liest zur Laufzeit zuerst Blob-Daten.
-Fallback bleibt aktiv:
-1. Blob
-2. `data/beers.enriched.json`
-3. CSV
+## 9. Zusammenfassung
 
-## 9. Schnelltest nach Setup
+Ja, es laeuft automatisch 1x pro Woche.
 
-Wenn du nicht bis zum naechsten Tageslauf warten willst:
-
-1. Nimm deine Produktions-URL, z. B. `https://dein-projekt.vercel.app`
-2. Fuehre lokal aus:
-```bash
-curl -i -H "Authorization: Bearer DEIN_CRON_SECRET" https://dein-projekt.vercel.app/api/cron/data-sync
-```
-3. Erwartet bei Erfolg:
-   - HTTP `200`
-   - JSON mit `"ok": true`
-   - Blob-URLs in `blobs.beers` und `blobs.report`
-
-## 10. Typische Fehler und Loesung
-
-1. `401 Unauthorized`
-   - `CRON_SECRET` fehlt oder stimmt nicht.
-
-2. `500` mit Blob-Fehler
-   - `BLOB_READ_WRITE_TOKEN` fehlt oder ist falsch.
-   - Blob Store nicht angelegt.
-
-3. Cron taucht nicht in Vercel auf
-   - `vercel.json` nicht im Root.
-   - Kein neuer Production-Deploy nach Aenderung.
-
-4. Daten aendern sich nicht
-   - In `Settings -> Cron Jobs` Logs checken.
-   - Endpoint manuell per `curl` testen.
-
-## 11. Wichtiger Hinweis zu Doppel-Sync
-
-Wenn weiterhin GitHub Actions (`.github/workflows/data-sync.yml`) taeglich laeuft, hast du zwei Scheduler.
-
-Empfehlung:
-1. Einen Scheduler behalten.
-2. Wenn Vercel Cron genutzt wird, GitHub-Schedule deaktivieren.
-
-## Offizielle Vercel Doku
-
-- Cron Jobs: `https://vercel.com/docs/cron-jobs`
-- Cron Verwaltung + `CRON_SECRET`: `https://vercel.com/docs/cron-jobs/manage-cron-jobs`
-- Cron Quickstart: `https://vercel.com/guides/how-to-setup-cron-jobs-on-vercel`
-- Blob SDK: `https://vercel.com/docs/vercel-blob/using-blob-sdk`
-- Environment Variables: `https://vercel.com/docs/environment-variables`
+Der komplette automatische Weg ist:
+1. GitHub Action (Scheduler)
+2. Auto-Commit + Push
+3. Vercel Auto-Deploy

@@ -75,18 +75,13 @@ async function loadBeersFromBlob(): Promise<Beer[] | null> {
 
 /**
  * Load enriched beers from data/beers.enriched.json
- * Falls back to CSV parsing if enriched snapshot is missing/corrupt
+ * Falls back to Blob and then CSV parsing if snapshot is missing/corrupt
  */
 export async function loadBeers(): Promise<Beer[]> {
-  const blobBeers = await loadBeersFromBlob();
-  if (blobBeers && blobBeers.length > 0) {
-    return blobBeers;
-  }
-
   const cwd = process.cwd();
   const enrichedPath = join(cwd, "data", "beers.enriched.json");
 
-  // Try to load enriched snapshot first
+  // Prefer repository snapshot (updated by GitHub Actions)
   if (existsSync(enrichedPath)) {
     try {
       const content = readFileSync(enrichedPath, "utf-8");
@@ -99,8 +94,13 @@ export async function loadBeers(): Promise<Beer[]> {
       const errorMessage =
         err instanceof Error ? err.message : "Unknown error";
       console.warn(`Failed to parse enriched beers: ${errorMessage}`);
-      console.warn("Falling back to CSV parsing");
+      console.warn("Falling back to Blob and CSV parsing");
     }
+  }
+
+  const blobBeers = await loadBeersFromBlob();
+  if (blobBeers && blobBeers.length > 0) {
+    return blobBeers;
   }
 
   // Fallback: parse CSV baseline

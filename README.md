@@ -54,25 +54,20 @@ Danach: `http://localhost:3000`
 
 - CSV-Datei: `biermarket_bierliste.csv`
 - Runtime-Loader: `src/lib/beers.ts`
-- Reihenfolge zur Laufzeit: Vercel Blob (`beers/latest.json`) -> `data/beers.enriched.json` -> CSV-Fallback
+- Reihenfolge zur Laufzeit: `data/beers.enriched.json` -> optional Vercel Blob (`beers/latest.json`) -> CSV-Fallback
 - Country-Section-Header (`=== LAND ===`) werden als Fallback fuer fehlende Country-Felder genutzt
 - Kategorien und Laender werden zur Laufzeit aus den Datensaetzen dedupliziert
 
-## Automatischer Sync auf Vercel
+## Automatischer Sync via GitHub Actions
 
-- Cron-Konfiguration: `vercel.json` (woechentlich, montags `02:00 UTC`)
-- Endpoint: `GET /api/cron/data-sync`
-- Scheduler-Auth: `Authorization: Bearer $CRON_SECRET`
-- Persistenz: `@vercel/blob` schreibt
-  - `beers/latest.json`
-  - `sync-report/latest.json`
+- Workflow: `.github/workflows/data-sync.yml`
+- Schedule: woechentlich, montags `02:00 UTC`
+- Ablauf: `npm run data:sync` -> Commit geaenderter Daten -> Push in den Default-Branch
+- Vercel bekommt die neuen Daten per normalem Git-Deploy
 
-Noetige Environment-Variablen:
-- `CRON_SECRET`
-- `BLOB_READ_WRITE_TOKEN`
-- optional `BEERS_BLOB_PATH` (Default `beers/latest.json`)
-- optional `SYNC_REPORT_BLOB_PATH` (Default `sync-report/latest.json`)
-- optional `DATA_SYNC_REQUEST_DELAY_MS` (Default `150`)
+Wichtig:
+- Wenn GitHub Actions der einzige Scheduler ist, sollte `vercel.json` keinen aktiven Cron enthalten.
+- Der Workflow braucht Schreibrechte (`contents: write`), um Data-Updates committen zu koennen.
 
 ## Wichtige Hinweise
 

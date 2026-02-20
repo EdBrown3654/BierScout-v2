@@ -2,9 +2,16 @@ name: Beer Data Sync
 
 on:
   schedule:
-    # Run daily at 02:00 UTC
-    - cron: "0 2 * * *"
+    # Run weekly on Monday at 02:00 UTC
+    - cron: "0 2 * * 1"
   workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: beer-data-sync
+  cancel-in-progress: false
 
 jobs:
   sync:
@@ -47,7 +54,7 @@ jobs:
         run: |
           git add data/beers.enriched.json data/sync-report.json
           git commit -m "chore: update beer data and sync report"
-          git push
+          git push origin HEAD:${{ github.ref_name }}
 
       - name: Upload sync report as artifact
         if: always()

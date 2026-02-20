@@ -1,112 +1,84 @@
 # Data Sync erklaert fuer Dummies
 
-Dieses Dokument erklaert den Datenfluss von BierScout in sehr einfacher Sprache.
+Dieses Dokument erklaert den Datenfluss von BierScout in einfacher Sprache.
 
 Ziel:
-- Du sollst verstehen, woher die Daten kommen.
-- Du sollst wissen, wann Daten aktualisiert werden.
-- Du sollst bei Problemen die richtigen Stellen finden.
+- Du verstehst, woher die Daten kommen.
+- Du verstehst, wie Updates automatisch laufen.
+- Du weisst, welche Datei am Ende auf der Website landet.
 
 Stand: 20. Februar 2026
 
-## Kurzfassung in 30 Sekunden
+## Kurzfassung in 20 Sekunden
 
-1. Basisdaten kommen aus `biermarket_bierliste.csv`.
-2. Ein Sync-Prozess holt Zusatzdaten von Open Brewery DB.
-3. Alles wird zusammengefuehrt und gespeichert.
-4. Auf Vercel laeuft das automatisch per Cron.
-5. Die Website liest zuerst die neuesten Blob-Daten.
+1. Basis kommt aus `biermarket_bierliste.csv`.
+2. Das Sync-Script reichert diese Daten ueber Open Brewery DB an.
+3. Ergebnis ist `data/beers.enriched.json`.
+4. Eine GitHub Action startet das automatisch 1x pro Woche.
+5. Wenn sich Daten aendern, commitet die Action automatisch ins Repo.
+6. Vercel deployed danach automatisch den neuen Stand.
 
 ## Die wichtigsten Dateien
 
 - `biermarket_bierliste.csv`
-  Das ist die Grundliste (deine stabile Basis).
-
-- `data/manual-overrides.json`
-  Hier kannst du einzelne Felder manuell korrigieren.
+  Stabile Basisdaten.
 
 - `scripts/data/sync-beers.mjs`
-  Der lokale Sync (manuell im Terminal).
+  Das Haupt-Script fuer den Sync.
 
-- `src/app/api/cron/data-sync/route.ts`
-  Der automatische Sync auf Vercel (Cron ruft diesen Endpoint auf).
+- `scripts/data/sources/open-brewery-db.mjs`
+  Holt Zusatzdaten von Open Brewery DB.
 
-- `src/lib/beers.ts`
-  Hier steht, wo die App ihre Daten zur Laufzeit liest.
+- `data/beers.enriched.json`
+  Das ist die fertige Datei, die die App primaer benutzt.
 
-## Der Datenfluss (einfach)
+- `data/sync-report.json`
+  Bericht mit Match-/Unmatched-Zahlen und fehlenden Feldern.
 
-1. **CSV laden**
-   - Datei: `biermarket_bierliste.csv`
-   - Script: `scripts/data/load-csv.mjs`
+- `.github/workflows/data-sync.yml`
+  Der automatische Job (Scheduler + Commit + Push).
 
-2. **Manuelle Overrides laden**
-   - Datei: `data/manual-overrides.json`
-   - Falls etwas falsch ist, kannst du es hier ueberschreiben.
+## So laeuft der Sync intern
 
-3. **API-Enrichment**
-   - Quelle: Open Brewery DB
-   - Script: `scripts/data/sources/open-brewery-db.mjs`
-   - Es werden z. B. Website/Ort der Brauerei gesucht.
+1. CSV laden
+   - Quelle: `biermarket_bierliste.csv`
 
-4. **Merge (Zusammenfuehren)**
-   - Script: `scripts/data/merge-enrichment.mjs`
+2. Manuelle Overrides laden
+   - Quelle: `data/manual-overrides.json`
+
+3. Open Brewery DB anfragen
+   - Script sucht passende Brauerei-Daten.
+
+4. Daten mergen
    - Prioritaet:
      - manual override
      - CSV
      - API
 
-5. **Qualitaetsreport bauen**
-   - Script: `scripts/data/report-quality.mjs`
-   - Ergebnis enthaelt z. B. matched/unmatched/missing fields.
+5. Report bauen
+   - Ausgabe: `data/sync-report.json`
 
-6. **Speichern**
-   - Lokal (CLI): `data/beers.enriched.json` und `data/sync-report.json`
-   - Vercel Cron: Blob `beers/latest.json` und `sync-report/latest.json`
+6. Ergebnis schreiben
+   - Ausgabe: `data/beers.enriched.json`
 
 ## Welche Felder kommen woher?
 
-### CSV-Felder (Basisdaten)
-
-Diese Felder kommen direkt aus `biermarket_bierliste.csv`:
+### Aus der CSV (Basis)
 
 - `Nr.` -> `nr`
 - `Biermarke/Name` -> `name`
 - `Brauerei` -> `brewery`
 - `Land` -> `country`
 - `Alkoholgehalt` -> `abv`
-- `Stammwürze` -> `stammwuerze`
+- `Stammwuerze` -> `stammwuerze`
 - `Zutaten` -> `ingredients`
-- `Größe` -> `size`
+- `Groesse` -> `size`
 - `Preis` -> `price`
 - `Kategorie` -> `category`
 
-### Open Brewery DB Felder (was die API liefern kann)
+### Aus Open Brewery DB (zusaetzlich)
 
-Typische API-Felder sind:
-
-- `id`
-- `name`
-- `brewery_type`
-- `website_url`
-- `city`
-- `state`
-- `state_province`
-- `country`
-- `postal_code`
-- `street`
-- `address_1`
-- `address_2`
-- `address_3`
-- `phone`
-- `latitude`
-- `longitude`
-
-### Was wir aktuell aus der API in unsere Daten uebernehmen
-
-Aktuelles Mapping im Projekt:
-
-- `id` -> `breweryId` (und zusaetzlich als `sourceId` in `dataSources`)
+- `id` -> `breweryId`
 - `website_url` -> `breweryWebsite`
 - `city` -> `breweryCity`
 - `state` / `state_province` -> `breweryState`
@@ -126,90 +98,59 @@ Aktuelles Mapping im Projekt:
 
 In `src/lib/beers.ts` ist die Reihenfolge:
 
-1. Vercel Blob (`BEERS_BLOB_PATH`, Standard `beers/latest.json`)
-2. Lokale Datei `data/beers.enriched.json`
-3. Fallback CSV `biermarket_bierliste.csv`
+1. `data/beers.enriched.json` (Repo-Datei, von GitHub Action aktualisiert)
+2. Optional Vercel Blob (`BEERS_BLOB_PATH`), falls vorhanden
+3. CSV-Fallback (`biermarket_bierliste.csv`)
 
-Das heisst:
-- Wenn Blob aktuell ist, nutzt die Seite die neuesten Daten automatisch.
-- Wenn Blob ausfaellt, bleibt die Seite trotzdem lauffaehig.
+Das bedeutet:
+- Mit GitHub-Flow ist die Repo-Datei dein Hauptspeicher.
+- Die CSV bleibt Sicherheitsnetz.
 
-## Manuell syncen (lokal)
+## Automatisch 1x pro Woche (GitHub)
+
+Workflow: `.github/workflows/data-sync.yml`
+
+- Schedule: `0 2 * * 1`
+- Bedeutung: jeden Montag um `02:00 UTC`
+
+Ablauf bei jedem Run:
+
+1. `npm ci`
+2. `npm run data:sync`
+3. Pruefen, ob sich `data/beers.enriched.json` oder `data/sync-report.json` geaendert haben
+4. Bei Aenderung: Commit + Push automatisch
+
+## Manuell starten (ohne auf Montag zu warten)
+
+In GitHub:
+1. Repo oeffnen
+2. Tab `Actions`
+3. Workflow `Beer Data Sync`
+4. `Run workflow`
+
+Oder lokal:
 
 ```bash
 npm run data:sync
 ```
 
-Dry Run (schreibt keine Dateien):
+## Wichtige Regel: nur ein Scheduler
 
-```bash
-npm run data:sync -- --dry-run
-```
+Nicht gleichzeitig laufen lassen:
+- GitHub Actions Schedule
+- Vercel Cron
 
-Wichtig:
-- Dry Run ist nur zum Testen.
-- Fuer echte neue Dateien ohne Vercel-Cron brauchst du den normalen Sync.
-
-## Automatisch syncen (Vercel)
-
-Automatisch ueber:
-- `vercel.json` (Cron Schedule)
-- Endpoint: `GET /api/cron/data-sync`
-- Aktueller Rhythmus: einmal pro Woche (montags `02:00 UTC`)
-
-Der Endpoint:
-- prueft `CRON_SECRET`
-- fuehrt den Sync aus
-- schreibt Ergebnis in Vercel Blob
-
-Die genaue Klick-fuer-Klick-Anleitung steht in `VERCEL.md`.
-
-## Welche ENV Variablen wichtig sind
-
-Pflicht:
-- `CRON_SECRET`
-- `BLOB_READ_WRITE_TOKEN`
-
-Optional:
-- `BEERS_BLOB_PATH` (Standard: `beers/latest.json`)
-- `SYNC_REPORT_BLOB_PATH` (Standard: `sync-report/latest.json`)
-- `DATA_SYNC_REQUEST_DELAY_MS` (Standard: `150`)
+Empfehlung fuer euren Setup:
+- GitHub Actions aktiv
+- Vercel Cron deaktiviert
 
 ## Typische Fragen
 
-1. Warum sehe ich keine neuen Daten sofort?
-- Cron laeuft nur zu geplanten Zeiten.
-- Oder der letzte Cron ist fehlgeschlagen.
+1. Werden neue Daten gespeichert?
+- Ja. Durch den Auto-Commit im Repo.
 
-2. Kann ich sofort testen?
-- Ja, per curl mit Authorization Header gegen `/api/cron/data-sync`.
-- Siehe `VERCEL.md`.
+2. Muss die CSV dabei direkt geaendert werden?
+- Nein. Entscheidend ist `data/beers.enriched.json`.
 
-3. Was passiert wenn die API down ist?
-- Sync faellt auf Basisdaten zurueck.
-- Seite bleibt benutzbar.
-
-## Typische Fehler
-
-1. `401 Unauthorized`
-- `CRON_SECRET` fehlt/falsch.
-
-2. `500` Blob-Fehler
-- `BLOB_READ_WRITE_TOKEN` fehlt/falsch.
-- Blob Store nicht verbunden.
-
-3. Seite zeigt alte Daten
-- Cron nicht gelaufen oder fehlgeschlagen.
-- Blob wurde nicht geschrieben.
-
-## Sehr wichtig: nicht zwei Scheduler parallel
-
-Wenn gleichzeitig laeuft:
-- Vercel Cron
-- GitHub Actions Data Sync
-
-dann laufen zwei automatische Jobs nebeneinander.
-
-Empfehlung:
-- Nur einen Scheduler aktiv lassen.
-- Fuer Vercel-Hosting: Vercel Cron bevorzugen.
+3. Kann das wirklich automatisch woechentlich laufen?
+- Ja. Genau dafuer ist der Schedule in der GitHub Action da.
