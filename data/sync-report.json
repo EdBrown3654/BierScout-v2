@@ -1,24 +1,23 @@
 {
-  "runId": "sync-1774239673837",
-  "startedAt": "2026-03-23T04:21:13.837Z",
-  "finishedAt": "2026-03-23T04:21:13.838Z",
-  "durationMs": 1,
+  "runId": "sync-1774845604329",
+  "startedAt": "2026-03-30T04:40:04.329Z",
+  "finishedAt": "2026-03-30T04:40:04.332Z",
+  "durationMs": 3,
   "inputCount": 499,
-  "outputCount": 799,
+  "outputCount": 499,
   "matched": {
-    "openBreweryDb": 36,
-    "openFoodFacts": 63
+    "openBreweryDb": 59
   },
-  "discovered": 300,
-  "unmatched": 463,
+  "discovered": 0,
+  "unmatched": 440,
   "conflicts": 0,
   "overridesApplied": 1,
   "missingFields": {
-    "breweryWebsite": 770,
-    "breweryCity": 762,
-    "stammwuerze": 394,
-    "abv": 219,
-    "ingredients": 125
+    "breweryWebsite": 447,
+    "breweryCity": 439,
+    "stammwuerze": 94,
+    "abv": 74,
+    "ingredients": 89
   },
   "errors": [],
   "warnings": []
