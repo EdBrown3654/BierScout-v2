@@ -1,8 +1,8 @@
 {
-  "runId": "sync-1789370504290",
-  "startedAt": "2026-09-14T07:21:44.290Z",
-  "finishedAt": "2026-09-14T07:21:44.291Z",
-  "durationMs": 1,
+  "runId": "sync-1789975616415",
+  "startedAt": "2026-09-21T07:26:56.415Z",
+  "finishedAt": "2026-09-21T07:26:56.417Z",
+  "durationMs": 2,
   "inputCount": 499,
   "outputCount": 499,
   "matched": {
