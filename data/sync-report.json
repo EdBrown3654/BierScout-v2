@@ -1,20 +1,20 @@
 {
-  "runId": "sync-1791186863690",
-  "startedAt": "2026-10-05T07:54:23.690Z",
-  "finishedAt": "2026-10-05T07:54:23.692Z",
-  "durationMs": 2,
+  "runId": "sync-1791793148857",
+  "startedAt": "2026-10-12T08:19:08.857Z",
+  "finishedAt": "2026-10-12T08:19:08.857Z",
+  "durationMs": 0,
   "inputCount": 499,
   "outputCount": 499,
   "matched": {
-    "openBreweryDb": 116
+    "openBreweryDb": 0
   },
   "discovered": 0,
-  "unmatched": 383,
+  "unmatched": 499,
   "conflicts": 0,
   "overridesApplied": 1,
   "missingFields": {
-    "breweryWebsite": 390,
-    "breweryCity": 382,
+    "breweryWebsite": 498,
+    "breweryCity": 498,
     "stammwuerze": 94,
     "abv": 74,
     "ingredients": 89
